@@ -9,7 +9,7 @@ GAME
 	Status = 1
 	Seed = 364820922
 	ROCSeed = 886463116
-	scene = 5
+	scene = 7
 	editor = None
 	flag = Squad/Flags/default
 	launchID = 19
@@ -665,7 +665,7 @@ GAME
 	FLIGHTSTATE
 	{
 		version = 1.7.1
-		UT = 302919.25276035408
+		UT = 302011.73275950889
 		activeVessel = 34
 		mapViewFiltering = -1026
 		commNetUIModeTracking = Network
@@ -43144,13 +43144,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = NaN
-				ECC = 1
-				INC = 14.957335526015292
+				SMA = 102610.16364590525
+				ECC = 0.99999999999999989
+				INC = 14.957335526058991
 				LPE = 270
-				LAN = 288.3484551843037
-				MNA = 0
-				EPH = 302872.11276031018
+				LAN = 285.96167180268503
+				MNA = 3.1415926207170166
+				EPH = 301950.652759452
 				REF = 2
 			}
 			PART
@@ -53657,13 +53657,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = 102593.53076402911
+				SMA = 102593.53076405927
 				ECC = 0.99999999999999989
-				INC = 14.908091127153988
+				INC = 14.908091127152479
 				LPE = 270
-				LAN = 288.38276694139631
-				MNA = 3.1415926207170166
-				EPH = 302872.11276031018
+				LAN = 285.99598355975695
+				MNA = -3.1415926207170166
+				EPH = 301950.652759452
 				REF = 2
 			}
 			PART
@@ -58052,13 +58052,13 @@ GAME
 			cMod = -1
 			ORBIT
 			{
-				SMA = 102575.98262669073
-				ECC = 0.99999999999999978
-				INC = 14.832609384461326
+				SMA = 0
+				ECC = 1
+				INC = 14.832609384502451
 				LPE = 270
-				LAN = 288.49673051094476
-				MNA = -3.1415926303452304
-				EPH = 302872.11276031018
+				LAN = 286.10994712936656
+				MNA = 0
+				EPH = 301950.652759452
 				REF = 2
 			}
 			PART
@@ -58738,13 +58738,13 @@ GAME
 			cMod = -1
 			ORBIT
 			{
-				SMA = NaN
+				SMA = 0
 				ECC = 1
-				INC = 14.851720909051155
+				INC = 14.851720909050981
 				LPE = 270
-				LAN = 288.47990680168022
+				LAN = 286.09312342008644
 				MNA = 0
-				EPH = 302872.11276031018
+				EPH = 301950.652759452
 				REF = 2
 			}
 			PART
@@ -64516,21 +64516,21 @@ GAME
 			landedAt = 
 			displaylandedAt = 
 			splashed = False
-			met = 79828.731037755148
+			met = 78921.171036909916
 			lct = 223090.52172259893
-			lastUT = 302919.25276035408
-			distanceTraveled = 3998455.6315783616
+			lastUT = 302011.73275950889
+			distanceTraveled = 3998434.4437825452
 			root = 0
-			lat = 15.976143574971942
-			lon = 85.551105570487223
-			alt = 4489.2128854558978
-			hgt = 1.92847729
-			nrm = -0.00135266781,0.000632673502,-0.999998748
-			rot = -0.767181933,-0.560583711,0.118382752,-0.288380384
-			CoM = 0.00726807117,-2.37410116,-0.0345606804
+			lat = 16.389669381743136
+			lon = 86.298388343171126
+			alt = 4161.3509831507399
+			hgt = 1.77847672
+			nrm = -0.000829398632,-0.00130993128,-0.999998868
+			rot = -0.379342109,0.906773925,-0.160536528,-0.0899374485
+			CoM = 0.00724291801,-2.37406349,-0.034288168
 			stg = 0
 			prst = False
-			ref = 421063345
+			ref = 437707705
 			ctrl = True
 			PQSMin = 2
 			PQSMax = 8
@@ -64540,18 +64540,18 @@ GAME
 			OverrideAxisControl = 0,0,0,0
 			OverrideGroupNames = ,,,
 			altDispState = ASL
-			cPch = 1
-			cHdg = 0.26
+			cPch = 0.2
+			cHdg = 0.3
 			cMod = 0
 			ORBIT
 			{
-				SMA = 102256.93187623406
-				ECC = 0.99975203667443935
-				INC = 15.97634981963118
-				LPE = 270.01006278919095
-				LAN = 290.16852641273579
-				MNA = -3.1415921166360983
-				EPH = 302919.25276035408
+				SMA = 102093.33003002784
+				ECC = 0.99975409662014758
+				INC = 16.389309754430098
+				LPE = 270.2105851881289
+				LAN = 288.3549963480321
+				MNA = 3.1415621392016653
+				EPH = 302011.73275950889
 				REF = 2
 			}
 			PART
@@ -64579,8 +64579,8 @@ GAME
 				attN = bottom, 50
 				mass = 0.125
 				shielded = False
-				temp = 196.83105910356335
-				tempExt = 196.79701934646988
+				temp = 196.74829129198733
+				tempExt = 196.68995149210974
 				tempExtUnexp = 303.28076553853941
 				staticPressureAtm = 0
 				expt = 0.5
@@ -64664,8 +64664,8 @@ GAME
 				attN = top, 2
 				mass = 0.0399999991
 				shielded = False
-				temp = 197.45673873192447
-				tempExt = 197.31950084180329
+				temp = 197.28820473541879
+				tempExt = 197.06942829714015
 				tempExtUnexp = 303.28076553853941
 				staticPressureAtm = 0
 				expt = 0.5
@@ -64712,8 +64712,8 @@ GAME
 				attN = top, 23
 				mass = 0.600000024
 				shielded = False
-				temp = 197.47079210584437
-				tempExt = 197.40024853644309
+				temp = 197.30500034710178
+				tempExt = 197.12508552318826
 				tempExtUnexp = 303.28076553853941
 				staticPressureAtm = 0
 				expt = 0.5
@@ -65184,8 +65184,8 @@ GAME
 							unlockTechs = 
 							heading
 							{
-								_val = -121.7
-								_text = -121.7
+								_val = -121
+								_text = -121
 							}
 							speed
 							{
@@ -65198,8 +65198,8 @@ GAME
 								Waypoint
 								{
 									Target = e3a832ab-53d6-4e28-ab36-74a5d6390e50
-									Latitude = 14.95733570570934
-									Longitude = 83.843296076577971
+									Latitude = 16.388085188265766
+									Longitude = 86.284428895041046
 									Radius = 25
 									MinSpeed = 0
 									MaxSpeed = 0
@@ -65568,8 +65568,8 @@ GAME
 				srfN = srfAttach, 2
 				mass = 0.0149999997
 				shielded = False
-				temp = 197.47339607951952
-				tempExt = 197.47181153535857
+				temp = 197.28992692776336
+				tempExt = 197.13996608142497
 				tempExtUnexp = 303.28076553853941
 				staticPressureAtm = 0
 				expt = 0.5
@@ -65683,8 +65683,8 @@ GAME
 				srfN = srfAttach, 2
 				mass = 0.0149999997
 				shielded = False
-				temp = 197.45759109608346
-				tempExt = 197.37016689316519
+				temp = 197.29064120144722
+				tempExt = 197.14065208785237
 				tempExtUnexp = 303.28076553853941
 				staticPressureAtm = 0
 				expt = 0.5
@@ -65798,8 +65798,8 @@ GAME
 				srfN = srfAttach, 2
 				mass = 0.0149999997
 				shielded = False
-				temp = 197.45966581486195
-				tempExt = 197.37197041794767
+				temp = 197.29170355911373
+				tempExt = 197.16251569128775
 				tempExtUnexp = 303.28076553853941
 				staticPressureAtm = 0
 				expt = 0.5
@@ -65913,8 +65913,8 @@ GAME
 				srfN = srfAttach, 2
 				mass = 0.0149999997
 				shielded = False
-				temp = 197.45759109608346
-				tempExt = 197.37016689316519
+				temp = 197.29076569356988
+				tempExt = 197.14725856030466
 				tempExtUnexp = 303.28076553853941
 				staticPressureAtm = 0
 				expt = 0.5
@@ -66029,8 +66029,8 @@ GAME
 				attN = bottom, -1
 				mass = 0.075000003
 				shielded = False
-				temp = 197.04996281973419
-				tempExt = 197.04339681919649
+				temp = 197.02651373967441
+				tempExt = 196.98273786188014
 				tempExtUnexp = 303.28076553853941
 				staticPressureAtm = 0
 				expt = 0.5
@@ -66077,8 +66077,8 @@ GAME
 				attN = bottom, -1
 				mass = 0.075000003
 				shielded = False
-				temp = 196.92423039097949
-				tempExt = 196.85505155565761
+				temp = 196.9741900436361
+				tempExt = 197.15883319667898
 				tempExtUnexp = 303.28076553853941
 				staticPressureAtm = 0
 				expt = 0.5
@@ -66125,8 +66125,8 @@ GAME
 				attN = bottom, -1
 				mass = 0.075000003
 				shielded = False
-				temp = 196.98858328524474
-				tempExt = 196.96420234782948
+				temp = 197.1668837946585
+				tempExt = 197.40084637709805
 				tempExtUnexp = 303.28076553853941
 				staticPressureAtm = 0
 				expt = 0.5
@@ -66173,8 +66173,8 @@ GAME
 				attN = bottom, -1
 				mass = 0.075000003
 				shielded = False
-				temp = 196.81675189288521
-				tempExt = 196.79983816083612
+				temp = 196.84778496031169
+				tempExt = 197.17504535962811
 				tempExtUnexp = 303.28076553853941
 				staticPressureAtm = 0
 				expt = 0.5
@@ -66220,8 +66220,8 @@ GAME
 				srfN = srfAttach, 10
 				mass = 0.0500000007
 				shielded = False
-				temp = 196.81395907746582
-				tempExt = 196.77078510410087
+				temp = 196.83683286109112
+				tempExt = 196.95419786641355
 				tempExtUnexp = 4
 				staticPressureAtm = 0
 				expt = 0
@@ -66302,8 +66302,8 @@ GAME
 				srfN = srfAttach, 10
 				mass = 0.0500000007
 				shielded = False
-				temp = 196.81395907746582
-				tempExt = 196.77078510410087
+				temp = 196.83683286109112
+				tempExt = 196.95419786641355
 				tempExtUnexp = 4
 				staticPressureAtm = 0
 				expt = 0
@@ -66383,8 +66383,8 @@ GAME
 				srfN = srfAttach, 10
 				mass = 0.0149999997
 				shielded = False
-				temp = 196.80920781507089
-				tempExt = 196.74703320209807
+				temp = 196.96448569492665
+				tempExt = 197.3639657152543
 				tempExtUnexp = 303.28076553853941
 				staticPressureAtm = 0
 				expt = 0.5
@@ -66500,8 +66500,8 @@ GAME
 				attN = bottom, -1
 				mass = 0.0799999982
 				shielded = False
-				temp = 197.2983791426872
-				tempExt = 197.30146480457213
+				temp = 197.56982592690207
+				tempExt = 197.50802322891244
 				tempExtUnexp = 303.28076553853941
 				staticPressureAtm = 0
 				expt = 0.5
@@ -66547,8 +66547,8 @@ GAME
 				srfN = srfAttach, 14
 				mass = 0.0399999991
 				shielded = False
-				temp = 197.31302464634493
-				tempExt = 197.63412006398787
+				temp = 197.57515148886085
+				tempExt = 197.55257416520575
 				tempExtUnexp = 303.28076553853941
 				staticPressureAtm = 0
 				expt = 0.5
@@ -66635,8 +66635,8 @@ GAME
 				attN = bottom, -1
 				mass = 0.0799999982
 				shielded = False
-				temp = 197.08425689101244
-				tempExt = 197.0312192503732
+				temp = 197.3845681310697
+				tempExt = 197.44890746271119
 				tempExtUnexp = 303.28076553853941
 				staticPressureAtm = 0
 				expt = 0.5
@@ -66682,8 +66682,8 @@ GAME
 				srfN = srfAttach, 16
 				mass = 0.0399999991
 				shielded = False
-				temp = 197.08516876654943
-				tempExt = 197.09967239810121
+				temp = 197.39400179526302
+				tempExt = 197.60951605680106
 				tempExtUnexp = 303.28076553853941
 				staticPressureAtm = 0
 				expt = 0.5
@@ -66769,8 +66769,8 @@ GAME
 				attN = top, 8
 				mass = 0.100000001
 				shielded = False
-				temp = 196.91854078418936
-				tempExt = 196.8023125602765
+				temp = 196.9677039798739
+				tempExt = 196.94853827990619
 				tempExtUnexp = 303.28076553853941
 				staticPressureAtm = 0
 				expt = 0
@@ -67113,8 +67113,8 @@ GAME
 				attN = bottom, -1
 				mass = 0.0799999982
 				shielded = False
-				temp = 196.89717061420126
-				tempExt = 196.87134417691513
+				temp = 196.8817066497156
+				tempExt = 196.82106025366517
 				tempExtUnexp = 303.28076553853941
 				staticPressureAtm = 0
 				expt = 0.5
@@ -67160,8 +67160,8 @@ GAME
 				srfN = srfAttach, 19
 				mass = 0.0399999991
 				shielded = False
-				temp = 196.89226103361742
-				tempExt = 196.79884356039182
+				temp = 196.87882076369658
+				tempExt = 196.83288752744585
 				tempExtUnexp = 303.28076553853941
 				staticPressureAtm = 0
 				expt = 0.5
@@ -67248,8 +67248,8 @@ GAME
 				attN = bottom, -1
 				mass = 0.0799999982
 				shielded = False
-				temp = 196.89709157182935
-				tempExt = 196.87129759293626
+				temp = 196.9200194831248
+				tempExt = 196.90227579680652
 				tempExtUnexp = 303.28076553853941
 				staticPressureAtm = 0
 				expt = 0.5
@@ -67295,8 +67295,8 @@ GAME
 				srfN = srfAttach, 21
 				mass = 0.0399999991
 				shielded = False
-				temp = 196.89218108395957
-				tempExt = 196.79877732924447
+				temp = 196.92869707813202
+				tempExt = 197.00090350113157
 				tempExtUnexp = 303.28076553853941
 				staticPressureAtm = 0
 				expt = 0.5
@@ -67382,8 +67382,8 @@ GAME
 				attN = bottom, 2
 				mass = 0.0199999996
 				shielded = False
-				temp = 197.56352294796417
-				tempExt = 197.4918587254528
+				temp = 197.37954396565996
+				tempExt = 197.24279283060486
 				tempExtUnexp = 303.28076553853941
 				staticPressureAtm = 0
 				expt = 0.5
@@ -67479,8 +67479,8 @@ GAME
 				attN = bottom, 25
 				mass = 0.0199999996
 				shielded = False
-				temp = 197.81754377087444
-				tempExt = 197.72446939194595
+				temp = 197.58478835979699
+				tempExt = 197.45682605153533
 				tempExtUnexp = 303.28076553853941
 				staticPressureAtm = 0
 				expt = 0.5
@@ -67576,8 +67576,8 @@ GAME
 				attN = bottom, 24
 				mass = 0.0199999996
 				shielded = False
-				temp = 198.07731458210986
-				tempExt = 197.98180868433082
+				temp = 197.79546425661849
+				tempExt = 197.66902944779258
 				tempExtUnexp = 303.28076553853941
 				staticPressureAtm = 0
 				expt = 0.5
@@ -67635,8 +67635,8 @@ GAME
 				attN = bottom, 25
 				mass = 0.00999999978
 				shielded = False
-				temp = 198.47088860849038
-				tempExt = 198.48406090914423
+				temp = 198.02140553196557
+				tempExt = 198.01708989718779
 				tempExtUnexp = 303.28076553853941
 				staticPressureAtm = 0
 				expt = 0.5
@@ -67694,8 +67694,8 @@ GAME
 				attN = top, 36
 				mass = 0.100000001
 				shielded = False
-				temp = 198.86578487641177
-				tempExt = 199.09214038001656
+				temp = 198.25257735875337
+				tempExt = 198.462512945958
 				tempExtUnexp = 303.28076553853941
 				staticPressureAtm = 0
 				expt = 0
@@ -68007,8 +68007,8 @@ GAME
 				srfN = srfAttach, 27
 				mass = 0.00499999989
 				shielded = False
-				temp = 198.96802837902101
-				tempExt = 198.98640730671653
+				temp = 198.24804234516606
+				tempExt = 198.31883406498406
 				tempExtUnexp = 303.28076553853941
 				staticPressureAtm = 0
 				expt = 0.5
@@ -68099,8 +68099,8 @@ GAME
 				srfN = srfAttach, 27
 				mass = 0.00499999989
 				shielded = False
-				temp = 198.96802837902101
-				tempExt = 198.98640730671653
+				temp = 198.24804234516606
+				tempExt = 198.31883406498406
 				tempExtUnexp = 303.28076553853941
 				staticPressureAtm = 0
 				expt = 0.5
@@ -68191,8 +68191,8 @@ GAME
 				srfN = srfAttach, 27
 				mass = 0.00499999989
 				shielded = False
-				temp = 198.96802838199565
-				tempExt = 198.98640730784604
+				temp = 198.24804234516606
+				tempExt = 198.31883406498406
 				tempExtUnexp = 303.28076553853941
 				staticPressureAtm = 0
 				expt = 0.5
@@ -68283,8 +68283,8 @@ GAME
 				srfN = srfAttach, 27
 				mass = 0.00499999989
 				shielded = False
-				temp = 198.96802838816359
-				tempExt = 198.98640731018821
+				temp = 198.24804234516606
+				tempExt = 198.31883406498406
 				tempExtUnexp = 303.28076553853941
 				staticPressureAtm = 0
 				expt = 0.5
@@ -68375,8 +68375,8 @@ GAME
 				srfN = srfAttach, 27
 				mass = 0.00499999989
 				shielded = False
-				temp = 198.9691882896301
-				tempExt = 198.98684776813329
+				temp = 198.24804237619594
+				tempExt = 198.31883409597449
 				tempExtUnexp = 303.28076553853941
 				staticPressureAtm = 0
 				expt = 0.5
@@ -68467,8 +68467,8 @@ GAME
 				srfN = srfAttach, 27
 				mass = 0.00499999989
 				shielded = False
-				temp = 198.96806615976203
-				tempExt = 198.98642165347604
+				temp = 198.24804234516606
+				tempExt = 198.31883406498406
 				tempExtUnexp = 303.28076553853941
 				staticPressureAtm = 0
 				expt = 0.5
@@ -68559,8 +68559,8 @@ GAME
 				srfN = srfAttach, 27
 				mass = 0.00499999989
 				shielded = False
-				temp = 198.96802837902101
-				tempExt = 198.98640730671653
+				temp = 198.24804245743815
+				tempExt = 198.31883417704901
 				tempExtUnexp = 303.28076553853941
 				staticPressureAtm = 0
 				expt = 0.5
@@ -68651,8 +68651,8 @@ GAME
 				srfN = srfAttach, 27
 				mass = 0.00499999989
 				shielded = False
-				temp = 198.96802837902101
-				tempExt = 198.98640730671653
+				temp = 198.24804264562059
+				tempExt = 198.31883436484841
 				tempExtUnexp = 303.28076553853941
 				staticPressureAtm = 0
 				expt = 0.5
@@ -68737,8 +68737,8 @@ GAME
 				attN = bottom, 27
 				mass = 0.100000001
 				shielded = False
-				temp = 199.17094084949721
-				tempExt = 199.72708782994644
+				temp = 198.50667270433289
+				tempExt = 199.11251327844673
 				tempExtUnexp = 303.28076553853941
 				staticPressureAtm = 0
 				expt = 0.5
@@ -68840,8 +68840,8 @@ GAME
 				attN = bottom, -1
 				mass = 0.00499999989
 				shielded = False
-				temp = 198.44751198970707
-				tempExt = 198.41201263836084
+				temp = 197.99769770931323
+				tempExt = 198.02422504941353
 				tempExtUnexp = 303.28076553853941
 				staticPressureAtm = 0
 				expt = 0.5
@@ -68945,8 +68945,8 @@ GAME
 				srfN = srfAttach, 25
 				mass = 0.0500000007
 				shielded = False
-				temp = 198.05492899215201
-				tempExt = 197.94947352521723
+				temp = 197.79271301113056
+				tempExt = 197.65677752864377
 				tempExtUnexp = 303.28076553853941
 				staticPressureAtm = 0
 				expt = 0.5
@@ -69025,8 +69025,8 @@ GAME
 				srfN = srfAttach, 25
 				mass = 0.0500000007
 				shielded = False
-				temp = 198.05492899215125
-				tempExt = 197.94947352521689
+				temp = 197.78058223315068
+				tempExt = 197.65179348843031
 				tempExtUnexp = 303.28076553853941
 				staticPressureAtm = 0
 				expt = 0.5
@@ -69105,8 +69105,8 @@ GAME
 				srfN = srfAttach, 25
 				mass = 0.0500000007
 				shielded = False
-				temp = 198.05492899216276
-				tempExt = 197.94947352522161
+				temp = 197.78939467609803
+				tempExt = 197.65541337152683
 				tempExtUnexp = 303.28076553853941
 				staticPressureAtm = 0
 				expt = 0.5
@@ -69185,8 +69185,8 @@ GAME
 				srfN = srfAttach, 25
 				mass = 0.0500000007
 				shielded = False
-				temp = 198.05492899215238
-				tempExt = 197.94947352521734
+				temp = 197.78061826414907
+				tempExt = 197.65180828855532
 				tempExtUnexp = 303.28076553853941
 				staticPressureAtm = 0
 				expt = 0.5
@@ -69263,8 +69263,8 @@ GAME
 				srfN = srfAttach, 2
 				mass = 0.0149999997
 				shielded = False
-				temp = 197.45852097830547
-				tempExt = 197.37047213331078
+				temp = 197.29110382370158
+				tempExt = 197.14085168226535
 				tempExtUnexp = 303.28076553853941
 				staticPressureAtm = 0
 				expt = 0.5
@@ -69378,8 +69378,8 @@ GAME
 				srfN = srfAttach, 2
 				mass = 0.0149999997
 				shielded = False
-				temp = 197.45855290717358
-				tempExt = 197.37048426888671
+				temp = 197.29124093489818
+				tempExt = 197.14092093659272
 				tempExtUnexp = 303.28076553853941
 				staticPressureAtm = 0
 				expt = 0.5
@@ -69493,8 +69493,8 @@ GAME
 				attN = bottom, -1
 				mass = 0.00499999989
 				shielded = False
-				temp = 197.44258676132446
-				tempExt = 197.36651574488863
+				temp = 197.33234043316398
+				tempExt = 197.2073826854317
 				tempExtUnexp = 303.28076553853941
 				staticPressureAtm = 0
 				expt = 0.5
@@ -69596,8 +69596,8 @@ GAME
 				srfN = srfAttach, 2
 				mass = 0.0149999997
 				shielded = False
-				temp = 197.45852098394064
-				tempExt = 197.37047213545256
+				temp = 197.29256706428171
+				tempExt = 197.14141219711203
 				tempExtUnexp = 303.28076553853941
 				staticPressureAtm = 0
 				expt = 0.5
@@ -69711,8 +69711,8 @@ GAME
 				srfN = srfAttach, 2
 				mass = 0.0149999997
 				shielded = False
-				temp = 197.45852097830547
-				tempExt = 197.37047213331078
+				temp = 197.29923877878539
+				tempExt = 197.23313710326101
 				tempExtUnexp = 303.28076553853941
 				staticPressureAtm = 0
 				expt = 0.5
@@ -69827,8 +69827,8 @@ GAME
 				attN = bottom, 0
 				mass = 0.0500000007
 				shielded = False
-				temp = 196.87920857606807
-				tempExt = 197.04863765608681
+				temp = 196.58337629455329
+				tempExt = 196.50927901593448
 				tempExtUnexp = 303.28076553853941
 				staticPressureAtm = 0
 				expt = 0.5
@@ -69976,8 +69976,8 @@ GAME
 				srfN = srfAttach, 47
 				mass = 0.0199999996
 				shielded = False
-				temp = 196.88647124694714
-				tempExt = 196.94694575476288
+				temp = 196.69011867599775
+				tempExt = 196.64097680160307
 				tempExtUnexp = 303.28076553853941
 				staticPressureAtm = 0
 				expt = 0.5
@@ -70034,7 +70034,7 @@ GAME
 					name = FXModuleAnimateRCS
 					isEnabled = True
 					stagingEnabled = True
-					animStates = 0
+					animStates = 0.0008359288
 					EVENTS
 					{
 					}
@@ -70070,8 +70070,8 @@ GAME
 				srfN = srfAttach, 47
 				mass = 0.0199999996
 				shielded = False
-				temp = 196.88647124694714
-				tempExt = 196.94694575476288
+				temp = 196.6973873743834
+				tempExt = 196.60634565742279
 				tempExtUnexp = 303.28076553853941
 				staticPressureAtm = 0
 				expt = 0.5
@@ -70128,7 +70128,7 @@ GAME
 					name = FXModuleAnimateRCS
 					isEnabled = True
 					stagingEnabled = True
-					animStates = 0
+					animStates = 0.0008316578
 					EVENTS
 					{
 					}
@@ -70165,8 +70165,8 @@ GAME
 				attN = bottom, 0
 				mass = 1
 				shielded = False
-				temp = 196.72290620783212
-				tempExt = 196.57011467044225
+				temp = 196.79275228869574
+				tempExt = 196.63637053017831
 				tempExtUnexp = 303.28076553853941
 				staticPressureAtm = 0
 				expt = 0.5
@@ -70336,8 +70336,8 @@ GAME
 				srfN = srfAttach, 50
 				mass = 0.0500000007
 				shielded = False
-				temp = 196.80380155080195
-				tempExt = 196.72066194006521
+				temp = 196.8095004429421
+				tempExt = 196.7359007496554
 				tempExtUnexp = 4
 				staticPressureAtm = 0
 				expt = 0
@@ -70418,8 +70418,8 @@ GAME
 				srfN = srfAttach, 50
 				mass = 0.0500000007
 				shielded = False
-				temp = 196.80380155080195
-				tempExt = 196.72066194006521
+				temp = 196.8095004429421
+				tempExt = 196.7359007496554
 				tempExtUnexp = 4
 				staticPressureAtm = 0
 				expt = 0
@@ -70501,8 +70501,8 @@ GAME
 				attN = bottom, -1
 				mass = 0.075000003
 				shielded = False
-				temp = 196.65385889316099
-				tempExt = 196.54442820154003
+				temp = 196.70728295159293
+				tempExt = 196.60513157495063
 				tempExtUnexp = 303.28076553853941
 				staticPressureAtm = 0
 				expt = 0.5
@@ -70549,8 +70549,8 @@ GAME
 				attN = bottom, -1
 				mass = 0.075000003
 				shielded = False
-				temp = 196.65385888266107
-				tempExt = 196.544428197282
+				temp = 196.70754197642788
+				tempExt = 196.60523661534086
 				tempExtUnexp = 303.28076553853941
 				staticPressureAtm = 0
 				expt = 0.5
@@ -70597,8 +70597,8 @@ GAME
 				attN = top, 56
 				mass = 0.375
 				shielded = False
-				temp = 197.07803509820403
-				tempExt = 197.01242170984813
+				temp = 197.01892036491174
+				tempExt = 196.90182646219705
 				tempExtUnexp = 303.28076553853941
 				staticPressureAtm = 0
 				expt = 0.5
@@ -70645,8 +70645,8 @@ GAME
 				attN = top, 55
 				mass = 0.375
 				shielded = False
-				temp = 196.55753964146928
-				tempExt = 196.42586899422892
+				temp = 196.6333264593973
+				tempExt = 196.5158175069709
 				tempExtUnexp = 303.28076553853941
 				staticPressureAtm = 0
 				expt = 0.5
@@ -70693,8 +70693,8 @@ GAME
 				attN = bottom, -1
 				mass = 0.300000012
 				shielded = False
-				temp = 196.42613718875415
-				tempExt = 196.35251523095829
+				temp = 196.47720253343917
+				tempExt = 196.37589477748767
 				tempExtUnexp = 303.28076553853941
 				staticPressureAtm = 0
 				expt = 0.5
@@ -70740,8 +70740,8 @@ GAME
 				attN = bottom, -1
 				mass = 0.300000012
 				shielded = False
-				temp = 196.42041622886947
-				tempExt = 196.32206761692419
+				temp = 196.47208336133104
+				tempExt = 196.35624641689122
 				tempExtUnexp = 303.28076553853941
 				staticPressureAtm = 0
 				expt = 0.5
@@ -70884,8 +70884,8 @@ GAME
 				attN = bottom, -1
 				mass = 0.100000001
 				shielded = False
-				temp = 196.49534817347387
-				tempExt = 196.48758435099464
+				temp = 196.50009002771372
+				tempExt = 196.36727874552599
 				tempExtUnexp = 303.28076553853941
 				staticPressureAtm = 0
 				expt = 0.5
@@ -71013,8 +71013,8 @@ GAME
 				attN = bottom, 61
 				mass = 0.125
 				shielded = False
-				temp = 196.81151475395495
-				tempExt = 196.67731464756255
+				temp = 196.82741930140548
+				tempExt = 196.74335909126395
 				tempExtUnexp = 303.28076553853941
 				staticPressureAtm = 0
 				expt = 0.5
@@ -71099,8 +71099,8 @@ GAME
 				attN = bottom, 60
 				mass = 0.0500000007
 				shielded = False
-				temp = 196.79980050053291
-				tempExt = 196.66746170144899
+				temp = 196.85003361187867
+				tempExt = 197.26043076853733
 				tempExtUnexp = 303.28076553853941
 				staticPressureAtm = 0
 				expt = 0.5
@@ -71248,8 +71248,8 @@ GAME
 				srfN = srfAttach, 61
 				mass = 0.0199999996
 				shielded = False
-				temp = 196.79016845257456
-				tempExt = 196.6869006427159
+				temp = 196.84303310783446
+				tempExt = 197.07441972423408
 				tempExtUnexp = 303.28076553853941
 				staticPressureAtm = 0
 				expt = 0.5
@@ -71306,7 +71306,7 @@ GAME
 					name = FXModuleAnimateRCS
 					isEnabled = True
 					stagingEnabled = True
-					animStates = 0
+					animStates = 0.0007125501
 					EVENTS
 					{
 					}
@@ -71342,8 +71342,8 @@ GAME
 				srfN = srfAttach, 61
 				mass = 0.0199999996
 				shielded = False
-				temp = 196.79324384056935
-				tempExt = 196.7312960178993
+				temp = 196.84302652261115
+				tempExt = 197.07441749409125
 				tempExtUnexp = 303.28076553853941
 				staticPressureAtm = 0
 				expt = 0.5
@@ -71400,7 +71400,7 @@ GAME
 					name = FXModuleAnimateRCS
 					isEnabled = True
 					stagingEnabled = True
-					animStates = 0
+					animStates = 0.0005476438
 					EVENTS
 					{
 					}
@@ -71436,8 +71436,8 @@ GAME
 				srfN = srfAttach, 60
 				mass = 0.0500000007
 				shielded = False
-				temp = 196.86152378593857
-				tempExt = 196.8231427376974
+				temp = 196.87294654065334
+				tempExt = 196.90342381029757
 				tempExtUnexp = 4
 				staticPressureAtm = 0
 				expt = 0
@@ -71518,8 +71518,8 @@ GAME
 				srfN = srfAttach, 60
 				mass = 0.0500000007
 				shielded = False
-				temp = 196.8109790846915
-				tempExt = 196.75705695899973
+				temp = 196.85335576319568
+				tempExt = 196.89298789659296
 				tempExtUnexp = 4
 				staticPressureAtm = 0
 				expt = 0
@@ -71600,8 +71600,8 @@ GAME
 				srfN = srfAttach, 60
 				mass = 0.0299999993
 				shielded = False
-				temp = 196.80404609207531
-				tempExt = 196.66801206678059
+				temp = 196.81396968859295
+				tempExt = 196.71087326874081
 				tempExtUnexp = 303.28076553853941
 				staticPressureAtm = 0
 				expt = 0.5
@@ -71658,8 +71658,8 @@ GAME
 				srfN = srfAttach, 60
 				mass = 0.0299999993
 				shielded = False
-				temp = 196.8001140409857
-				tempExt = 196.66639977534069
+				temp = 196.81132350825092
+				tempExt = 196.75644347839707
 				tempExtUnexp = 303.28076553853941
 				staticPressureAtm = 0
 				expt = 0.5
@@ -71715,8 +71715,8 @@ GAME
 				srfN = srfAttach, 60
 				mass = 0.0149999997
 				shielded = False
-				temp = 196.79659222152051
-				tempExt = 196.66730920551947
+				temp = 196.83535982688295
+				tempExt = 196.9487196733883
 				tempExtUnexp = 303.28076553853941
 				staticPressureAtm = 0
 				expt = 0.5
@@ -71829,8 +71829,8 @@ GAME
 				srfN = srfAttach, 60
 				mass = 0.0149999997
 				shielded = False
-				temp = 196.79971169822218
-				tempExt = 196.71460191321242
+				temp = 196.86075111855882
+				tempExt = 197.1803639642313
 				tempExtUnexp = 303.28076553853941
 				staticPressureAtm = 0
 				expt = 0.5
@@ -71944,8 +71944,8 @@ GAME
 				srfN = srfAttach, 60
 				mass = 0.0199999996
 				shielded = False
-				temp = 196.80892006563175
-				tempExt = 196.7686151297136
+				temp = 196.81723283677863
+				tempExt = 196.71668665343125
 				tempExtUnexp = 303.28076553853941
 				staticPressureAtm = 0
 				expt = 0.5
@@ -72002,8 +72002,8 @@ GAME
 				srfN = srfAttach, 60
 				mass = 0.0199999996
 				shielded = False
-				temp = 196.79985846841296
-				tempExt = 196.66792518316981
+				temp = 196.81718386028604
+				tempExt = 196.71666235012702
 				tempExtUnexp = 303.28076553853941
 				staticPressureAtm = 0
 				expt = 0.5
@@ -72061,8 +72061,8 @@ GAME
 				attN = top, -1
 				mass = 0.0500000007
 				shielded = False
-				temp = 196.70764030999911
-				tempExt = 196.70218345301637
+				temp = 196.62344993743284
+				tempExt = 196.51570365751815
 				tempExtUnexp = 303.28076553853941
 				staticPressureAtm = 0
 				expt = 0.5
@@ -72149,8 +72149,8 @@ GAME
 				attN = top, 74
 				mass = 0.375
 				shielded = False
-				temp = 197.32918191489102
-				tempExt = 197.23003023192337
+				temp = 197.15005479782474
+				tempExt = 197.08774965982906
 				tempExtUnexp = 303.28076553853941
 				staticPressureAtm = 0
 				expt = 0.5
@@ -72198,8 +72198,8 @@ GAME
 				attN = top, 73
 				mass = 0.375
 				shielded = False
-				temp = 196.91171748853262
-				tempExt = 196.91907906374323
+				temp = 196.91884129305413
+				tempExt = 196.96101631230945
 				tempExtUnexp = 303.28076553853941
 				staticPressureAtm = 0
 				expt = 0.5
@@ -72245,8 +72245,8 @@ GAME
 				srfN = srfAttach, 74
 				mass = 0.104999997
 				shielded = False
-				temp = 197.11976672053612
-				tempExt = 197.26389637991608
+				temp = 197.0437980107597
+				tempExt = 197.3392270178891
 				tempExtUnexp = 303.28076553853941
 				staticPressureAtm = 0
 				expt = 0.5
@@ -72295,11 +72295,11 @@ GAME
 				{
 					name = ModuleWheelSuspension
 					isEnabled = True
-					springTweakable = 1.00169957
+					springTweakable = 1.00722301
 					damperTweakable = 1.10000002
 					autoSpringDamper = True
-					suspensionPos = (-0.746000051, -0.2143666, 0.00200505322)
-					autoBoost = 0.545998931
+					suspensionPos = (-0.746000886, -0.219595701, 0.00199866737)
+					autoBoost = 0
 					stagingEnabled = True
 					EVENTS
 					{
@@ -72441,8 +72441,8 @@ GAME
 				srfN = srfAttach, 74
 				mass = 0.104999997
 				shielded = False
-				temp = 197.11677051464147
-				tempExt = 197.13590460703691
+				temp = 197.04099087672705
+				tempExt = 197.21967324676694
 				tempExtUnexp = 303.28076553853941
 				staticPressureAtm = 0
 				expt = 0.5
@@ -72491,11 +72491,11 @@ GAME
 				{
 					name = ModuleWheelSuspension
 					isEnabled = True
-					springTweakable = 1.00169957
+					springTweakable = 1.00722301
 					damperTweakable = 1.10000002
 					autoSpringDamper = True
-					suspensionPos = (-0.745998859, -0.21504809, 0.00199974841)
-					autoBoost = 0
+					suspensionPos = (-0.74600035, -0.217999145, 0.00199907715)
+					autoBoost = 0.0939995348
 					stagingEnabled = True
 					EVENTS
 					{
@@ -72637,8 +72637,8 @@ GAME
 				srfN = srfAttach, 74
 				mass = 0.00499999989
 				shielded = False
-				temp = 196.8997196637481
-				tempExt = 196.83072205299109
+				temp = 196.90831267669012
+				tempExt = 196.86211689551564
 				tempExtUnexp = 303.28076553853941
 				staticPressureAtm = 0
 				expt = 0.5
@@ -72715,8 +72715,8 @@ GAME
 				srfN = srfAttach, 74
 				mass = 0.0799999982
 				shielded = False
-				temp = 196.89508760789613
-				tempExt = 196.82830811981216
+				temp = 196.8857921917222
+				tempExt = 196.84330015652989
 				tempExtUnexp = 303.28076553853941
 				staticPressureAtm = 0
 				expt = 0.5
@@ -72773,7 +72773,7 @@ GAME
 					name = FXModuleAnimateRCS
 					isEnabled = True
 					stagingEnabled = True
-					animStates = 0
+					animStates = 0.005592288
 					EVENTS
 					{
 					}
@@ -72809,8 +72809,8 @@ GAME
 				srfN = srfAttach, 74
 				mass = 0.0799999982
 				shielded = False
-				temp = 196.89509922088283
-				tempExt = 196.82831424120707
+				temp = 196.88628961448381
+				tempExt = 196.84356239628957
 				tempExtUnexp = 303.28076553853941
 				staticPressureAtm = 0
 				expt = 0.5
@@ -72867,7 +72867,7 @@ GAME
 					name = FXModuleAnimateRCS
 					isEnabled = True
 					stagingEnabled = True
-					animStates = 0
+					animStates = 0.005488578
 					EVENTS
 					{
 					}
@@ -72905,8 +72905,8 @@ GAME
 				attN = bottom, 74
 				mass = 0.00100000005
 				shielded = False
-				temp = 196.87847920689663
-				tempExt = 196.83033480968857
+				temp = 196.87185150823299
+				tempExt = 196.85044080208931
 				tempExtUnexp = 303.28076553853941
 				staticPressureAtm = 0
 				expt = 0.5
@@ -72952,8 +72952,8 @@ GAME
 				srfN = srfAttach, 80
 				mass = 0.0500000007
 				shielded = False
-				temp = 196.85792081435085
-				tempExt = 196.77346340655964
+				temp = 196.83069891890725
+				tempExt = 196.78197376389042
 				tempExtUnexp = 303.28076553853941
 				staticPressureAtm = 0
 				expt = 0.5
@@ -73030,8 +73030,8 @@ GAME
 				srfN = srfAttach, 74
 				mass = 0.0799999982
 				shielded = False
-				temp = 197.07200332443398
-				tempExt = 197.09021915189504
+				temp = 196.88749280663728
+				tempExt = 196.84419626531925
 				tempExtUnexp = 303.28076553853941
 				staticPressureAtm = 0
 				expt = 0.5
@@ -73088,7 +73088,7 @@ GAME
 					name = FXModuleAnimateRCS
 					isEnabled = True
 					stagingEnabled = True
-					animStates = 0
+					animStates = 0.02742852
 					EVENTS
 					{
 					}
@@ -73124,8 +73124,8 @@ GAME
 				srfN = srfAttach, 73
 				mass = 0.104999997
 				shielded = False
-				temp = 197.37367632236695
-				tempExt = 197.81910719487817
+				temp = 197.15791519333138
+				tempExt = 197.14848600072557
 				tempExtUnexp = 303.28076553853941
 				staticPressureAtm = 0
 				expt = 0.5
@@ -73174,11 +73174,11 @@ GAME
 				{
 					name = ModuleWheelSuspension
 					isEnabled = True
-					springTweakable = 1.00169957
+					springTweakable = 1.00722301
 					damperTweakable = 1.10000002
 					autoSpringDamper = True
-					suspensionPos = (-0.745999753, -0.217476472, 0.00200572517)
-					autoBoost = 0.349999368
+					suspensionPos = (-0.746000767, -0.212586313, 0.00199916563)
+					autoBoost = 0.713999569
 					stagingEnabled = True
 					EVENTS
 					{
@@ -73320,8 +73320,8 @@ GAME
 				srfN = srfAttach, 73
 				mass = 0.104999997
 				shielded = False
-				temp = 197.35840100175065
-				tempExt = 197.65013885661995
+				temp = 197.15579633654318
+				tempExt = 197.12905439389013
 				tempExtUnexp = 303.28076553853941
 				staticPressureAtm = 0
 				expt = 0.5
@@ -73370,10 +73370,10 @@ GAME
 				{
 					name = ModuleWheelSuspension
 					isEnabled = True
-					springTweakable = 1.00169957
+					springTweakable = 1.00722301
 					damperTweakable = 1.10000002
 					autoSpringDamper = True
-					suspensionPos = (-0.746000528, -0.216781676, 0.00200472679)
+					suspensionPos = (-0.746000767, -0.214186221, 0.00200052164)
 					autoBoost = 0
 					stagingEnabled = True
 					EVENTS
@@ -73516,8 +73516,8 @@ GAME
 				srfN = srfAttach, 73
 				mass = 0.00499999989
 				shielded = False
-				temp = 197.39931473192129
-				tempExt = 197.75153752156783
+				temp = 197.2156935090475
+				tempExt = 197.5851192141038
 				tempExtUnexp = 303.28076553853941
 				staticPressureAtm = 0
 				expt = 0.5
@@ -73594,8 +73594,8 @@ GAME
 				srfN = srfAttach, 73
 				mass = 0.0199999996
 				shielded = False
-				temp = 197.31845404516116
-				tempExt = 197.20366509473871
+				temp = 197.14538315395225
+				tempExt = 197.05012132416692
 				tempExtUnexp = 303.28076553853941
 				staticPressureAtm = 0
 				expt = 0.5
@@ -73652,8 +73652,8 @@ GAME
 				srfN = srfAttach, 73
 				mass = 0.0199999996
 				shielded = False
-				temp = 197.33603486850893
-				tempExt = 197.40288112075717
+				temp = 197.14536601247673
+				tempExt = 197.05011009155268
 				tempExtUnexp = 303.28076553853941
 				staticPressureAtm = 0
 				expt = 0.5
@@ -73710,8 +73710,8 @@ GAME
 				srfN = srfAttach, 73
 				mass = 0.0199999996
 				shielded = False
-				temp = 197.31856507349602
-				tempExt = 197.20373967158545
+				temp = 197.14572220792701
+				tempExt = 197.05034344595524
 				tempExtUnexp = 303.28076553853941
 				staticPressureAtm = 0
 				expt = 0.5
@@ -73768,8 +73768,8 @@ GAME
 				srfN = srfAttach, 73
 				mass = 0.0799999982
 				shielded = False
-				temp = 197.28957033694263
-				tempExt = 197.18215436367205
+				temp = 197.0947694554394
+				tempExt = 197.0727164314751
 				tempExtUnexp = 303.28076553853941
 				staticPressureAtm = 0
 				expt = 0.5
@@ -73826,7 +73826,7 @@ GAME
 					name = FXModuleAnimateRCS
 					isEnabled = True
 					stagingEnabled = True
-					animStates = 0
+					animStates = 0.002983134
 					EVENTS
 					{
 					}
@@ -73862,8 +73862,8 @@ GAME
 				srfN = srfAttach, 73
 				mass = 0.0799999982
 				shielded = False
-				temp = 197.28957030081341
-				tempExt = 197.18215434462809
+				temp = 197.09730183799221
+				tempExt = 197.08495401083724
 				tempExtUnexp = 303.28076553853941
 				staticPressureAtm = 0
 				expt = 0.5
@@ -73920,7 +73920,7 @@ GAME
 					name = FXModuleAnimateRCS
 					isEnabled = True
 					stagingEnabled = True
-					animStates = 0
+					animStates = 0.002654788
 					EVENTS
 					{
 					}
@@ -73958,8 +73958,8 @@ GAME
 				attN = bottom, 73
 				mass = 0.00100000005
 				shielded = False
-				temp = 197.27663620775346
-				tempExt = 197.20155486133052
+				temp = 197.06950842703804
+				tempExt = 197.00136884819369
 				tempExtUnexp = 303.28076553853941
 				staticPressureAtm = 0
 				expt = 0.5
@@ -74005,8 +74005,8 @@ GAME
 				srfN = srfAttach, 91
 				mass = 0.0500000007
 				shielded = False
-				temp = 197.2443114510416
-				tempExt = 197.15039636831483
+				temp = 197.00619298630212
+				tempExt = 196.92993872084398
 				tempExtUnexp = 303.28076553853941
 				staticPressureAtm = 0
 				expt = 0.5
@@ -74083,8 +74083,8 @@ GAME
 				srfN = srfAttach, 73
 				mass = 0.0799999982
 				shielded = False
-				temp = 197.29020523448958
-				tempExt = 197.19408000118358
+				temp = 197.10496551354458
+				tempExt = 197.30701919507132
 				tempExtUnexp = 303.28076553853941
 				staticPressureAtm = 0
 				expt = 0.5
@@ -74141,7 +74141,7 @@ GAME
 					name = FXModuleAnimateRCS
 					isEnabled = True
 					stagingEnabled = True
-					animStates = 0
+					animStates = 0.002528529
 					EVENTS
 					{
 					}
@@ -74177,8 +74177,8 @@ GAME
 				srfN = srfAttach, 73
 				mass = 0.104999997
 				shielded = False
-				temp = 197.35989897414652
-				tempExt = 197.66820187627289
+				temp = 197.15993158658011
+				tempExt = 197.16297818388639
 				tempExtUnexp = 303.28076553853941
 				staticPressureAtm = 0
 				expt = 0.5
@@ -74227,11 +74227,11 @@ GAME
 				{
 					name = ModuleWheelSuspension
 					isEnabled = True
-					springTweakable = 1.00169957
+					springTweakable = 1.00722301
 					damperTweakable = 1.10000002
 					autoSpringDamper = True
-					suspensionPos = (-0.74600029, -0.21610786, 0.00199888553)
-					autoBoost = 0
+					suspensionPos = (-0.746001065, -0.215755343, 0.00199880102)
+					autoBoost = 0.609999657
 					stagingEnabled = True
 					EVENTS
 					{
@@ -74375,8 +74375,8 @@ GAME
 				attN = top, 96
 				mass = 0.375
 				shielded = False
-				temp = 196.90544798839832
-				tempExt = 196.79997632695498
+				temp = 197.00762229543446
+				tempExt = 197.02691730986695
 				tempExtUnexp = 303.28076553853941
 				staticPressureAtm = 0
 				expt = 0.5
@@ -74424,8 +74424,8 @@ GAME
 				attN = top, 95
 				mass = 0.375
 				shielded = False
-				temp = 196.80539248736571
-				tempExt = 196.65032291562338
+				temp = 196.88043570475077
+				tempExt = 196.94913554884758
 				tempExtUnexp = 303.28076553853941
 				staticPressureAtm = 0
 				expt = 0.5
@@ -74471,8 +74471,8 @@ GAME
 				srfN = srfAttach, 96
 				mass = 0.104999997
 				shielded = False
-				temp = 196.85346598340686
-				tempExt = 196.87682431031072
+				temp = 196.95230932859286
+				tempExt = 197.31821260027604
 				tempExtUnexp = 303.28076553853941
 				staticPressureAtm = 0
 				expt = 0.5
@@ -74521,11 +74521,11 @@ GAME
 				{
 					name = ModuleWheelSuspension
 					isEnabled = True
-					springTweakable = 1.00169957
+					springTweakable = 1.00722301
 					damperTweakable = 1.10000002
 					autoSpringDamper = True
-					suspensionPos = (-0.746000469, -0.210052744, 0.00199924223)
-					autoBoost = 0.813999951
+					suspensionPos = (-0.745999157, -0.21446678, 0.00200170046)
+					autoBoost = 0.14199993
 					stagingEnabled = True
 					EVENTS
 					{
@@ -74667,8 +74667,8 @@ GAME
 				srfN = srfAttach, 96
 				mass = 0.104999997
 				shielded = False
-				temp = 196.80398627315139
-				tempExt = 196.78806852978795
+				temp = 196.95098423691246
+				tempExt = 197.26097857059833
 				tempExtUnexp = 303.28076553853941
 				staticPressureAtm = 0
 				expt = 0.5
@@ -74717,11 +74717,11 @@ GAME
 				{
 					name = ModuleWheelSuspension
 					isEnabled = True
-					springTweakable = 1.00169957
+					springTweakable = 1.00722301
 					damperTweakable = 1.10000002
 					autoSpringDamper = True
-					suspensionPos = (-0.746000946, -0.210676029, 0.00200307183)
-					autoBoost = 0
+					suspensionPos = (-0.746001422, -0.214503765, 0.00199833279)
+					autoBoost = 0.58199954
 					stagingEnabled = True
 					EVENTS
 					{
@@ -74863,8 +74863,8 @@ GAME
 				srfN = srfAttach, 96
 				mass = 0.00499999989
 				shielded = False
-				temp = 196.77313531045982
-				tempExt = 196.60205259052131
+				temp = 196.97613256059986
+				tempExt = 197.61925537533517
 				tempExtUnexp = 303.28076553853941
 				staticPressureAtm = 0
 				expt = 0.5
@@ -74941,8 +74941,8 @@ GAME
 				srfN = srfAttach, 96
 				mass = 0.0799999982
 				shielded = False
-				temp = 196.77042089505485
-				tempExt = 196.63778345193668
+				temp = 196.83517763564785
+				tempExt = 196.8113660434162
 				tempExtUnexp = 303.28076553853941
 				staticPressureAtm = 0
 				expt = 0.5
@@ -74999,7 +74999,7 @@ GAME
 					name = FXModuleAnimateRCS
 					isEnabled = True
 					stagingEnabled = True
-					animStates = 0
+					animStates = 0.0607294
 					EVENTS
 					{
 					}
@@ -75035,8 +75035,8 @@ GAME
 				srfN = srfAttach, 96
 				mass = 0.0799999982
 				shielded = False
-				temp = 196.7671494822186
-				tempExt = 196.63335793650489
+				temp = 196.83590033520679
+				tempExt = 196.81174695284562
 				tempExtUnexp = 303.28076553853941
 				staticPressureAtm = 0
 				expt = 0.5
@@ -75093,7 +75093,7 @@ GAME
 					name = FXModuleAnimateRCS
 					isEnabled = True
 					stagingEnabled = True
-					animStates = 0
+					animStates = 0.06059009
 					EVENTS
 					{
 					}
@@ -75131,8 +75131,8 @@ GAME
 				attN = bottom, 96
 				mass = 0.00100000005
 				shielded = False
-				temp = 196.74115674684816
-				tempExt = 196.61867828963787
+				temp = 196.83802108817468
+				tempExt = 196.82877133621108
 				tempExtUnexp = 303.28076553853941
 				staticPressureAtm = 0
 				expt = 0.5
@@ -75178,8 +75178,8 @@ GAME
 				srfN = srfAttach, 102
 				mass = 0.0500000007
 				shielded = False
-				temp = 196.70981071413195
-				tempExt = 196.59028225553266
+				temp = 196.79865786908269
+				tempExt = 196.75459428148946
 				tempExtUnexp = 303.28076553853941
 				staticPressureAtm = 0
 				expt = 0.5
@@ -75256,8 +75256,8 @@ GAME
 				srfN = srfAttach, 96
 				mass = 0.0799999982
 				shielded = False
-				temp = 196.79651125225126
-				tempExt = 196.73144694407659
+				temp = 196.83861677070078
+				tempExt = 196.81318061106168
 				tempExtUnexp = 303.28076553853941
 				staticPressureAtm = 0
 				expt = 0.5
@@ -75314,7 +75314,7 @@ GAME
 					name = FXModuleAnimateRCS
 					isEnabled = True
 					stagingEnabled = True
-					animStates = 0
+					animStates = 0.06025958
 					EVENTS
 					{
 					}
@@ -75350,8 +75350,8 @@ GAME
 				srfN = srfAttach, 95
 				mass = 0.104999997
 				shielded = False
-				temp = 196.99582286478937
-				tempExt = 197.13803263732328
+				temp = 197.0199625143986
+				tempExt = 197.23332784012206
 				tempExtUnexp = 303.28076553853941
 				staticPressureAtm = 0
 				expt = 0.5
@@ -75400,11 +75400,11 @@ GAME
 				{
 					name = ModuleWheelSuspension
 					isEnabled = True
-					springTweakable = 1.00169957
+					springTweakable = 1.00722301
 					damperTweakable = 1.10000002
 					autoSpringDamper = True
-					suspensionPos = (-0.745998323, -0.213081822, 0.00200249162)
-					autoBoost = 0.335999131
+					suspensionPos = (-0.746001124, -0.209622711, 0.00199922593)
+					autoBoost = 0.667999506
 					stagingEnabled = True
 					EVENTS
 					{
@@ -75546,8 +75546,8 @@ GAME
 				srfN = srfAttach, 95
 				mass = 0.104999997
 				shielded = False
-				temp = 196.90458273858133
-				tempExt = 196.88852986844654
+				temp = 197.02108900244588
+				tempExt = 197.26031947043518
 				tempExtUnexp = 303.28076553853941
 				staticPressureAtm = 0
 				expt = 0.5
@@ -75596,11 +75596,11 @@ GAME
 				{
 					name = ModuleWheelSuspension
 					isEnabled = True
-					springTweakable = 1.00169957
+					springTweakable = 1.00722301
 					damperTweakable = 1.10000002
 					autoSpringDamper = True
-					suspensionPos = (-0.746000826, -0.212413996, 0.00200088159)
-					autoBoost = 0.311999321
+					suspensionPos = (-0.746001244, -0.211243376, 0.0019992271)
+					autoBoost = 0.329999954
 					stagingEnabled = True
 					EVENTS
 					{
@@ -75742,8 +75742,8 @@ GAME
 				srfN = srfAttach, 95
 				mass = 0.00499999989
 				shielded = False
-				temp = 196.87855440843981
-				tempExt = 196.70986237407431
+				temp = 197.08058163025248
+				tempExt = 197.51390087123164
 				tempExtUnexp = 303.28076553853941
 				staticPressureAtm = 0
 				expt = 0.5
@@ -75820,8 +75820,8 @@ GAME
 				srfN = srfAttach, 95
 				mass = 0.0199999996
 				shielded = False
-				temp = 196.89537336009016
-				tempExt = 196.77694518790514
+				temp = 196.99548288566913
+				tempExt = 196.94677016546748
 				tempExtUnexp = 303.28076553853941
 				staticPressureAtm = 0
 				expt = 0.5
@@ -75878,8 +75878,8 @@ GAME
 				srfN = srfAttach, 95
 				mass = 0.0199999996
 				shielded = False
-				temp = 196.89537336009016
-				tempExt = 196.77694518790514
+				temp = 197.00707537540723
+				tempExt = 197.00894028983092
 				tempExtUnexp = 303.28076553853941
 				staticPressureAtm = 0
 				expt = 0.5
@@ -75936,8 +75936,8 @@ GAME
 				srfN = srfAttach, 95
 				mass = 0.0199999996
 				shielded = False
-				temp = 196.89538244240262
-				tempExt = 196.77695112605559
+				temp = 197.00407868009765
+				tempExt = 197.06398530841594
 				tempExtUnexp = 303.28076553853941
 				staticPressureAtm = 0
 				expt = 0.5
@@ -75994,8 +75994,8 @@ GAME
 				srfN = srfAttach, 95
 				mass = 0.0799999982
 				shielded = False
-				temp = 196.87216938836397
-				tempExt = 196.75936797235173
+				temp = 196.99058589736694
+				tempExt = 196.94163989470749
 				tempExtUnexp = 303.28076553853941
 				staticPressureAtm = 0
 				expt = 0.5
@@ -76052,7 +76052,7 @@ GAME
 					name = FXModuleAnimateRCS
 					isEnabled = True
 					stagingEnabled = True
-					animStates = 0
+					animStates = 0.04613563
 					EVENTS
 					{
 					}
@@ -76088,8 +76088,8 @@ GAME
 				srfN = srfAttach, 95
 				mass = 0.0799999982
 				shielded = False
-				temp = 196.87216953483824
-				tempExt = 196.75936804956083
+				temp = 196.9949665461146
+				tempExt = 196.99949142380655
 				tempExtUnexp = 303.28076553853941
 				staticPressureAtm = 0
 				expt = 0.5
@@ -76146,7 +76146,7 @@ GAME
 					name = FXModuleAnimateRCS
 					isEnabled = True
 					stagingEnabled = True
-					animStates = 0
+					animStates = 0.0153956
 					EVENTS
 					{
 					}
@@ -76184,8 +76184,8 @@ GAME
 				attN = bottom, 95
 				mass = 0.00100000005
 				shielded = False
-				temp = 196.848705602443
-				tempExt = 196.74896952446818
+				temp = 196.96668745475816
+				tempExt = 196.9306380121906
 				tempExtUnexp = 303.28076553853941
 				staticPressureAtm = 0
 				expt = 0.5
@@ -76231,8 +76231,8 @@ GAME
 				srfN = srfAttach, 113
 				mass = 0.0500000007
 				shielded = False
-				temp = 196.81865232813988
-				tempExt = 196.70959331609163
+				temp = 196.93692980280323
+				tempExt = 196.87789274118461
 				tempExtUnexp = 303.28076553853941
 				staticPressureAtm = 0
 				expt = 0.5
@@ -76309,8 +76309,8 @@ GAME
 				srfN = srfAttach, 95
 				mass = 0.0799999982
 				shielded = False
-				temp = 196.87287448037583
-				tempExt = 196.75973963848918
+				temp = 197.00358347727007
+				tempExt = 197.08133640618826
 				tempExtUnexp = 303.28076553853941
 				staticPressureAtm = 0
 				expt = 0.5
@@ -76367,7 +76367,7 @@ GAME
 					name = FXModuleAnimateRCS
 					isEnabled = True
 					stagingEnabled = True
-					animStates = 0
+					animStates = 0.01471119
 					EVENTS
 					{
 					}
@@ -76403,8 +76403,8 @@ GAME
 				srfN = srfAttach, 95
 				mass = 0.104999997
 				shielded = False
-				temp = 196.99234494025848
-				tempExt = 196.99269811808665
+				temp = 197.03145824065825
+				tempExt = 197.38130670977412
 				tempExtUnexp = 303.28076553853941
 				staticPressureAtm = 0
 				expt = 0.5
@@ -76453,11 +76453,11 @@ GAME
 				{
 					name = ModuleWheelSuspension
 					isEnabled = True
-					springTweakable = 1.00169957
+					springTweakable = 1.00722301
 					damperTweakable = 1.10000002
 					autoSpringDamper = True
-					suspensionPos = (-0.745999932, -0.211740837, 0.00200463855)
-					autoBoost = 0
+					suspensionPos = (-0.745998979, -0.212649539, 0.00200134283)
+					autoBoost = 0.159999996
 					stagingEnabled = True
 					EVENTS
 					{
@@ -76600,8 +76600,8 @@ GAME
 				attN = top, -1
 				mass = 0.0500000007
 				shielded = False
-				temp = 197.05599278288415
-				tempExt = 196.99606741559046
+				temp = 196.88702361353364
+				tempExt = 196.87857939117845
 				tempExtUnexp = 303.28076553853941
 				staticPressureAtm = 0
 				expt = 0.5
@@ -76686,8 +76686,8 @@ GAME
 				srfN = srfAttach, 0,COL2
 				mass = 9.99999975E-05
 				shielded = False
-				temp = 196.79036470176672
-				tempExt = 196.75451584021116
+				temp = 196.71133662921329
+				tempExt = 196.65850032549039
 				tempExtUnexp = 303.28076553853941
 				staticPressureAtm = 0
 				expt = 0.5
@@ -76911,8 +76911,8 @@ GAME
 				srfN = srfAttach, 0,COL2
 				mass = 9.99999975E-05
 				shielded = False
-				temp = 196.79376518931844
-				tempExt = 196.75659044349916
+				temp = 196.77191345027603
+				tempExt = 196.71836555671183
 				tempExtUnexp = 303.28076553853941
 				staticPressureAtm = 0
 				expt = 0.5
@@ -77119,7 +77119,7 @@ GAME
 				Light = True, 299243.733098786
 				RCS = False, 302001.372759499
 				SAS = True, 302003.712759501
-				Brakes = True, 302913.432760349
+				Brakes = True, 302005.932759503
 				Abort = False, 0
 				Custom01 = False, 0
 				Custom02 = True, 300803.268793569
@@ -77150,9 +77150,9 @@ GAME
 			}
 			CTRLSTATE
 			{
-				pitch = 0.0615436323
-				yaw = -0.0901142657
-				roll = -0.0119650504
+				pitch = 0.0237041507
+				yaw = -0.000249022822
+				roll = 0.0294177439
 				trimPitch = 0
 				trimYaw = 0.0100000007
 				trimRoll = 0
