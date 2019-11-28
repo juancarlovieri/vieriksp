@@ -1,5 +1,5 @@
-vesselCount = 44
-UT = 3371134.3285673764
+vesselCount = 51
+UT = 3388190.2362634228
 gameMode = SANDBOX
 gameNull = False
 gameCompatible = True
@@ -12,4 +12,4 @@ missionIsStarted = False
 missionIsEnded = False
 missionHistoryId = 00000000-0000-0000-0000-000000000000
 missionExpansionVersion = 
-saveMD5 = 19b55e4a6f3f4cf855b6cbcf5cf76a28
+saveMD5 = bcf7df502e0e6f5d801cf3c0b0119a46
