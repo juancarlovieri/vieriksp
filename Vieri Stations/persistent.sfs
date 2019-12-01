@@ -11,7 +11,7 @@ GAME
 	scene = 5
 	editor = None
 	flag = Squad/Flags/default
-	launchID = 17
+	launchID = 18
 	defaultVABLaunchSite = LaunchPad
 	defaultSPHLaunchSite = Runway
 	modded = True
@@ -98,6 +98,30 @@ GAME
 			RepLossMultiplier = 1
 			RepLossDeclined = 1
 		}
+		KSPWheelScaleSettings
+		{
+			partMassScalingPower = 3
+			partCostScalingPower = 3
+			wheelMassScalingPower = 3
+			wheelMaxSpeedScalingPower = 1
+			wheelMaxLoadScalingPower = 3
+			rollingResistanceScalingPower = 1
+			motorTorqueScalingPower = 3
+			motorPowerScalingPower = 3
+			motorMaxRPMScalingPower = 0
+		}
+		KPBSSettings
+		{
+			functionFilter = False
+		}
+		KSPWheelWearSettings
+		{
+			stressDamageMultiplier = 1
+			speedDamageMultiplier = 1
+			slipDamageMultiplier = 1
+			motorDamageMultiplier = 1
+			motorHeatMultiplier = 1
+		}
 		CommNetParams
 		{
 			requireSignalForControl = True
@@ -107,6 +131,16 @@ GAME
 			occlusionMultiplierVac = 0.9
 			occlusionMultiplierAtm = 0.75
 			enableGroundStations = True
+		}
+		KSPWheelSettings
+		{
+			manualGearing = True
+			wheelDustEffects = True
+			wheelDustPower = 1
+			wearType = SIMPLE
+			debugMode = False
+			enableFrictionControl = False
+			globalFrictionAdjustment = 1
 		}
 		AdvancedParams
 		{
@@ -199,6 +233,14 @@ GAME
 			{
 				completed = 37.300000000000232
 			}
+			FirstCrewToSurvive
+			{
+				completed = 3404528.1484201062
+				crew
+				{
+					crews = Valentina Kerman
+				}
+			}
 			RecordsAltitude
 			{
 				completed = 138.13999999999686
@@ -240,6 +282,19 @@ GAME
 						flag = Squad/Flags/default
 					}
 				}
+				Landing
+				{
+					completedManned = 3404522.8484201012
+					vessel
+					{
+						name = crew transferer
+						flag = Squad/Flags/default
+					}
+					crew
+					{
+						crews = Valentina Kerman
+					}
+				}
 				Splashdown
 				{
 					completedUnmanned = 3404407.4028062867
@@ -267,7 +322,7 @@ GAME
 				}
 				ReturnFromOrbit
 				{
-					completedUnmanned = 3404407.4028062867
+					completed = 3404407.4028062867
 					vessel
 					{
 						name = crew transferer
@@ -472,10 +527,15 @@ GAME
 		scene = 7, 8, 5
 		NextSpawnTime = 3410555.5019189734
 	}
+	SCENARIO
+	{
+		name = KPBSScenario
+		scene = 5
+	}
 	FLIGHTSTATE
 	{
 		version = 1.7.0
-		UT = 3404470.1628063451
+		UT = 3404793.4484203532
 		activeVessel = 0
 		mapViewFiltering = 15350
 		commNetUIModeTracking = Network
@@ -684,6 +744,15 @@ GAME
 				FlightIntegrator
 				{
 				}
+				KSPWheelVesselControl
+				{
+				}
+				KSPWheelVesselDebug
+				{
+				}
+				KSPWheelDustCamera
+				{
+				}
 			}
 		}
 		VESSEL
@@ -888,6 +957,15 @@ GAME
 			VESSELMODULES
 			{
 				FlightIntegrator
+				{
+				}
+				KSPWheelVesselControl
+				{
+				}
+				KSPWheelVesselDebug
+				{
+				}
+				KSPWheelDustCamera
 				{
 				}
 			}
@@ -1096,6 +1174,15 @@ GAME
 				FlightIntegrator
 				{
 				}
+				KSPWheelVesselControl
+				{
+				}
+				KSPWheelVesselDebug
+				{
+				}
+				KSPWheelDustCamera
+				{
+				}
 			}
 		}
 		VESSEL
@@ -1300,6 +1387,15 @@ GAME
 			VESSELMODULES
 			{
 				FlightIntegrator
+				{
+				}
+				KSPWheelVesselControl
+				{
+				}
+				KSPWheelVesselDebug
+				{
+				}
+				KSPWheelDustCamera
 				{
 				}
 			}
@@ -25475,10 +25571,19 @@ GAME
 				FlightIntegrator
 				{
 				}
+				KSPWheelVesselControl
+				{
+				}
+				KSPWheelVesselDebug
+				{
+				}
 				CommNetVessel
 				{
 					controlState = ProbeFull
 					canComm = True
+				}
+				KSPWheelDustCamera
+				{
 				}
 			}
 		}
@@ -25684,6 +25789,15 @@ GAME
 			VESSELMODULES
 			{
 				FlightIntegrator
+				{
+				}
+				KSPWheelVesselControl
+				{
+				}
+				KSPWheelVesselDebug
+				{
+				}
+				KSPWheelDustCamera
 				{
 				}
 			}
@@ -26857,10 +26971,19 @@ GAME
 				FlightIntegrator
 				{
 				}
+				KSPWheelVesselControl
+				{
+				}
+				KSPWheelVesselDebug
+				{
+				}
 				CommNetVessel
 				{
 					controlState = ProbeFull
 					canComm = True
+				}
+				KSPWheelDustCamera
+				{
 				}
 			}
 		}
@@ -27068,6 +27191,15 @@ GAME
 				FlightIntegrator
 				{
 				}
+				KSPWheelVesselControl
+				{
+				}
+				KSPWheelVesselDebug
+				{
+				}
+				KSPWheelDustCamera
+				{
+				}
 			}
 		}
 		VESSEL
@@ -27272,6 +27404,15 @@ GAME
 			VESSELMODULES
 			{
 				FlightIntegrator
+				{
+				}
+				KSPWheelVesselControl
+				{
+				}
+				KSPWheelVesselDebug
+				{
+				}
+				KSPWheelDustCamera
 				{
 				}
 			}
@@ -28445,10 +28586,19 @@ GAME
 				FlightIntegrator
 				{
 				}
+				KSPWheelVesselControl
+				{
+				}
+				KSPWheelVesselDebug
+				{
+				}
 				CommNetVessel
 				{
 					controlState = ProbeFull
 					canComm = True
+				}
+				KSPWheelDustCamera
+				{
 				}
 			}
 		}
@@ -28654,6 +28804,15 @@ GAME
 			VESSELMODULES
 			{
 				FlightIntegrator
+				{
+				}
+				KSPWheelVesselControl
+				{
+				}
+				KSPWheelVesselDebug
+				{
+				}
+				KSPWheelDustCamera
 				{
 				}
 			}
@@ -29827,10 +29986,19 @@ GAME
 				FlightIntegrator
 				{
 				}
+				KSPWheelVesselControl
+				{
+				}
+				KSPWheelVesselDebug
+				{
+				}
 				CommNetVessel
 				{
 					controlState = ProbeFull
 					canComm = True
+				}
+				KSPWheelDustCamera
+				{
 				}
 			}
 		}
@@ -30036,6 +30204,15 @@ GAME
 			VESSELMODULES
 			{
 				FlightIntegrator
+				{
+				}
+				KSPWheelVesselControl
+				{
+				}
+				KSPWheelVesselDebug
+				{
+				}
+				KSPWheelDustCamera
 				{
 				}
 			}
@@ -31209,10 +31386,19 @@ GAME
 				FlightIntegrator
 				{
 				}
+				KSPWheelVesselControl
+				{
+				}
+				KSPWheelVesselDebug
+				{
+				}
 				CommNetVessel
 				{
 					controlState = ProbeFull
 					canComm = True
+				}
+				KSPWheelDustCamera
+				{
 				}
 			}
 		}
@@ -31418,6 +31604,15 @@ GAME
 			VESSELMODULES
 			{
 				FlightIntegrator
+				{
+				}
+				KSPWheelVesselControl
+				{
+				}
+				KSPWheelVesselDebug
+				{
+				}
+				KSPWheelDustCamera
 				{
 				}
 			}
@@ -32591,10 +32786,19 @@ GAME
 				FlightIntegrator
 				{
 				}
+				KSPWheelVesselControl
+				{
+				}
+				KSPWheelVesselDebug
+				{
+				}
 				CommNetVessel
 				{
 					controlState = ProbeFull
 					canComm = True
+				}
+				KSPWheelDustCamera
+				{
 				}
 			}
 		}
@@ -32800,6 +33004,15 @@ GAME
 			VESSELMODULES
 			{
 				FlightIntegrator
+				{
+				}
+				KSPWheelVesselControl
+				{
+				}
+				KSPWheelVesselDebug
+				{
+				}
+				KSPWheelDustCamera
 				{
 				}
 			}
@@ -33973,10 +34186,19 @@ GAME
 				FlightIntegrator
 				{
 				}
+				KSPWheelVesselControl
+				{
+				}
+				KSPWheelVesselDebug
+				{
+				}
 				CommNetVessel
 				{
 					controlState = ProbeFull
 					canComm = True
+				}
+				KSPWheelDustCamera
+				{
 				}
 			}
 		}
@@ -34182,6 +34404,15 @@ GAME
 			VESSELMODULES
 			{
 				FlightIntegrator
+				{
+				}
+				KSPWheelVesselControl
+				{
+				}
+				KSPWheelVesselDebug
+				{
+				}
+				KSPWheelDustCamera
 				{
 				}
 			}
@@ -35355,10 +35586,19 @@ GAME
 				FlightIntegrator
 				{
 				}
+				KSPWheelVesselControl
+				{
+				}
+				KSPWheelVesselDebug
+				{
+				}
 				CommNetVessel
 				{
 					controlState = ProbeFull
 					canComm = True
+				}
+				KSPWheelDustCamera
+				{
 				}
 			}
 		}
@@ -35566,6 +35806,15 @@ GAME
 				FlightIntegrator
 				{
 				}
+				KSPWheelVesselControl
+				{
+				}
+				KSPWheelVesselDebug
+				{
+				}
+				KSPWheelDustCamera
+				{
+				}
 			}
 		}
 		VESSEL
@@ -35770,6 +36019,15 @@ GAME
 			VESSELMODULES
 			{
 				FlightIntegrator
+				{
+				}
+				KSPWheelVesselControl
+				{
+				}
+				KSPWheelVesselDebug
+				{
+				}
+				KSPWheelDustCamera
 				{
 				}
 			}
@@ -36943,10 +37201,19 @@ GAME
 				FlightIntegrator
 				{
 				}
+				KSPWheelVesselControl
+				{
+				}
+				KSPWheelVesselDebug
+				{
+				}
 				CommNetVessel
 				{
 					controlState = ProbeFull
 					canComm = True
+				}
+				KSPWheelDustCamera
+				{
 				}
 			}
 		}
@@ -37152,6 +37419,15 @@ GAME
 			VESSELMODULES
 			{
 				FlightIntegrator
+				{
+				}
+				KSPWheelVesselControl
+				{
+				}
+				KSPWheelVesselDebug
+				{
+				}
+				KSPWheelDustCamera
 				{
 				}
 			}
@@ -38325,10 +38601,19 @@ GAME
 				FlightIntegrator
 				{
 				}
+				KSPWheelVesselControl
+				{
+				}
+				KSPWheelVesselDebug
+				{
+				}
 				CommNetVessel
 				{
 					controlState = ProbeFull
 					canComm = True
+				}
+				KSPWheelDustCamera
+				{
 				}
 			}
 		}
@@ -38534,6 +38819,15 @@ GAME
 			VESSELMODULES
 			{
 				FlightIntegrator
+				{
+				}
+				KSPWheelVesselControl
+				{
+				}
+				KSPWheelVesselDebug
+				{
+				}
+				KSPWheelDustCamera
 				{
 				}
 			}
@@ -39707,10 +40001,19 @@ GAME
 				FlightIntegrator
 				{
 				}
+				KSPWheelVesselControl
+				{
+				}
+				KSPWheelVesselDebug
+				{
+				}
 				CommNetVessel
 				{
 					controlState = ProbeFull
 					canComm = True
+				}
+				KSPWheelDustCamera
+				{
 				}
 			}
 		}
@@ -39916,6 +40219,15 @@ GAME
 			VESSELMODULES
 			{
 				FlightIntegrator
+				{
+				}
+				KSPWheelVesselControl
+				{
+				}
+				KSPWheelVesselDebug
+				{
+				}
+				KSPWheelDustCamera
 				{
 				}
 			}
@@ -41089,10 +41401,19 @@ GAME
 				FlightIntegrator
 				{
 				}
+				KSPWheelVesselControl
+				{
+				}
+				KSPWheelVesselDebug
+				{
+				}
 				CommNetVessel
 				{
 					controlState = ProbeFull
 					canComm = True
+				}
+				KSPWheelDustCamera
+				{
 				}
 			}
 		}
@@ -41298,6 +41619,15 @@ GAME
 			VESSELMODULES
 			{
 				FlightIntegrator
+				{
+				}
+				KSPWheelVesselControl
+				{
+				}
+				KSPWheelVesselDebug
+				{
+				}
+				KSPWheelDustCamera
 				{
 				}
 			}
@@ -42471,10 +42801,19 @@ GAME
 				FlightIntegrator
 				{
 				}
+				KSPWheelVesselControl
+				{
+				}
+				KSPWheelVesselDebug
+				{
+				}
 				CommNetVessel
 				{
 					controlState = ProbeFull
 					canComm = True
+				}
+				KSPWheelDustCamera
+				{
 				}
 			}
 		}
@@ -42680,6 +43019,15 @@ GAME
 			VESSELMODULES
 			{
 				FlightIntegrator
+				{
+				}
+				KSPWheelVesselControl
+				{
+				}
+				KSPWheelVesselDebug
+				{
+				}
+				KSPWheelDustCamera
 				{
 				}
 			}
@@ -43853,10 +44201,19 @@ GAME
 				FlightIntegrator
 				{
 				}
+				KSPWheelVesselControl
+				{
+				}
+				KSPWheelVesselDebug
+				{
+				}
 				CommNetVessel
 				{
 					controlState = ProbeFull
 					canComm = True
+				}
+				KSPWheelDustCamera
+				{
 				}
 			}
 		}
@@ -44064,6 +44421,15 @@ GAME
 				FlightIntegrator
 				{
 				}
+				KSPWheelVesselControl
+				{
+				}
+				KSPWheelVesselDebug
+				{
+				}
+				KSPWheelDustCamera
+				{
+				}
 			}
 		}
 		VESSEL
@@ -44268,6 +44634,15 @@ GAME
 			VESSELMODULES
 			{
 				FlightIntegrator
+				{
+				}
+				KSPWheelVesselControl
+				{
+				}
+				KSPWheelVesselDebug
+				{
+				}
+				KSPWheelDustCamera
 				{
 				}
 			}
@@ -45441,10 +45816,19 @@ GAME
 				FlightIntegrator
 				{
 				}
+				KSPWheelVesselControl
+				{
+				}
+				KSPWheelVesselDebug
+				{
+				}
 				CommNetVessel
 				{
 					controlState = ProbeFull
 					canComm = True
+				}
+				KSPWheelDustCamera
+				{
 				}
 			}
 		}
@@ -45650,6 +46034,15 @@ GAME
 			VESSELMODULES
 			{
 				FlightIntegrator
+				{
+				}
+				KSPWheelVesselControl
+				{
+				}
+				KSPWheelVesselDebug
+				{
+				}
+				KSPWheelDustCamera
 				{
 				}
 			}
@@ -46823,10 +47216,19 @@ GAME
 				FlightIntegrator
 				{
 				}
+				KSPWheelVesselControl
+				{
+				}
+				KSPWheelVesselDebug
+				{
+				}
 				CommNetVessel
 				{
 					controlState = ProbeFull
 					canComm = True
+				}
+				KSPWheelDustCamera
+				{
 				}
 			}
 		}
@@ -47032,6 +47434,15 @@ GAME
 			VESSELMODULES
 			{
 				FlightIntegrator
+				{
+				}
+				KSPWheelVesselControl
+				{
+				}
+				KSPWheelVesselDebug
+				{
+				}
+				KSPWheelDustCamera
 				{
 				}
 			}
@@ -48205,10 +48616,19 @@ GAME
 				FlightIntegrator
 				{
 				}
+				KSPWheelVesselControl
+				{
+				}
+				KSPWheelVesselDebug
+				{
+				}
 				CommNetVessel
 				{
 					controlState = ProbeFull
 					canComm = True
+				}
+				KSPWheelDustCamera
+				{
 				}
 			}
 		}
@@ -48414,6 +48834,15 @@ GAME
 			VESSELMODULES
 			{
 				FlightIntegrator
+				{
+				}
+				KSPWheelVesselControl
+				{
+				}
+				KSPWheelVesselDebug
+				{
+				}
+				KSPWheelDustCamera
 				{
 				}
 			}
@@ -49587,10 +50016,19 @@ GAME
 				FlightIntegrator
 				{
 				}
+				KSPWheelVesselControl
+				{
+				}
+				KSPWheelVesselDebug
+				{
+				}
 				CommNetVessel
 				{
 					controlState = ProbeFull
 					canComm = True
+				}
+				KSPWheelDustCamera
+				{
 				}
 			}
 		}
@@ -49796,6 +50234,15 @@ GAME
 			VESSELMODULES
 			{
 				FlightIntegrator
+				{
+				}
+				KSPWheelVesselControl
+				{
+				}
+				KSPWheelVesselDebug
+				{
+				}
+				KSPWheelDustCamera
 				{
 				}
 			}
@@ -50969,10 +51416,19 @@ GAME
 				FlightIntegrator
 				{
 				}
+				KSPWheelVesselControl
+				{
+				}
+				KSPWheelVesselDebug
+				{
+				}
 				CommNetVessel
 				{
 					controlState = ProbeFull
 					canComm = True
+				}
+				KSPWheelDustCamera
+				{
 				}
 			}
 		}
@@ -51178,6 +51634,15 @@ GAME
 			VESSELMODULES
 			{
 				FlightIntegrator
+				{
+				}
+				KSPWheelVesselControl
+				{
+				}
+				KSPWheelVesselDebug
+				{
+				}
+				KSPWheelDustCamera
 				{
 				}
 			}
@@ -52351,10 +52816,19 @@ GAME
 				FlightIntegrator
 				{
 				}
+				KSPWheelVesselControl
+				{
+				}
+				KSPWheelVesselDebug
+				{
+				}
 				CommNetVessel
 				{
 					controlState = ProbeFull
 					canComm = True
+				}
+				KSPWheelDustCamera
+				{
 				}
 			}
 		}
@@ -52562,6 +53036,15 @@ GAME
 				FlightIntegrator
 				{
 				}
+				KSPWheelVesselControl
+				{
+				}
+				KSPWheelVesselDebug
+				{
+				}
+				KSPWheelDustCamera
+				{
+				}
 			}
 		}
 		VESSEL
@@ -52766,6 +53249,15 @@ GAME
 			VESSELMODULES
 			{
 				FlightIntegrator
+				{
+				}
+				KSPWheelVesselControl
+				{
+				}
+				KSPWheelVesselDebug
+				{
+				}
+				KSPWheelDustCamera
 				{
 				}
 			}
@@ -53939,10 +54431,19 @@ GAME
 				FlightIntegrator
 				{
 				}
+				KSPWheelVesselControl
+				{
+				}
+				KSPWheelVesselDebug
+				{
+				}
 				CommNetVessel
 				{
 					controlState = ProbeFull
 					canComm = True
+				}
+				KSPWheelDustCamera
+				{
 				}
 			}
 		}
@@ -54148,6 +54649,15 @@ GAME
 			VESSELMODULES
 			{
 				FlightIntegrator
+				{
+				}
+				KSPWheelVesselControl
+				{
+				}
+				KSPWheelVesselDebug
+				{
+				}
+				KSPWheelDustCamera
 				{
 				}
 			}
@@ -55321,10 +55831,19 @@ GAME
 				FlightIntegrator
 				{
 				}
+				KSPWheelVesselControl
+				{
+				}
+				KSPWheelVesselDebug
+				{
+				}
 				CommNetVessel
 				{
 					controlState = ProbeFull
 					canComm = True
+				}
+				KSPWheelDustCamera
+				{
 				}
 			}
 		}
@@ -55530,6 +56049,15 @@ GAME
 			VESSELMODULES
 			{
 				FlightIntegrator
+				{
+				}
+				KSPWheelVesselControl
+				{
+				}
+				KSPWheelVesselDebug
+				{
+				}
+				KSPWheelDustCamera
 				{
 				}
 			}
@@ -56703,10 +57231,19 @@ GAME
 				FlightIntegrator
 				{
 				}
+				KSPWheelVesselControl
+				{
+				}
+				KSPWheelVesselDebug
+				{
+				}
 				CommNetVessel
 				{
 					controlState = ProbeFull
 					canComm = True
+				}
+				KSPWheelDustCamera
+				{
 				}
 			}
 		}
@@ -56912,6 +57449,15 @@ GAME
 			VESSELMODULES
 			{
 				FlightIntegrator
+				{
+				}
+				KSPWheelVesselControl
+				{
+				}
+				KSPWheelVesselDebug
+				{
+				}
+				KSPWheelDustCamera
 				{
 				}
 			}
@@ -58085,10 +58631,19 @@ GAME
 				FlightIntegrator
 				{
 				}
+				KSPWheelVesselControl
+				{
+				}
+				KSPWheelVesselDebug
+				{
+				}
 				CommNetVessel
 				{
 					controlState = ProbeFull
 					canComm = True
+				}
+				KSPWheelDustCamera
+				{
 				}
 			}
 		}
@@ -58294,6 +58849,15 @@ GAME
 			VESSELMODULES
 			{
 				FlightIntegrator
+				{
+				}
+				KSPWheelVesselControl
+				{
+				}
+				KSPWheelVesselDebug
+				{
+				}
+				KSPWheelDustCamera
 				{
 				}
 			}
@@ -59467,10 +60031,19 @@ GAME
 				FlightIntegrator
 				{
 				}
+				KSPWheelVesselControl
+				{
+				}
+				KSPWheelVesselDebug
+				{
+				}
 				CommNetVessel
 				{
 					controlState = ProbeFull
 					canComm = True
+				}
+				KSPWheelDustCamera
+				{
 				}
 			}
 		}
@@ -59678,6 +60251,15 @@ GAME
 				FlightIntegrator
 				{
 				}
+				KSPWheelVesselControl
+				{
+				}
+				KSPWheelVesselDebug
+				{
+				}
+				KSPWheelDustCamera
+				{
+				}
 			}
 		}
 		VESSEL
@@ -59780,6 +60362,15 @@ GAME
 			VESSELMODULES
 			{
 				FlightIntegrator
+				{
+				}
+				KSPWheelVesselControl
+				{
+				}
+				KSPWheelVesselDebug
+				{
+				}
+				KSPWheelDustCamera
 				{
 				}
 			}
@@ -59886,6 +60477,15 @@ GAME
 				FlightIntegrator
 				{
 				}
+				KSPWheelVesselControl
+				{
+				}
+				KSPWheelVesselDebug
+				{
+				}
+				KSPWheelDustCamera
+				{
+				}
 			}
 		}
 		VESSEL
@@ -59988,6 +60588,15 @@ GAME
 			VESSELMODULES
 			{
 				FlightIntegrator
+				{
+				}
+				KSPWheelVesselControl
+				{
+				}
+				KSPWheelVesselDebug
+				{
+				}
+				KSPWheelDustCamera
 				{
 				}
 			}
@@ -60094,6 +60703,15 @@ GAME
 				FlightIntegrator
 				{
 				}
+				KSPWheelVesselControl
+				{
+				}
+				KSPWheelVesselDebug
+				{
+				}
+				KSPWheelDustCamera
+				{
+				}
 			}
 		}
 		VESSEL
@@ -60196,6 +60814,15 @@ GAME
 			VESSELMODULES
 			{
 				FlightIntegrator
+				{
+				}
+				KSPWheelVesselControl
+				{
+				}
+				KSPWheelVesselDebug
+				{
+				}
+				KSPWheelDustCamera
 				{
 				}
 			}
@@ -60302,6 +60929,15 @@ GAME
 				FlightIntegrator
 				{
 				}
+				KSPWheelVesselControl
+				{
+				}
+				KSPWheelVesselDebug
+				{
+				}
+				KSPWheelDustCamera
+				{
+				}
 			}
 		}
 		VESSEL
@@ -60404,6 +61040,15 @@ GAME
 			VESSELMODULES
 			{
 				FlightIntegrator
+				{
+				}
+				KSPWheelVesselControl
+				{
+				}
+				KSPWheelVesselDebug
+				{
+				}
+				KSPWheelDustCamera
 				{
 				}
 			}
@@ -61577,10 +62222,19 @@ GAME
 				FlightIntegrator
 				{
 				}
+				KSPWheelVesselControl
+				{
+				}
+				KSPWheelVesselDebug
+				{
+				}
 				CommNetVessel
 				{
 					controlState = ProbeFull
 					canComm = True
+				}
+				KSPWheelDustCamera
+				{
 				}
 			}
 		}
@@ -61788,6 +62442,15 @@ GAME
 				FlightIntegrator
 				{
 				}
+				KSPWheelVesselControl
+				{
+				}
+				KSPWheelVesselDebug
+				{
+				}
+				KSPWheelDustCamera
+				{
+				}
 			}
 		}
 		VESSEL
@@ -61992,6 +62655,15 @@ GAME
 			VESSELMODULES
 			{
 				FlightIntegrator
+				{
+				}
+				KSPWheelVesselControl
+				{
+				}
+				KSPWheelVesselDebug
+				{
+				}
+				KSPWheelDustCamera
 				{
 				}
 			}
@@ -63165,10 +63837,19 @@ GAME
 				FlightIntegrator
 				{
 				}
+				KSPWheelVesselControl
+				{
+				}
+				KSPWheelVesselDebug
+				{
+				}
 				CommNetVessel
 				{
 					controlState = ProbeFull
 					canComm = True
+				}
+				KSPWheelDustCamera
+				{
 				}
 			}
 		}
@@ -63374,6 +64055,15 @@ GAME
 			VESSELMODULES
 			{
 				FlightIntegrator
+				{
+				}
+				KSPWheelVesselControl
+				{
+				}
+				KSPWheelVesselDebug
+				{
+				}
+				KSPWheelDustCamera
 				{
 				}
 			}
@@ -64547,10 +65237,19 @@ GAME
 				FlightIntegrator
 				{
 				}
+				KSPWheelVesselControl
+				{
+				}
+				KSPWheelVesselDebug
+				{
+				}
 				CommNetVessel
 				{
 					controlState = ProbeFull
 					canComm = True
+				}
+				KSPWheelDustCamera
+				{
 				}
 			}
 		}
@@ -64756,6 +65455,15 @@ GAME
 			VESSELMODULES
 			{
 				FlightIntegrator
+				{
+				}
+				KSPWheelVesselControl
+				{
+				}
+				KSPWheelVesselDebug
+				{
+				}
+				KSPWheelDustCamera
 				{
 				}
 			}
@@ -65929,10 +66637,19 @@ GAME
 				FlightIntegrator
 				{
 				}
+				KSPWheelVesselControl
+				{
+				}
+				KSPWheelVesselDebug
+				{
+				}
 				CommNetVessel
 				{
 					controlState = ProbeFull
 					canComm = True
+				}
+				KSPWheelDustCamera
+				{
 				}
 			}
 		}
@@ -66138,6 +66855,15 @@ GAME
 			VESSELMODULES
 			{
 				FlightIntegrator
+				{
+				}
+				KSPWheelVesselControl
+				{
+				}
+				KSPWheelVesselDebug
+				{
+				}
+				KSPWheelDustCamera
 				{
 				}
 			}
@@ -67311,10 +68037,19 @@ GAME
 				FlightIntegrator
 				{
 				}
+				KSPWheelVesselControl
+				{
+				}
+				KSPWheelVesselDebug
+				{
+				}
 				CommNetVessel
 				{
 					controlState = ProbeFull
 					canComm = True
+				}
+				KSPWheelDustCamera
+				{
 				}
 			}
 		}
@@ -67520,6 +68255,15 @@ GAME
 			VESSELMODULES
 			{
 				FlightIntegrator
+				{
+				}
+				KSPWheelVesselControl
+				{
+				}
+				KSPWheelVesselDebug
+				{
+				}
+				KSPWheelDustCamera
 				{
 				}
 			}
@@ -68693,10 +69437,19 @@ GAME
 				FlightIntegrator
 				{
 				}
+				KSPWheelVesselControl
+				{
+				}
+				KSPWheelVesselDebug
+				{
+				}
 				CommNetVessel
 				{
 					controlState = ProbeFull
 					canComm = True
+				}
+				KSPWheelDustCamera
+				{
 				}
 			}
 		}
@@ -68902,6 +69655,15 @@ GAME
 			VESSELMODULES
 			{
 				FlightIntegrator
+				{
+				}
+				KSPWheelVesselControl
+				{
+				}
+				KSPWheelVesselDebug
+				{
+				}
+				KSPWheelDustCamera
 				{
 				}
 			}
@@ -70075,10 +70837,19 @@ GAME
 				FlightIntegrator
 				{
 				}
+				KSPWheelVesselControl
+				{
+				}
+				KSPWheelVesselDebug
+				{
+				}
 				CommNetVessel
 				{
 					controlState = ProbeFull
 					canComm = True
+				}
+				KSPWheelDustCamera
+				{
 				}
 			}
 		}
@@ -70286,6 +71057,15 @@ GAME
 				FlightIntegrator
 				{
 				}
+				KSPWheelVesselControl
+				{
+				}
+				KSPWheelVesselDebug
+				{
+				}
+				KSPWheelDustCamera
+				{
+				}
 			}
 		}
 		VESSEL
@@ -70490,6 +71270,15 @@ GAME
 			VESSELMODULES
 			{
 				FlightIntegrator
+				{
+				}
+				KSPWheelVesselControl
+				{
+				}
+				KSPWheelVesselDebug
+				{
+				}
+				KSPWheelDustCamera
 				{
 				}
 			}
@@ -71663,10 +72452,19 @@ GAME
 				FlightIntegrator
 				{
 				}
+				KSPWheelVesselControl
+				{
+				}
+				KSPWheelVesselDebug
+				{
+				}
 				CommNetVessel
 				{
 					controlState = ProbeFull
 					canComm = True
+				}
+				KSPWheelDustCamera
+				{
 				}
 			}
 		}
@@ -71872,6 +72670,15 @@ GAME
 			VESSELMODULES
 			{
 				FlightIntegrator
+				{
+				}
+				KSPWheelVesselControl
+				{
+				}
+				KSPWheelVesselDebug
+				{
+				}
+				KSPWheelDustCamera
 				{
 				}
 			}
@@ -73045,10 +73852,19 @@ GAME
 				FlightIntegrator
 				{
 				}
+				KSPWheelVesselControl
+				{
+				}
+				KSPWheelVesselDebug
+				{
+				}
 				CommNetVessel
 				{
 					controlState = ProbeFull
 					canComm = True
+				}
+				KSPWheelDustCamera
+				{
 				}
 			}
 		}
@@ -73254,6 +74070,15 @@ GAME
 			VESSELMODULES
 			{
 				FlightIntegrator
+				{
+				}
+				KSPWheelVesselControl
+				{
+				}
+				KSPWheelVesselDebug
+				{
+				}
+				KSPWheelDustCamera
 				{
 				}
 			}
@@ -74427,10 +75252,19 @@ GAME
 				FlightIntegrator
 				{
 				}
+				KSPWheelVesselControl
+				{
+				}
+				KSPWheelVesselDebug
+				{
+				}
 				CommNetVessel
 				{
 					controlState = ProbeFull
 					canComm = True
+				}
+				KSPWheelDustCamera
+				{
 				}
 			}
 		}
@@ -74636,6 +75470,15 @@ GAME
 			VESSELMODULES
 			{
 				FlightIntegrator
+				{
+				}
+				KSPWheelVesselControl
+				{
+				}
+				KSPWheelVesselDebug
+				{
+				}
+				KSPWheelDustCamera
 				{
 				}
 			}
@@ -75809,10 +76652,19 @@ GAME
 				FlightIntegrator
 				{
 				}
+				KSPWheelVesselControl
+				{
+				}
+				KSPWheelVesselDebug
+				{
+				}
 				CommNetVessel
 				{
 					controlState = ProbeFull
 					canComm = True
+				}
+				KSPWheelDustCamera
+				{
 				}
 			}
 		}
@@ -76018,6 +76870,15 @@ GAME
 			VESSELMODULES
 			{
 				FlightIntegrator
+				{
+				}
+				KSPWheelVesselControl
+				{
+				}
+				KSPWheelVesselDebug
+				{
+				}
+				KSPWheelDustCamera
 				{
 				}
 			}
@@ -77191,10 +78052,19 @@ GAME
 				FlightIntegrator
 				{
 				}
+				KSPWheelVesselControl
+				{
+				}
+				KSPWheelVesselDebug
+				{
+				}
 				CommNetVessel
 				{
 					controlState = ProbeFull
 					canComm = True
+				}
+				KSPWheelDustCamera
+				{
 				}
 			}
 		}
@@ -77400,6 +78270,15 @@ GAME
 			VESSELMODULES
 			{
 				FlightIntegrator
+				{
+				}
+				KSPWheelVesselControl
+				{
+				}
+				KSPWheelVesselDebug
+				{
+				}
+				KSPWheelDustCamera
 				{
 				}
 			}
@@ -78573,10 +79452,19 @@ GAME
 				FlightIntegrator
 				{
 				}
+				KSPWheelVesselControl
+				{
+				}
+				KSPWheelVesselDebug
+				{
+				}
 				CommNetVessel
 				{
 					controlState = ProbeFull
 					canComm = True
+				}
+				KSPWheelDustCamera
+				{
 				}
 			}
 		}
@@ -78784,6 +79672,15 @@ GAME
 				FlightIntegrator
 				{
 				}
+				KSPWheelVesselControl
+				{
+				}
+				KSPWheelVesselDebug
+				{
+				}
+				KSPWheelDustCamera
+				{
+				}
 			}
 		}
 		VESSEL
@@ -78988,6 +79885,15 @@ GAME
 			VESSELMODULES
 			{
 				FlightIntegrator
+				{
+				}
+				KSPWheelVesselControl
+				{
+				}
+				KSPWheelVesselDebug
+				{
+				}
+				KSPWheelDustCamera
 				{
 				}
 			}
@@ -80161,10 +81067,19 @@ GAME
 				FlightIntegrator
 				{
 				}
+				KSPWheelVesselControl
+				{
+				}
+				KSPWheelVesselDebug
+				{
+				}
 				CommNetVessel
 				{
 					controlState = ProbeFull
 					canComm = True
+				}
+				KSPWheelDustCamera
+				{
 				}
 			}
 		}
@@ -80370,6 +81285,15 @@ GAME
 			VESSELMODULES
 			{
 				FlightIntegrator
+				{
+				}
+				KSPWheelVesselControl
+				{
+				}
+				KSPWheelVesselDebug
+				{
+				}
+				KSPWheelDustCamera
 				{
 				}
 			}
@@ -81543,10 +82467,19 @@ GAME
 				FlightIntegrator
 				{
 				}
+				KSPWheelVesselControl
+				{
+				}
+				KSPWheelVesselDebug
+				{
+				}
 				CommNetVessel
 				{
 					controlState = ProbeFull
 					canComm = True
+				}
+				KSPWheelDustCamera
+				{
 				}
 			}
 		}
@@ -81752,6 +82685,15 @@ GAME
 			VESSELMODULES
 			{
 				FlightIntegrator
+				{
+				}
+				KSPWheelVesselControl
+				{
+				}
+				KSPWheelVesselDebug
+				{
+				}
+				KSPWheelDustCamera
 				{
 				}
 			}
@@ -82925,10 +83867,19 @@ GAME
 				FlightIntegrator
 				{
 				}
+				KSPWheelVesselControl
+				{
+				}
+				KSPWheelVesselDebug
+				{
+				}
 				CommNetVessel
 				{
 					controlState = ProbeFull
 					canComm = True
+				}
+				KSPWheelDustCamera
+				{
 				}
 			}
 		}
@@ -83134,6 +84085,15 @@ GAME
 			VESSELMODULES
 			{
 				FlightIntegrator
+				{
+				}
+				KSPWheelVesselControl
+				{
+				}
+				KSPWheelVesselDebug
+				{
+				}
+				KSPWheelDustCamera
 				{
 				}
 			}
@@ -84307,10 +85267,19 @@ GAME
 				FlightIntegrator
 				{
 				}
+				KSPWheelVesselControl
+				{
+				}
+				KSPWheelVesselDebug
+				{
+				}
 				CommNetVessel
 				{
 					controlState = ProbeFull
 					canComm = True
+				}
+				KSPWheelDustCamera
+				{
 				}
 			}
 		}
@@ -84516,6 +85485,15 @@ GAME
 			VESSELMODULES
 			{
 				FlightIntegrator
+				{
+				}
+				KSPWheelVesselControl
+				{
+				}
+				KSPWheelVesselDebug
+				{
+				}
+				KSPWheelDustCamera
 				{
 				}
 			}
@@ -85689,10 +86667,19 @@ GAME
 				FlightIntegrator
 				{
 				}
+				KSPWheelVesselControl
+				{
+				}
+				KSPWheelVesselDebug
+				{
+				}
 				CommNetVessel
 				{
 					controlState = ProbeFull
 					canComm = True
+				}
+				KSPWheelDustCamera
+				{
 				}
 			}
 		}
@@ -85898,6 +86885,15 @@ GAME
 			VESSELMODULES
 			{
 				FlightIntegrator
+				{
+				}
+				KSPWheelVesselControl
+				{
+				}
+				KSPWheelVesselDebug
+				{
+				}
+				KSPWheelDustCamera
 				{
 				}
 			}
@@ -87072,10 +88068,19 @@ GAME
 				FlightIntegrator
 				{
 				}
+				KSPWheelVesselControl
+				{
+				}
+				KSPWheelVesselDebug
+				{
+				}
 				CommNetVessel
 				{
 					controlState = ProbeFull
 					canComm = True
+				}
+				KSPWheelDustCamera
+				{
 				}
 			}
 		}
@@ -87283,6 +88288,15 @@ GAME
 				FlightIntegrator
 				{
 				}
+				KSPWheelVesselControl
+				{
+				}
+				KSPWheelVesselDebug
+				{
+				}
+				KSPWheelDustCamera
+				{
+				}
 			}
 		}
 		VESSEL
@@ -87487,6 +88501,15 @@ GAME
 			VESSELMODULES
 			{
 				FlightIntegrator
+				{
+				}
+				KSPWheelVesselControl
+				{
+				}
+				KSPWheelVesselDebug
+				{
+				}
+				KSPWheelDustCamera
 				{
 				}
 			}
@@ -88661,10 +89684,19 @@ GAME
 				FlightIntegrator
 				{
 				}
+				KSPWheelVesselControl
+				{
+				}
+				KSPWheelVesselDebug
+				{
+				}
 				CommNetVessel
 				{
 					controlState = ProbeFull
 					canComm = True
+				}
+				KSPWheelDustCamera
+				{
 				}
 			}
 		}
@@ -88870,6 +89902,15 @@ GAME
 			VESSELMODULES
 			{
 				FlightIntegrator
+				{
+				}
+				KSPWheelVesselControl
+				{
+				}
+				KSPWheelVesselDebug
+				{
+				}
+				KSPWheelDustCamera
 				{
 				}
 			}
@@ -90044,10 +91085,19 @@ GAME
 				FlightIntegrator
 				{
 				}
+				KSPWheelVesselControl
+				{
+				}
+				KSPWheelVesselDebug
+				{
+				}
 				CommNetVessel
 				{
 					controlState = ProbeFull
 					canComm = True
+				}
+				KSPWheelDustCamera
+				{
 				}
 			}
 		}
@@ -90253,6 +91303,15 @@ GAME
 			VESSELMODULES
 			{
 				FlightIntegrator
+				{
+				}
+				KSPWheelVesselControl
+				{
+				}
+				KSPWheelVesselDebug
+				{
+				}
+				KSPWheelDustCamera
 				{
 				}
 			}
@@ -91427,10 +92486,19 @@ GAME
 				FlightIntegrator
 				{
 				}
+				KSPWheelVesselControl
+				{
+				}
+				KSPWheelVesselDebug
+				{
+				}
 				CommNetVessel
 				{
 					controlState = ProbeFull
 					canComm = True
+				}
+				KSPWheelDustCamera
+				{
 				}
 			}
 		}
@@ -91636,6 +92704,15 @@ GAME
 			VESSELMODULES
 			{
 				FlightIntegrator
+				{
+				}
+				KSPWheelVesselControl
+				{
+				}
+				KSPWheelVesselDebug
+				{
+				}
+				KSPWheelDustCamera
 				{
 				}
 			}
@@ -92810,10 +93887,19 @@ GAME
 				FlightIntegrator
 				{
 				}
+				KSPWheelVesselControl
+				{
+				}
+				KSPWheelVesselDebug
+				{
+				}
 				CommNetVessel
 				{
 					controlState = ProbeFull
 					canComm = True
+				}
+				KSPWheelDustCamera
+				{
 				}
 			}
 		}
@@ -93019,6 +94105,15 @@ GAME
 			VESSELMODULES
 			{
 				FlightIntegrator
+				{
+				}
+				KSPWheelVesselControl
+				{
+				}
+				KSPWheelVesselDebug
+				{
+				}
+				KSPWheelDustCamera
 				{
 				}
 			}
@@ -94193,10 +95288,19 @@ GAME
 				FlightIntegrator
 				{
 				}
+				KSPWheelVesselControl
+				{
+				}
+				KSPWheelVesselDebug
+				{
+				}
 				CommNetVessel
 				{
 					controlState = ProbeFull
 					canComm = True
+				}
+				KSPWheelDustCamera
+				{
 				}
 			}
 		}
@@ -94402,6 +95506,15 @@ GAME
 			VESSELMODULES
 			{
 				FlightIntegrator
+				{
+				}
+				KSPWheelVesselControl
+				{
+				}
+				KSPWheelVesselDebug
+				{
+				}
+				KSPWheelDustCamera
 				{
 				}
 			}
@@ -94610,6 +95723,15 @@ GAME
 				FlightIntegrator
 				{
 				}
+				KSPWheelVesselControl
+				{
+				}
+				KSPWheelVesselDebug
+				{
+				}
+				KSPWheelDustCamera
+				{
+				}
 			}
 		}
 		VESSEL
@@ -94816,6 +95938,15 @@ GAME
 				FlightIntegrator
 				{
 				}
+				KSPWheelVesselControl
+				{
+				}
+				KSPWheelVesselDebug
+				{
+				}
+				KSPWheelDustCamera
+				{
+				}
 			}
 		}
 	}
@@ -94835,6 +95966,20 @@ GAME
 		ModuleManager.ConfigSHA = True
 		ModuleManager.Physics = True
 		ModuleManager.TechTree = True
+		000_USITools = False
+		CommunityCategoryKit = True
+		CommunityResourcePack = True
+		Firespitter = False
+		UmbraSpaceIndustries = False
+		ModuleManager.4.1.0.dll = True
+		KSPModFileLocalizer v0.2.3.3 = True
+		CCK v4.0.0.0 / v4.0.0.0 for KSP 1.5.0 = True
+		PlanetarySurfaceStructures v1.6.9.0 = True
+		PlanetaryBaseInc = True
+		KSPModFileLocalizer.dll = True
+		KSPWheel v0.0.0.0 = True
+		KSPWheel = True
+		KerbalFoundries = True
 	}
 	ROSTER
 	{
@@ -94960,7 +96105,7 @@ GAME
 			gExperienced = 0
 			outDueToG = False
 			ToD = 0
-			idx = -1
+			idx = 0
 			extraXP = 0
 			hasHelmetOn = False
 			hasNeckRingOn = False
@@ -94968,11 +96113,14 @@ GAME
 			hero = True
 			CAREER_LOG
 			{
-				flight = 0
+				flight = 1
+				0 = Flight,Kerbin
+				0 = Land,Kerbin
+				0 = Recover
 			}
 			FLIGHT_LOG
 			{
-				flight = 0
+				flight = 1
 			}
 		}
 	}
