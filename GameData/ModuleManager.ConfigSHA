@@ -1,4 +1,4 @@
-SHA = 47-93-23-C2-9E-1C-03-9B-24-24-D5-98-79-F5-AC-16-2F-7E-F1-38-2C-8A-A5-78-06-03-0E-FA-F1-59-AF-57
+SHA = D6-23-86-FC-F7-8F-77-E8-B1-C5-89-BC-08-73-17-42-43-90-51-D3-55-86-28-A5-6F-35-C1-9A-41-E4-C2-6C
 version = 4.0.2.0
 KSPVersion = 1.7.0.2483
 FilesSHA
@@ -2537,6 +2537,21 @@ FilesSHA
 	{
 		filename = PlanetaryBaseInc/ModSupport/Spaces/Workshops/Workshop_g_internal
 		SHA = 35-35-4A-5A-63-14-0B-B2-1B-0B-15-13-55-97-36-8F-36-5D-B8-F2-7B-DD-2F-E4-A6-8C-78-64-34-96-A6-7D
+	}
+	FILE
+	{
+		filename = ScienceAlert/MM_Configs/ExcludedExperiments
+		SHA = 7F-D3-F1-76-73-16-8C-A8-D7-F0-52-39-64-1D-0F-72-9E-F3-5C-00-8D-AA-6F-0C-5D-D5-40-DF-B4-2B-98-D8
+	}
+	FILE
+	{
+		filename = ScienceAlert/MM_Configs/ExcludedManufacturers
+		SHA = 31-18-B2-8B-F2-DD-2F-6E-92-F5-74-EA-1E-A7-45-70-87-DA-D0-D7-C1-15-A6-BA-C3-9F-3E-F4-57-80-4D-94
+	}
+	FILE
+	{
+		filename = ScienceAlert/MM_Configs/zzz_fix_biomeMask_situationMask_0
+		SHA = A3-50-F1-43-55-58-EF-5C-24-9E-D7-82-43-B5-F6-74-60-FC-23-88-E9-65-53-80-66-5D-1F-6F-E1-4A-99-72
 	}
 	FILE
 	{
@@ -5287,5 +5302,25 @@ FilesSHA
 	{
 		filename = StationPartsExpansionRedux/Patches/SSPXr-StockPartReplacements
 		SHA = 11-7B-37-DD-93-9B-E5-9A-31-BE-48-A5-A8-08-AC-1E-FE-C1-79-99-10-C5-A2-58-77-99-46-A5-A1-13-A2-CE
+	}
+	FILE
+	{
+		filename = Telemachus/Parts/Telemach_Blade/Telemach_Blade
+		SHA = D2-E6-AE-C0-D4-7A-DA-1F-46-22-E7-CD-1B-6C-F8-35-DB-18-4D-2F-7C-2F-25-97-C5-0F-3E-C4-F4-D2-94-7F
+	}
+	FILE
+	{
+		filename = Telemachus/Parts/Telemach_Fustek/Telemach_Fustek
+		SHA = 2D-E9-D8-DC-3F-74-45-D0-AE-48-4F-84-A1-A6-20-97-A7-D9-93-43-92-22-A4-14-8D-DA-4E-76-DC-AD-E6-1E
+	}
+	FILE
+	{
+		filename = Telemachus/Parts/Telemach_Yagi/Telemach_Yagi
+		SHA = 58-47-F6-64-2A-F2-15-6F-4A-99-2D-F4-75-20-19-FC-94-6E-50-45-B9-76-7E-20-D8-E3-69-37-53-A9-E2-70
+	}
+	FILE
+	{
+		filename = Telemachus/Parts/ThirdPartyParts/rpm-camera-support
+		SHA = 6E-9F-F7-D4-31-D5-05-5D-C5-FC-40-29-B3-26-33-BE-51-CF-44-07-58-3A-14-47-10-80-C2-32-3A-70-D5-D5
 	}
 }
