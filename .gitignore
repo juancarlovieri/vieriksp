@@ -1,4 +1,8 @@
-*
+/*
 !.gitignore
 !GameData
-!saves
+!/saves
+/saves/*
+!/saves/Vieri\ Stations
+!/saves/Vieri\ Science
+.DS_Store
