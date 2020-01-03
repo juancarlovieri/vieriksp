@@ -2,7 +2,7 @@ ship = base core test
 version = 1.7.0
 description = 
 type = VAB
-size = 4.19989777,4.32207108,4.05932188
+size = 4.19989777,4.41860771,4.0593214
 steamPublishedFileId = 0
 persistentId = 3203597422
 rot = 0,0,0,0
@@ -13,9 +13,9 @@ PART
 	part = KKAOSS.Central.Hub_4281780158
 	partName = Part
 	persistentId = 373412457
-	pos = 0.0757862031,11.539773,-3.40702724
+	pos = 2.11167479,11.593154,0.0959350467
 	attPos = 0,0,0
-	attPos0 = 0.0757862031,11.539773,-3.40702724
+	attPos0 = 2.11167479,11.593154,0.0959350467
 	rot = 0,0,0,1
 	attRot = 0,0,0,0.999999881
 	attRot0 = 0,0,0,1
@@ -38,6 +38,8 @@ PART
 	link = KKAOSS.dock.habitat_4281741268
 	link = KKAOSS.dock.habitat_4281741792
 	link = sspx-adjusting-base-375-1_4279429516
+	link = KKAOSS.dock.gangway_4294302552
+	attN = top,KKAOSS.dock.gangway_4294302552_0|2.04687|0
 	attN = bottom,sspx-adjusting-base-375-1_4279429516_0|-0.85847|0
 	attN = left,KKAOSS.dock.habitat_4281741268_1.833|-0.24308|0
 	attN = right,KKAOSS.dock.habitat_4281742710_-1.833|-0.24308|0
@@ -878,7 +880,7 @@ PART
 	part = KKAOSS.dock.habitat_4281745972
 	partName = Part
 	persistentId = 188750962
-	pos = 0.0757862031,11.2966928,-5.3100276
+	pos = 2.11167479,11.3500738,-1.80706525
 	attPos = 0,0,0
 	attPos0 = 0,-0.243080139,-1.90299988
 	rot = 0,0.707106829,-0.707106829,0
@@ -957,7 +959,7 @@ PART
 	part = KKAOSS.dock.habitat_4281742710
 	partName = Part
 	persistentId = 1973426503
-	pos = -1.82721364,11.2966928,-3.40702724
+	pos = 0.208674908,11.3500738,0.0959350467
 	attPos = 0,0,0
 	attPos0 = -1.90299988,-0.243080139,0
 	rot = 0.5,-0.5,0.5,0.5
@@ -1036,7 +1038,7 @@ PART
 	part = KKAOSS.dock.habitat_4281741268
 	partName = Part
 	persistentId = 1539747734
-	pos = 1.97878647,11.2966928,-3.40702724
+	pos = 4.01467514,11.3500738,0.0959350467
 	attPos = 0,0,0
 	attPos0 = 1.90299988,-0.243080139,0
 	rot = 0.5,0.5,-0.5,0.5
@@ -1115,7 +1117,7 @@ PART
 	part = KKAOSS.dock.habitat_4281741792
 	partName = Part
 	persistentId = 2085406007
-	pos = 0.0757862031,11.2966928,-1.50402737
+	pos = 2.11167479,11.3500738,1.99893498
 	attPos = 0,0,0
 	attPos0 = 0,-0.243080139,1.90299988
 	rot = 0.707106829,0,0,0.707106829
@@ -1194,7 +1196,7 @@ PART
 	part = sspx-adjusting-base-375-1_4279429516
 	partName = Part
 	persistentId = 3507053704
-	pos = 0.0757862031,10.115303,-3.40702724
+	pos = 2.11167479,10.168684,0.0959350467
 	attPos = 0,0,0
 	attPos0 = 0,-1.42446995,0
 	rot = 0,0,0,1
@@ -1383,7 +1385,7 @@ PART
 	part = KF.SurfaceTrack_4279426250
 	partName = Part
 	persistentId = 2843967692
-	pos = -0.527140498,10.0493183,-4.00995398
+	pos = 1.50874805,10.1026993,-0.506991684
 	attPos = 0,0,0
 	attPos0 = -0.602926731,-0.065984726,-0.602926731
 	rot = 0,8.72220005E-11,-8.72220005E-11,1
@@ -1668,7 +1670,7 @@ PART
 	part = KF.SurfaceTrack_4279300038
 	partName = Part
 	persistentId = 60216002
-	pos = 0.678909898,10.0493183,-4.01015091
+	pos = 2.71479845,10.1026993,-0.507188618
 	attPos = 0,0,0
 	attPos0 = 0.603123665,-0.065984726,-0.603123665
 	rot = 0,8.72220005E-11,-8.72220005E-11,1
@@ -1953,7 +1955,7 @@ PART
 	part = KF.SurfaceTrack_4279297842
 	partName = Part
 	persistentId = 2427135678
-	pos = 0.711803317,10.0493174,-2.77101016
+	pos = 2.74769187,10.1026983,0.731952131
 	attPos = 0,0,0
 	attPos0 = 0.636017084,-0.0659856796,0.636017084
 	rot = 0,8.72220005E-11,-8.72220005E-11,1
@@ -2238,7 +2240,7 @@ PART
 	part = KF.SurfaceTrack_4279295962
 	partName = Part
 	persistentId = 3525935361
-	pos = -0.507751226,10.0493174,-2.8234899
+	pos = 1.52813733,10.1026983,0.679472387
 	attPos = 0,0,0
 	attPos0 = -0.583537459,-0.0659856796,0.58353734
 	rot = 0,8.72220005E-11,-8.72220005E-11,1
@@ -2512,6 +2514,85 @@ PART
 		}
 		ACTIONS
 		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = KKAOSS.dock.gangway_4294302552
+	partName = Part
+	persistentId = 1686083786
+	pos = 2.11167479,13.7100239,0.0959350467
+	attPos = 0,0,0
+	attPos0 = 0,2.11686993,0
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = -1
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	attN = bottom,KKAOSS.Central.Hub_4281780158_0|-0.07|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleDockingNode
+		isEnabled = True
+		crossfeed = True
+		stagingEnabled = False
+		state = Ready
+		dockUId = 0
+		dockNodeIdx = 0
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			UndockAction
+			{
+				actionGroup = None
+			}
+			DecoupleAction
+			{
+				actionGroup = None
+			}
+			MakeReferenceToggle
+			{
+				actionGroup = None
+			}
+			EnableXFeedAction
+			{
+				actionGroup = None
+			}
+			DisableXFeedAction
+			{
+				actionGroup = None
+			}
+			ToggleXFeedAction
+			{
+				actionGroup = None
+			}
 		}
 		UPGRADESAPPLIED
 		{
