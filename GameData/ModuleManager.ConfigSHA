@@ -1,8 +1,43 @@
-SHA = D6-23-86-FC-F7-8F-77-E8-B1-C5-89-BC-08-73-17-42-43-90-51-D3-55-86-28-A5-6F-35-C1-9A-41-E4-C2-6C
+SHA = F6-96-96-09-50-16-65-A6-36-93-88-7A-43-02-0F-AC-C7-4C-E8-1B-33-C4-B5-40-74-1B-03-EB-C8-C0-2A-AF
 version = 4.0.2.0
 KSPVersion = 1.7.0.2483
 FilesSHA
 {
+	FILE
+	{
+		filename = 000_USITools/AddConsumers
+		SHA = 4B-73-46-64-73-27-B3-0E-32-76-68-F1-08-9E-74-74-50-5E-58-03-44-1A-02-00-3D-00-A6-09-69-DC-69-9C
+	}
+	FILE
+	{
+		filename = 000_USITools/Comms
+		SHA = B0-EF-88-9F-AF-21-8B-1E-AB-51-29-2D-EC-67-23-BF-D6-5E-2A-F4-04-7C-B5-0E-56-60-F3-62-C2-B7-09-04
+	}
+	FILE
+	{
+		filename = 000_USITools/Logistics
+		SHA = 54-CC-DC-04-11-E1-D5-F9-DF-80-6C-11-0D-88-9C-38-F2-DA-3C-1A-90-43-3D-EB-84-3E-23-AB-98-68-4F-30
+	}
+	FILE
+	{
+		filename = 000_USITools/TraitsAndEffects
+		SHA = 55-C6-FF-18-9E-D7-F5-12-0B-81-2B-79-62-D7-06-9D-3D-D3-65-F3-44-B4-F8-07-B3-D6-33-04-65-DB-6C-73
+	}
+	FILE
+	{
+		filename = 000_USITools/Agency/USIAgency
+		SHA = 0D-39-41-37-E5-9E-B9-BC-F4-0F-1C-1F-BB-10-AA-FA-3B-DB-86-BA-65-78-16-A6-EC-5E-3A-35-FD-CB-A4-0E
+	}
+	FILE
+	{
+		filename = 000_USITools/Localization/en-us
+		SHA = 1F-5A-99-90-91-4D-20-05-E2-D4-87-A5-E3-1D-7A-CD-6A-49-12-E5-13-A4-4D-22-B3-60-5C-99-0A-6B-DB-6F
+	}
+	FILE
+	{
+		filename = 000_USITools/Spaces/USIGeneric_IVA
+		SHA = 66-8E-9A-87-07-B9-0F-A3-0C-BB-FA-EA-18-6C-E0-68-F9-8E-47-DA-A9-C4-45-BA-48-28-AD-55-C5-C1-7B-94
+	}
 	FILE
 	{
 		filename = B9PartSwitch/B9PartSwitch-TweakScale
@@ -87,6 +122,11 @@ FilesSHA
 	{
 		filename = CommunityResourcePack/Localization/ja
 		SHA = D0-15-30-7D-FC-67-EB-38-0E-CC-0D-D8-1E-1D-3D-C9-3B-CD-BA-A4-67-08-2C-BF-F9-1B-27-8D-78-B8-33-9B
+	}
+	FILE
+	{
+		filename = CommunityResourcePack/Localization/pt-br
+		SHA = 03-DE-7A-59-9E-41-57-06-0E-18-57-A0-72-7D-50-15-AA-03-97-DB-DC-9D-19-EC-10-46-F6-B5-DA-DC-00-C5
 	}
 	FILE
 	{
@@ -5322,5 +5362,120 @@ FilesSHA
 	{
 		filename = Telemachus/Parts/ThirdPartyParts/rpm-camera-support
 		SHA = 6E-9F-F7-D4-31-D5-05-5D-C5-FC-40-29-B3-26-33-BE-51-CF-44-07-58-3A-14-47-10-80-C2-32-3A-70-D5-D5
+	}
+	FILE
+	{
+		filename = UmbraSpaceIndustries/Malemute/Malemute_CTT
+		SHA = 63-EE-68-49-7D-5B-2A-4A-DE-30-B8-99-01-0E-74-E8-ED-2E-D2-36-50-9D-3A-BB-71-0D-A7-1C-58-30-30-1D
+	}
+	FILE
+	{
+		filename = UmbraSpaceIndustries/Malemute/Mod_Compatablity/AntennaRange
+		SHA = 51-0E-2F-BB-12-B8-8E-74-5B-68-3C-56-D6-8B-87-DC-C7-EC-84-22-6F-E6-F5-3E-D5-B3-6E-EC-FF-F9-86-54
+	}
+	FILE
+	{
+		filename = UmbraSpaceIndustries/Malemute/Mod_Compatablity/ConnectedLivingSpaces
+		SHA = 97-46-F9-88-43-E2-1B-56-E8-8C-2E-37-95-5E-61-05-75-BC-01-1F-B3-57-94-16-D6-7B-43-F0-B6-A7-BA-10
+	}
+	FILE
+	{
+		filename = UmbraSpaceIndustries/Malemute/Mod_Compatablity/RemoteTech_support_for_GeoLab_Antenna
+		SHA = 9E-3B-41-30-20-0E-08-F4-DD-50-B6-67-CC-87-45-3F-45-FE-FB-24-A1-CB-D7-4A-4A-99-28-C4-D3-15-CE-08
+	}
+	FILE
+	{
+		filename = UmbraSpaceIndustries/Malemute/Mod_Compatablity/WheelSounds_Malemute
+		SHA = 64-CD-5C-B3-9C-0E-2B-B7-12-01-7E-A3-20-FC-0A-EF-A4-B7-B0-A1-40-AA-B2-CB-EC-82-C7-B8-35-58-76-DA
+	}
+	FILE
+	{
+		filename = UmbraSpaceIndustries/Malemute/Parts/ExpandingDockingPort
+		SHA = FE-48-3D-C6-51-C6-30-41-C8-79-A1-56-94-EA-7E-44-DE-72-77-09-0D-73-03-86-61-28-8E-F8-8A-44-B0-65
+	}
+	FILE
+	{
+		filename = UmbraSpaceIndustries/Malemute/Parts/MiniWheel
+		SHA = BB-D6-A6-AF-FB-63-59-DF-6C-86-EF-79-F5-06-39-0A-B3-49-58-64-20-30-44-91-68-12-D4-12-2C-E6-95-D0
+	}
+	FILE
+	{
+		filename = UmbraSpaceIndustries/Malemute/Parts/RoverCab
+		SHA = EF-64-B1-39-66-96-26-33-D8-2D-3C-C6-80-E9-31-07-8A-A7-47-8A-F0-7B-3A-ED-33-53-C6-EC-2E-C9-86-C9
+	}
+	FILE
+	{
+		filename = UmbraSpaceIndustries/Malemute/Parts/RoverCargoBed
+		SHA = 43-9A-E2-93-A5-77-FD-F2-E5-A9-C6-BF-E9-8F-BA-7F-2D-5B-47-6F-CA-64-21-46-53-D5-0E-62-1F-AD-18-56
+	}
+	FILE
+	{
+		filename = UmbraSpaceIndustries/Malemute/Parts/RoverCrewCab
+		SHA = BC-7C-C9-D2-59-B8-03-BC-10-90-3E-A2-F5-CA-D0-3A-86-A5-B8-00-12-85-DD-FA-A7-2C-15-8F-C9-17-B8-CE
+	}
+	FILE
+	{
+		filename = UmbraSpaceIndustries/Malemute/Parts/RoverDockModule
+		SHA = 79-58-56-AB-C0-40-18-90-43-B5-F0-B2-1A-6F-F6-DF-3A-7C-40-3C-6C-DE-F0-B4-27-74-61-AA-92-22-25-57
+	}
+	FILE
+	{
+		filename = UmbraSpaceIndustries/Malemute/Parts/RoverFlatBed
+		SHA = 35-18-A9-40-ED-9F-E2-84-15-99-7C-55-71-32-2C-1E-75-77-88-99-29-A0-06-E3-D3-A9-AD-C7-0D-F9-04-44
+	}
+	FILE
+	{
+		filename = UmbraSpaceIndustries/Malemute/Parts/RoverScienceLab
+		SHA = 18-D8-D2-D7-9D-1D-87-3A-FE-33-CF-39-ED-1F-C2-88-58-3B-2A-78-A6-8D-A1-B9-EF-05-66-C3-14-FB-F7-6C
+	}
+	FILE
+	{
+		filename = UmbraSpaceIndustries/Malemute/Parts/RoverServiceBay
+		SHA = 72-51-A2-69-9B-19-FD-44-E9-42-AB-44-D7-32-33-B7-AB-81-28-87-E9-A5-80-8B-5C-8C-2E-C9-FA-7C-19-1F
+	}
+	FILE
+	{
+		filename = UmbraSpaceIndustries/Malemute/Parts/RoverTail
+		SHA = CA-60-A6-97-88-D0-07-39-52-AC-54-D8-0B-5A-AA-29-D9-38-0E-32-6B-D9-67-FD-EF-19-9E-24-D4-7D-55-ED
+	}
+	FILE
+	{
+		filename = UmbraSpaceIndustries/Malemute/Parts/RoverTankLong
+		SHA = 76-28-EC-25-2F-EB-85-23-9C-33-4F-B7-A5-19-93-E1-76-5E-BD-2D-E1-B3-5E-F9-CE-51-B7-08-11-14-53-55
+	}
+	FILE
+	{
+		filename = UmbraSpaceIndustries/Malemute/Parts/RoverTankShort
+		SHA = 17-1D-8D-59-56-68-DC-FD-22-8E-AD-91-EC-B5-8D-18-C9-59-30-BA-78-1E-0C-F9-AD-F0-1A-A3-55-8B-E5-7C
+	}
+	FILE
+	{
+		filename = UmbraSpaceIndustries/Malemute/Parts/RoverWheel
+		SHA = B4-D6-C8-5C-70-BC-91-3E-0B-EA-51-43-F4-2D-BF-76-9B-C7-0E-FF-46-CE-B9-B6-7B-23-D6-2E-1E-46-FE-A9
+	}
+	FILE
+	{
+		filename = UmbraSpaceIndustries/Malemute/Spaces/RoverCab_internal
+		SHA = A1-EA-04-46-39-D0-4C-78-2E-A6-34-5D-F2-FD-53-BF-2B-35-F1-BA-46-39-A8-CD-0A-40-6C-F8-5C-56-49-02
+	}
+	FILE
+	{
+		filename = UmbraSpaceIndustries/Malemute/Spaces/RoverCrewCab_Internal
+		SHA = 9B-33-4E-06-68-AE-89-E3-3C-9E-5F-FC-21-49-E1-5B-C2-2E-C0-CD-09-7B-36-8D-F3-89-DA-99-DD-5F-A6-E8
+	}
+	FILE
+	{
+		filename = UmbraSpaceIndustries/Malemute/Spaces/RoverDockModule_Internal
+		SHA = 64-94-E8-B1-B5-A2-47-C7-FA-48-59-88-05-80-B8-F6-21-CC-F3-AE-9E-BC-13-C6-5B-FA-31-E9-EB-44-21-4C
+	}
+	FILE
+	{
+		filename = UmbraSpaceIndustries/Malemute/Spaces/RoverScienceLab_Internal
+		SHA = A9-46-7F-24-C3-F2-08-04-2D-DA-FF-3B-86-02-27-3D-01-80-D8-00-E0-16-A6-2E-AB-20-CD-4F-E9-A5-65-32
+	}
+	FILE
+	{
+		filename = UmbraSpaceIndustries/Malemute/Spaces/RoverTail_Internal
+		SHA = 67-43-1F-C1-1A-D4-3E-1B-03-9B-32-C2-48-B9-F1-51-98-EA-BA-73-D4-00-B4-30-9F-C4-7E-0A-06-EF-7C-66
 	}
 }
