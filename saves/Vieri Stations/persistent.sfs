@@ -535,7 +535,7 @@ GAME
 	FLIGHTSTATE
 	{
 		version = 1.7.0
-		UT = 3404793.4484203532
+		UT = 3404822.3284203801
 		activeVessel = 0
 		mapViewFiltering = 15350
 		commNetUIModeTracking = Network
@@ -95966,11 +95966,11 @@ GAME
 		ModuleManager.ConfigSHA = True
 		ModuleManager.Physics = True
 		ModuleManager.TechTree = True
-		000_USITools = False
+		000_USITools = True
 		CommunityCategoryKit = True
 		CommunityResourcePack = True
-		Firespitter = False
-		UmbraSpaceIndustries = False
+		Firespitter = True
+		UmbraSpaceIndustries = True
 		ModuleManager.4.1.0.dll = True
 		KSPModFileLocalizer v0.2.3.3 = True
 		CCK v4.0.0.0 / v4.0.0.0 for KSP 1.5.0 = True
@@ -95980,6 +95980,11 @@ GAME
 		KSPWheel v0.0.0.0 = True
 		KSPWheel = True
 		KerbalFoundries = True
+		MiniAVC v1.2.0.6 = True
+		Telemachus v1.5.0.0 / v1.5.0 = True
+		websocket-sharp v1.0.2.41077 = True
+		ScienceAlert = True
+		Telemachus = True
 	}
 	ROSTER
 	{
