@@ -27,7 +27,7 @@ PART
 	resPri = 0
 	dstg = 0
 	sidx = 0
-	sqor = 1
+	sqor = 0
 	sepI = 0
 	attm = 0
 	modCost = 0
@@ -330,7 +330,7 @@ PART
 	istg = 1
 	resPri = 0
 	dstg = 1
-	sidx = 1
+	sidx = 0
 	sqor = 1
 	sepI = 0
 	attm = 0
@@ -507,8 +507,8 @@ PART
 	istg = 1
 	resPri = 0
 	dstg = 2
-	sidx = 0
-	sqor = 3
+	sidx = 1
+	sqor = 1
 	sepI = 1
 	attm = 0
 	modCost = 0
@@ -610,7 +610,7 @@ PART
 	resPri = 0
 	dstg = 4
 	sidx = 0
-	sqor = 4
+	sqor = 2
 	sepI = 1
 	attm = 0
 	modCost = 1289.1012
@@ -1775,8 +1775,8 @@ PART
 	istg = 3
 	resPri = 0
 	dstg = 5
-	sidx = 1
-	sqor = 6
+	sidx = 0
+	sqor = 3
 	sepI = 1
 	attm = 0
 	modCost = 0
@@ -1992,8 +1992,8 @@ PART
 	istg = 3
 	resPri = 0
 	dstg = 6
-	sidx = 0
-	sqor = 6
+	sidx = 1
+	sqor = 3
 	sepI = 3
 	attm = 0
 	modCost = 0
@@ -2353,7 +2353,7 @@ PART
 	resPri = 0
 	dstg = 7
 	sidx = 0
-	sqor = 8
+	sqor = 5
 	sepI = 3
 	attm = 0
 	modCost = 0
@@ -2835,7 +2835,7 @@ PART
 	resPri = 0
 	dstg = 7
 	sidx = 0
-	sqor = 7
+	sqor = 4
 	sepI = 4
 	attm = 1
 	modCost = 0
@@ -2856,8 +2856,8 @@ PART
 	{
 		name = LaunchClamp
 		isEnabled = True
-		scaleFactor = 5.95645332
-		height = 15.0293045
+		scaleFactor = 5.95645571
+		height = 15.0293026
 		stagingEnabled = True
 		towerRot = -6.96102873E-08,0.258819103,1.86520239E-08,-0.965925813
 		EVENTS
@@ -2941,7 +2941,7 @@ PART
 	resPri = 0
 	dstg = 7
 	sidx = 0
-	sqor = 7
+	sqor = 4
 	sepI = 4
 	attm = 1
 	modCost = 0
@@ -2962,8 +2962,8 @@ PART
 	{
 		name = LaunchClamp
 		isEnabled = True
-		scaleFactor = 5.95645332
-		height = 15.0293045
+		scaleFactor = 5.95645571
+		height = 15.0293026
 		stagingEnabled = True
 		towerRot = 1.86520275E-08,0.965925813,6.96102873E-08,0.258819133
 		EVENTS
@@ -3337,8 +3337,8 @@ PART
 		efficiencyMult = 1
 		launchUT = -1
 		currentRotation = (0, 0, -0.707106829, 0.707106829)
-		storedAnimationTime = -1710.35767
-		storedAnimationSpeed = -10
+		storedAnimationTime = 0
+		storedAnimationSpeed = 1
 		deployState = RETRACTED
 		stagingEnabled = True
 		EVENTS
@@ -3407,8 +3407,8 @@ PART
 		efficiencyMult = 1
 		launchUT = -1
 		currentRotation = (0, 0, -0.707106829, 0.707106829)
-		storedAnimationTime = -1710.35767
-		storedAnimationSpeed = -10
+		storedAnimationTime = 0
+		storedAnimationSpeed = 1
 		deployState = RETRACTED
 		stagingEnabled = True
 		EVENTS
