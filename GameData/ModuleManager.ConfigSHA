@@ -1,4 +1,4 @@
-SHA = C9-F9-F0-E9-66-A4-3D-AE-A1-8E-9C-C9-34-2E-51-21-3D-83-AE-E2-B2-1A-CC-F8-91-0C-12-B4-9B-5C-68-7C
+SHA = 20-1C-21-2B-04-DC-F5-46-12-29-23-DF-B6-C5-0B-25-28-42-EA-3C-17-35-D0-3B-5F-6C-34-90-14-BE-89-BF
 version = 4.0.3.0
 KSPVersion = 1.7.0.2483
 FilesSHA
@@ -2577,6 +2577,61 @@ FilesSHA
 	{
 		filename = PlanetaryBaseInc/ModSupport/Spaces/Workshops/Workshop_g_internal.cfg
 		SHA = 35-35-4A-5A-63-14-0B-B2-1B-0B-15-13-55-97-36-8F-36-5D-B8-F2-7B-DD-2F-E4-A6-8C-78-64-34-96-A6-7D
+	}
+	FILE
+	{
+		filename = RealChute/Agencies/Agents.cfg
+		SHA = B7-20-1D-01-01-29-FC-32-BD-01-15-0F-F1-0B-D0-DE-18-3B-C6-D2-05-6F-67-81-9F-EF-9D-BC-6B-E0-99-5A
+	}
+	FILE
+	{
+		filename = RealChute/Materials/ParachuteMaterials.cfg
+		SHA = C6-B0-5F-F9-5F-AA-2F-E5-BC-DD-92-00-DF-1A-DA-73-EF-CA-A4-55-6D-BC-40-B8-48-5A-40-DC-C4-C5-65-E6
+	}
+	FILE
+	{
+		filename = RealChute/Materials/TextureLibrary.cfg
+		SHA = AB-DF-74-8C-CE-C0-8B-19-21-AF-98-CC-C1-62-CA-BF-83-AA-7A-1A-F5-74-11-7B-3C-A4-91-FC-85-8E-27-43
+	}
+	FILE
+	{
+		filename = RealChute/ModuleManager/FASA_RealChute_MM.cfg
+		SHA = 1C-4F-BD-2D-F8-1E-56-E8-0A-9D-E7-A8-8B-68-C0-54-43-36-7D-74-E2-41-66-3A-E9-B7-41-6A-82-C1-FF-AB
+	}
+	FILE
+	{
+		filename = RealChute/ModuleManager/NP_RealChute_MM.cfg
+		SHA = B9-E9-9C-1D-5A-6E-C3-8D-F8-11-4C-90-C2-E5-81-E5-CB-F7-B3-B1-AE-10-9B-E3-64-C2-90-1F-D9-4B-F3-83
+	}
+	FILE
+	{
+		filename = RealChute/ModuleManager/Stock_RealChute_MM.cfg
+		SHA = 54-A2-35-C8-01-46-DD-0C-DC-29-31-30-E1-8E-EE-A5-86-78-67-B1-D1-51-AF-0C-89-8D-4D-E8-98-5B-FC-87
+	}
+	FILE
+	{
+		filename = RealChute/ModuleManager/Tantares_RealChute_MM.cfg
+		SHA = F5-81-5A-6B-DD-59-87-65-D0-B0-C8-52-76-ED-DF-9D-70-A1-93-16-F0-6F-72-2E-33-4E-E4-0A-1E-7D-01-70
+	}
+	FILE
+	{
+		filename = RealChute/Parts/cone_chute.cfg
+		SHA = EB-28-F3-C9-F5-B1-FA-24-FE-3B-D6-6A-02-96-62-5E-CF-05-E1-86-9D-44-02-0E-72-CD-CC-E4-4E-BA-0D-0B
+	}
+	FILE
+	{
+		filename = RealChute/Parts/cone_double_chute.cfg
+		SHA = 07-2A-60-A2-28-7E-C6-AF-5A-BA-96-18-0B-16-E3-3B-EF-D1-06-60-21-7E-2D-16-A4-33-6C-2B-AD-C6-CE-61
+	}
+	FILE
+	{
+		filename = RealChute/Parts/radial_chute.cfg
+		SHA = D1-0B-45-96-96-E2-73-FC-CD-A5-3F-8D-C2-CC-1A-84-54-BC-A1-30-3A-76-55-59-18-8F-21-97-3A-25-69-00
+	}
+	FILE
+	{
+		filename = RealChute/Parts/stack_chute.cfg
+		SHA = F2-3F-93-8A-D6-47-AA-10-1C-1A-CD-CA-F1-E0-4C-E6-EB-50-C9-19-3C-37-97-16-08-6C-08-35-26-B1-1F-17
 	}
 	FILE
 	{
