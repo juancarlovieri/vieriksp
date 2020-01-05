@@ -1,5 +1,5 @@
-vesselCount = 10
-UT = 167089109.09018531
+vesselCount = 12
+UT = 167706259.56124443
 gameMode = SCIENCE_SANDBOX
 gameNull = False
 gameCompatible = True
@@ -12,4 +12,4 @@ missionIsStarted = False
 missionIsEnded = False
 missionHistoryId = 00000000-0000-0000-0000-000000000000
 missionExpansionVersion = 
-saveMD5 = 84e71b7c36263fa27d24aab3478f6c29
+saveMD5 = 9c6d72323741ea7ecaf556dbbc428130
