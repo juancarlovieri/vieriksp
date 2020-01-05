@@ -2,7 +2,7 @@ ship = relay
 version = 1.7.0
 description = 
 type = VAB
-size = 6.66605091,37.4506912,6.66605091
+size = 6.88041687,37.4506912,6.88041592
 steamPublishedFileId = 0
 persistentId = 4074535427
 rot = 0,0,0,0
@@ -25,7 +25,7 @@ PART
 	rigidAttachment = False
 	istg = 0
 	resPri = 0
-	dstg = 0
+	dstg = 1
 	sidx = 0
 	sqor = 0
 	sepI = 0
@@ -127,7 +127,7 @@ PART
 	rigidAttachment = False
 	istg = 0
 	resPri = 0
-	dstg = 1
+	dstg = 2
 	sidx = -1
 	sqor = -1
 	sepI = 0
@@ -200,7 +200,7 @@ PART
 	rigidAttachment = False
 	istg = 0
 	resPri = 0
-	dstg = 1
+	dstg = 2
 	sidx = -1
 	sqor = -1
 	sepI = 0
@@ -249,7 +249,7 @@ PART
 	rigidAttachment = False
 	istg = 0
 	resPri = 0
-	dstg = 1
+	dstg = 2
 	sidx = -1
 	sqor = -1
 	sepI = 0
@@ -329,7 +329,7 @@ PART
 	rigidAttachment = False
 	istg = 1
 	resPri = 0
-	dstg = 1
+	dstg = 2
 	sidx = 0
 	sqor = 1
 	sepI = 0
@@ -506,7 +506,7 @@ PART
 	rigidAttachment = False
 	istg = 1
 	resPri = 0
-	dstg = 2
+	dstg = 3
 	sidx = 1
 	sqor = 1
 	sepI = 1
@@ -608,7 +608,7 @@ PART
 	rigidAttachment = False
 	istg = 2
 	resPri = 0
-	dstg = 4
+	dstg = 5
 	sidx = 0
 	sqor = 2
 	sepI = 1
@@ -972,7 +972,7 @@ PART
 	rigidAttachment = False
 	istg = 0
 	resPri = 0
-	dstg = 1
+	dstg = 2
 	sidx = -1
 	sqor = -1
 	sepI = 0
@@ -1047,7 +1047,7 @@ PART
 	rigidAttachment = False
 	istg = 0
 	resPri = 0
-	dstg = 1
+	dstg = 2
 	sidx = -1
 	sqor = -1
 	sepI = 0
@@ -1122,7 +1122,7 @@ PART
 	rigidAttachment = False
 	istg = 0
 	resPri = 0
-	dstg = 1
+	dstg = 2
 	sidx = -1
 	sqor = -1
 	sepI = 0
@@ -1197,7 +1197,7 @@ PART
 	rigidAttachment = False
 	istg = 0
 	resPri = 0
-	dstg = 1
+	dstg = 2
 	sidx = -1
 	sqor = -1
 	sepI = 0
@@ -1272,7 +1272,7 @@ PART
 	rigidAttachment = False
 	istg = 1
 	resPri = 0
-	dstg = 5
+	dstg = 6
 	sidx = -1
 	sqor = -1
 	sepI = 1
@@ -1321,7 +1321,7 @@ PART
 	rigidAttachment = False
 	istg = 1
 	resPri = 0
-	dstg = 5
+	dstg = 6
 	sidx = -1
 	sqor = -1
 	sepI = 1
@@ -1394,7 +1394,7 @@ PART
 	rigidAttachment = False
 	istg = 1
 	resPri = 0
-	dstg = 5
+	dstg = 6
 	sidx = -1
 	sqor = -1
 	sepI = 1
@@ -1474,7 +1474,7 @@ PART
 	rigidAttachment = False
 	istg = 1
 	resPri = 0
-	dstg = 5
+	dstg = 6
 	sidx = -1
 	sqor = -1
 	sepI = 1
@@ -1549,7 +1549,7 @@ PART
 	rigidAttachment = False
 	istg = 1
 	resPri = 0
-	dstg = 5
+	dstg = 6
 	sidx = -1
 	sqor = -1
 	sepI = 1
@@ -1624,7 +1624,7 @@ PART
 	rigidAttachment = False
 	istg = 1
 	resPri = 0
-	dstg = 5
+	dstg = 6
 	sidx = -1
 	sqor = -1
 	sepI = 1
@@ -1699,7 +1699,7 @@ PART
 	rigidAttachment = False
 	istg = 1
 	resPri = 0
-	dstg = 5
+	dstg = 6
 	sidx = -1
 	sqor = -1
 	sepI = 1
@@ -1774,7 +1774,7 @@ PART
 	rigidAttachment = False
 	istg = 3
 	resPri = 0
-	dstg = 5
+	dstg = 6
 	sidx = 0
 	sqor = 3
 	sepI = 1
@@ -1991,7 +1991,7 @@ PART
 	rigidAttachment = False
 	istg = 3
 	resPri = 0
-	dstg = 6
+	dstg = 7
 	sidx = 1
 	sqor = 3
 	sepI = 3
@@ -2093,7 +2093,7 @@ PART
 	rigidAttachment = False
 	istg = 3
 	resPri = 0
-	dstg = 7
+	dstg = 8
 	sidx = -1
 	sqor = -1
 	sepI = 3
@@ -2169,7 +2169,7 @@ PART
 	rigidAttachment = False
 	istg = 3
 	resPri = 0
-	dstg = 7
+	dstg = 8
 	sidx = -1
 	sqor = -1
 	sepI = 3
@@ -2231,7 +2231,7 @@ PART
 	rigidAttachment = False
 	istg = 3
 	resPri = 0
-	dstg = 7
+	dstg = 8
 	sidx = -1
 	sqor = -1
 	sepI = 3
@@ -2291,7 +2291,7 @@ PART
 	rigidAttachment = False
 	istg = 3
 	resPri = 0
-	dstg = 7
+	dstg = 8
 	sidx = -1
 	sqor = -1
 	sepI = 3
@@ -2351,7 +2351,7 @@ PART
 	rigidAttachment = False
 	istg = 5
 	resPri = 0
-	dstg = 7
+	dstg = 8
 	sidx = 0
 	sqor = 5
 	sepI = 3
@@ -2360,9 +2360,9 @@ PART
 	modMass = 0
 	modSize = 0,0,0
 	link = winglet3_4293887814
-	link = winglet3_4293887634
-	link = winglet3_4293887590
-	link = winglet3_4293887546
+	link = winglet3_4294253020
+	link = winglet3_4294252972
+	link = winglet3_4294252924
 	attN = top,Size3MediumTank_4293891878_0|1.527248|0
 	EVENTS
 	{
@@ -2518,306 +2518,6 @@ PART
 }
 PART
 {
-	part = winglet3_4293887814
-	partName = Part
-	persistentId = 2294311474
-	pos = -3.68626928,3.80707932,0.692118585
-	attPos = 0,0,0
-	attPos0 = -2.29433012,-0.047454834,-0.614763796
-	rot = 0,-0.13052614,0,0.991444945
-	attRot = 0,0,0,1
-	attRot0 = 0,-0.13052614,0,0.991444945
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Heaviest
-	rigidAttachment = False
-	istg = 5
-	resPri = 0
-	dstg = 7
-	sidx = -1
-	sqor = -1
-	sepI = 3
-	attm = 1
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	sym = winglet3_4293887634
-	sym = winglet3_4293887590
-	sym = winglet3_4293887546
-	srfN = srfAttach,Size3EngineCluster_4293892646
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleControlSurface
-		isEnabled = True
-		mirrorDeploy = False
-		usesMirrorDeploy = True
-		ignorePitch = False
-		ignoreYaw = False
-		ignoreRoll = False
-		deploy = False
-		deployInvert = False
-		partDeployInvert = False
-		authorityLimiter = 100
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ActionToggle
-			{
-				actionGroup = None
-			}
-			ActionExtend
-			{
-				actionGroup = None
-			}
-			ActionRetract
-			{
-				actionGroup = None
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = winglet3_4293887634
-	partName = Part
-	persistentId = 436700617
-	pos = -2.00670314,3.80707932,3.60121202
-	attPos = 0,0,0
-	attPos0 = -0.614763916,-0.047454834,2.29432964
-	rot = 0,0.608761489,0,0.793353379
-	attRot = 0,0,0,1
-	attRot0 = 0,0.608761489,0,0.793353379
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Heaviest
-	rigidAttachment = False
-	istg = 5
-	resPri = 0
-	dstg = 7
-	sidx = -1
-	sqor = -1
-	sepI = 3
-	attm = 1
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	sym = winglet3_4293887590
-	sym = winglet3_4293887546
-	sym = winglet3_4293887814
-	srfN = srfAttach,Size3EngineCluster_4293892646
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleControlSurface
-		isEnabled = True
-		mirrorDeploy = False
-		usesMirrorDeploy = True
-		ignorePitch = False
-		ignoreYaw = False
-		ignoreRoll = False
-		deploy = False
-		deployInvert = False
-		partDeployInvert = False
-		authorityLimiter = 100
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ActionToggle
-			{
-				actionGroup = None
-			}
-			ActionExtend
-			{
-				actionGroup = None
-			}
-			ActionRetract
-			{
-				actionGroup = None
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = winglet3_4293887590
-	partName = Part
-	persistentId = 1427660571
-	pos = 0.902390838,3.80707932,1.921646
-	attPos = 0,0,0
-	attPos0 = 2.29433012,-0.047454834,0.614763618
-	rot = 0,0.991444945,0,0.130526096
-	attRot = 0,0,0,1
-	attRot0 = 0,0.991444945,0,0.130526096
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Heaviest
-	rigidAttachment = False
-	istg = 5
-	resPri = 0
-	dstg = 7
-	sidx = -1
-	sqor = -1
-	sepI = 3
-	attm = 1
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	sym = winglet3_4293887546
-	sym = winglet3_4293887814
-	sym = winglet3_4293887634
-	srfN = srfAttach,Size3EngineCluster_4293892646
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleControlSurface
-		isEnabled = True
-		mirrorDeploy = False
-		usesMirrorDeploy = True
-		ignorePitch = False
-		ignoreYaw = False
-		ignoreRoll = False
-		deploy = False
-		deployInvert = False
-		partDeployInvert = False
-		authorityLimiter = 100
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ActionToggle
-			{
-				actionGroup = None
-			}
-			ActionExtend
-			{
-				actionGroup = None
-			}
-			ActionRetract
-			{
-				actionGroup = None
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = winglet3_4293887546
-	partName = Part
-	persistentId = 804412433
-	pos = -0.777175665,3.80707932,-0.987447739
-	attPos = 0,0,0
-	attPos0 = 0.614763618,-0.047454834,-2.29433012
-	rot = 0,0.793353379,0,-0.608761489
-	attRot = 0,0,0,1
-	attRot0 = 0,0.793353379,0,-0.608761489
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Heaviest
-	rigidAttachment = False
-	istg = 5
-	resPri = 0
-	dstg = 7
-	sidx = -1
-	sqor = -1
-	sepI = 3
-	attm = 1
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	sym = winglet3_4293887814
-	sym = winglet3_4293887634
-	sym = winglet3_4293887590
-	srfN = srfAttach,Size3EngineCluster_4293892646
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleControlSurface
-		isEnabled = True
-		mirrorDeploy = False
-		usesMirrorDeploy = True
-		ignorePitch = False
-		ignoreYaw = False
-		ignoreRoll = False
-		deploy = False
-		deployInvert = False
-		partDeployInvert = False
-		authorityLimiter = 100
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ActionToggle
-			{
-				actionGroup = None
-			}
-			ActionExtend
-			{
-				actionGroup = None
-			}
-			ActionRetract
-			{
-				actionGroup = None
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
 	part = launchClamp1_4293874748
 	partName = Part
 	persistentId = 3183487681
@@ -2833,7 +2533,7 @@ PART
 	rigidAttachment = False
 	istg = 4
 	resPri = 0
-	dstg = 7
+	dstg = 8
 	sidx = 0
 	sqor = 4
 	sepI = 4
@@ -2939,7 +2639,7 @@ PART
 	rigidAttachment = False
 	istg = 4
 	resPri = 0
-	dstg = 7
+	dstg = 8
 	sidx = 0
 	sqor = 4
 	sepI = 4
@@ -3045,7 +2745,7 @@ PART
 	rigidAttachment = False
 	istg = 0
 	resPri = 0
-	dstg = 1
+	dstg = 0
 	sidx = 1
 	sqor = 0
 	sepI = -1
@@ -3233,7 +2933,7 @@ PART
 	rigidAttachment = False
 	istg = -1
 	resPri = 0
-	dstg = 1
+	dstg = 0
 	sidx = -1
 	sqor = -1
 	sepI = -1
@@ -3311,7 +3011,7 @@ PART
 	rigidAttachment = False
 	istg = -1
 	resPri = 0
-	dstg = 1
+	dstg = 0
 	sidx = -1
 	sqor = -1
 	sepI = -1
@@ -3381,7 +3081,7 @@ PART
 	rigidAttachment = False
 	istg = -1
 	resPri = 0
-	dstg = 1
+	dstg = 0
 	sidx = -1
 	sqor = -1
 	sepI = -1
@@ -3451,7 +3151,7 @@ PART
 	rigidAttachment = False
 	istg = -1
 	resPri = 0
-	dstg = 1
+	dstg = 0
 	sidx = -1
 	sqor = -1
 	sepI = -1
@@ -4224,7 +3924,7 @@ PART
 	rigidAttachment = False
 	istg = -1
 	resPri = 0
-	dstg = 1
+	dstg = 0
 	sidx = -1
 	sqor = -1
 	sepI = -1
@@ -4273,7 +3973,7 @@ PART
 	rigidAttachment = False
 	istg = -1
 	resPri = 0
-	dstg = 1
+	dstg = 0
 	sidx = -1
 	sqor = -1
 	sepI = -1
@@ -4325,6 +4025,306 @@ PART
 		Log
 		{
 			flight = 0
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = winglet3_4293887814
+	partName = Part
+	persistentId = 2294311474
+	pos = -3.76849127,3.75043869,1.30688262
+	attPos = 0,0,0
+	attPos0 = -2.3765521,-0.104095459,2.38418579E-07
+	rot = 0,8.42937027E-08,0,1
+	attRot = 0,0,0,1
+	attRot0 = 0,8.42937027E-08,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Heaviest
+	rigidAttachment = False
+	istg = 5
+	resPri = 0
+	dstg = 8
+	sidx = -1
+	sqor = -1
+	sepI = 3
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	sym = winglet3_4294253020
+	sym = winglet3_4294252972
+	sym = winglet3_4294252924
+	srfN = srfAttach,Size3EngineCluster_4293892646
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleControlSurface
+		isEnabled = True
+		mirrorDeploy = False
+		usesMirrorDeploy = True
+		ignorePitch = False
+		ignoreYaw = False
+		ignoreRoll = False
+		deploy = False
+		deployInvert = False
+		partDeployInvert = False
+		authorityLimiter = 100
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ActionToggle
+			{
+				actionGroup = None
+			}
+			ActionExtend
+			{
+				actionGroup = None
+			}
+			ActionRetract
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = winglet3_4294253020
+	partName = Part
+	persistentId = 572958276
+	pos = -1.39193916,3.75043869,3.68343425
+	attPos = 0,0,0
+	attPos0 = 1.1920929E-07,-0.104095459,2.37655187
+	rot = 0,0.707106829,0,0.707106709
+	attRot = 0,0,0,1
+	attRot0 = 0,0.707106829,0,0.707106709
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Heaviest
+	rigidAttachment = False
+	istg = 5
+	resPri = 0
+	dstg = 8
+	sidx = -1
+	sqor = -1
+	sepI = 3
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	sym = winglet3_4294252972
+	sym = winglet3_4294252924
+	sym = winglet3_4293887814
+	srfN = srfAttach,Size3EngineCluster_4293892646
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleControlSurface
+		isEnabled = True
+		mirrorDeploy = False
+		usesMirrorDeploy = True
+		ignorePitch = False
+		ignoreYaw = False
+		ignoreRoll = False
+		deploy = False
+		deployInvert = False
+		partDeployInvert = False
+		authorityLimiter = 100
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ActionToggle
+			{
+				actionGroup = None
+			}
+			ActionExtend
+			{
+				actionGroup = None
+			}
+			ActionRetract
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = winglet3_4294252972
+	partName = Part
+	persistentId = 4229925830
+	pos = 0.984612823,3.75043869,1.3068819
+	attPos = 0,0,0
+	attPos0 = 2.3765521,-0.104095459,-4.76837158E-07
+	rot = 0,1,0,-1.28005098E-07
+	attRot = 0,0,0,1
+	attRot0 = 0,1,0,-1.28005098E-07
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Heaviest
+	rigidAttachment = False
+	istg = 5
+	resPri = 0
+	dstg = 8
+	sidx = -1
+	sqor = -1
+	sepI = 3
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	sym = winglet3_4294252924
+	sym = winglet3_4293887814
+	sym = winglet3_4294253020
+	srfN = srfAttach,Size3EngineCluster_4293892646
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleControlSurface
+		isEnabled = True
+		mirrorDeploy = False
+		usesMirrorDeploy = True
+		ignorePitch = False
+		ignoreYaw = False
+		ignoreRoll = False
+		deploy = False
+		deployInvert = False
+		partDeployInvert = False
+		authorityLimiter = 100
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ActionToggle
+			{
+				actionGroup = None
+			}
+			ActionExtend
+			{
+				actionGroup = None
+			}
+			ActionRetract
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = winglet3_4294252924
+	partName = Part
+	persistentId = 230084812
+	pos = -1.39193964,3.75043869,-1.06966949
+	attPos = 0,0,0
+	attPos0 = -3.57627869E-07,-0.104095459,-2.37655187
+	rot = 0,0.707106709,0,-0.707106829
+	attRot = 0,0,0,1
+	attRot0 = 0,0.707106709,0,-0.707106829
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Heaviest
+	rigidAttachment = False
+	istg = 5
+	resPri = 0
+	dstg = 8
+	sidx = -1
+	sqor = -1
+	sepI = 3
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	sym = winglet3_4293887814
+	sym = winglet3_4294253020
+	sym = winglet3_4294252972
+	srfN = srfAttach,Size3EngineCluster_4293892646
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleControlSurface
+		isEnabled = True
+		mirrorDeploy = False
+		usesMirrorDeploy = True
+		ignorePitch = False
+		ignoreYaw = False
+		ignoreRoll = False
+		deploy = False
+		deployInvert = False
+		partDeployInvert = False
+		authorityLimiter = 100
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ActionToggle
+			{
+				actionGroup = None
+			}
+			ActionExtend
+			{
+				actionGroup = None
+			}
+			ActionRetract
+			{
+				actionGroup = None
+			}
 		}
 		UPGRADESAPPLIED
 		{
