@@ -62,4 +62,4 @@ partModules = ModuleDataTransmitter
 partModules = ModuleScienceContainer
 partModules = MechJebCore
 partModules = ModuleTripLogger
-saveMD5 = 343801df3758906ca16a8f6a985c8b51
+saveMD5 = 44d57e2f65793a4cce99c674c16a9c2f
