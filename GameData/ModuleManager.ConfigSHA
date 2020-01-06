@@ -1,4 +1,4 @@
-SHA = 1C-9B-4F-E9-60-CA-CC-C2-85-83-44-95-2C-74-5C-26-61-C0-CF-9B-3F-3F-02-97-BE-72-78-70-5A-80-37-B9
+SHA = 0E-ED-49-64-E6-2D-B6-4C-79-D1-BD-BE-07-D3-1D-9A-42-B5-50-1C-46-C0-A0-9A-F2-AA-91-F8-B1-34-64-20
 version = 4.0.3.0
 KSPVersion = 1.7.0.2483
 FilesSHA
@@ -267,6 +267,116 @@ FilesSHA
 	{
 		filename = CommunityResourcePack/ResourceConfigs/XenonGas.cfg
 		SHA = 3C-CF-40-C3-65-DD-22-5B-D3-59-46-5B-9A-A3-FF-DE-AA-DE-FB-45-9E-88-92-A7-2C-00-3F-A7-85-A0-5D-AE
+	}
+	FILE
+	{
+		filename = KAS/settings.cfg
+		SHA = 5D-57-73-A7-19-59-8F-5C-DB-E8-67-A5-A1-77-FC-7E-AE-CB-97-FC-C8-E2-C0-2C-ED-54-9D-4B-BC-C2-1D-80
+	}
+	FILE
+	{
+		filename = KAS/Lang/en-us.cfg
+		SHA = 10-C9-77-EE-29-C9-7C-49-DB-3A-5B-2A-12-60-2E-56-32-71-3D-D7-45-87-DD-4A-4B-4D-E0-83-97-B7-E9-39
+	}
+	FILE
+	{
+		filename = KAS/Lang/es-es.cfg
+		SHA = 64-76-98-9B-6F-E4-BC-E4-2A-3B-42-31-1F-4A-AC-C1-9E-F2-60-55-59-8D-84-98-26-1B-2E-EE-D3-85-F5-97
+	}
+	FILE
+	{
+		filename = KAS/Lang/fr-fr.cfg
+		SHA = 1E-0B-80-15-88-16-B4-FE-38-79-3A-84-7D-FF-83-6A-31-15-F8-4F-69-46-AD-DF-77-80-DE-FE-41-35-E8-01
+	}
+	FILE
+	{
+		filename = KAS/Lang/it-it.cfg
+		SHA = 16-A2-49-DE-2E-7B-95-50-37-60-A3-AE-A9-24-E1-CE-A1-36-92-52-94-FE-33-18-AA-DF-B3-1F-B7-58-9D-72
+	}
+	FILE
+	{
+		filename = KAS/Lang/pt-br.cfg
+		SHA = CC-CF-4F-14-48-BF-52-43-7E-F2-1A-3C-64-DF-D8-08-15-1C-B7-F4-FD-1E-FB-EF-ED-A9-92-F2-2B-A1-34-BF
+	}
+	FILE
+	{
+		filename = KAS/Lang/ru.cfg
+		SHA = 43-F8-8F-40-4B-80-7A-83-68-9B-74-1C-BE-1D-41-BF-B0-36-DB-08-47-9D-42-D4-04-2D-3D-40-C1-A8-81-C3
+	}
+	FILE
+	{
+		filename = KAS/Parts/CableBrace/part_CH1.cfg
+		SHA = DB-04-3A-31-BE-E3-B5-04-AD-C6-51-A4-16-21-1A-E5-D0-33-92-25-AF-26-64-DC-E7-B8-BD-D9-92-AD-74-EA
+	}
+	FILE
+	{
+		filename = KAS/Parts/CableBrace/part_PCB1.cfg
+		SHA = 0B-78-C2-E4-A8-5E-F7-20-DB-53-AF-10-C5-F4-6F-78-4A-82-B2-B7-4F-85-9C-B3-A8-AF-FE-89-6B-30-F9-7E
+	}
+	FILE
+	{
+		filename = KAS/Parts/JS1/part.cfg
+		SHA = 24-45-D5-82-33-FD-10-21-56-BA-4E-1E-CB-5C-58-2A-B2-7C-1B-F4-E9-E6-D5-E0-9E-C0-80-58-C3-1D-9A-0B
+	}
+	FILE
+	{
+		filename = KAS/Parts/PortPylon/part.cfg
+		SHA = A8-B5-A2-B7-71-37-CC-35-78-53-9D-C3-F4-B4-CE-F6-A3-96-D9-EC-1A-9B-84-33-0D-02-E3-55-7E-CC-E1-85
+	}
+	FILE
+	{
+		filename = KAS/Parts/PortPylonPwr/part.cfg
+		SHA = 0C-EA-DC-5D-D8-6C-B5-47-F7-C0-00-A1-A6-AC-51-9F-B7-36-3C-78-32-6F-C6-58-31-41-7C-4E-68-E6-56-14
+	}
+	FILE
+	{
+		filename = KAS/Parts/RTS1/part.cfg
+		SHA = 81-7F-C7-4E-22-7C-73-A3-34-31-92-6A-C5-5D-99-BA-1E-71-C1-B2-42-06-86-A2-E7-36-AA-37-66-D9-FE-FE
+	}
+	FILE
+	{
+		filename = KAS/Parts/TB60/part.cfg
+		SHA = 35-72-FD-86-4A-F1-BC-76-22-BA-0B-4E-FF-2C-72-8B-B5-56-0C-BA-BF-28-8E-64-DC-8B-3E-D0-4F-41-13-56
+	}
+	FILE
+	{
+		filename = KAS/Parts/TJ1/part.cfg
+		SHA = 37-32-C1-3A-07-09-C9-F2-72-D5-BB-7E-E4-30-32-4F-B2-72-6A-A5-1C-6A-25-CD-09-F5-99-FB-97-B1-86-D6
+	}
+	FILE
+	{
+		filename = KAS/Parts/TJ2/part.cfg
+		SHA = AD-B7-91-86-48-14-EF-56-CB-2C-25-E6-5A-27-D3-23-7A-AE-B1-02-5D-DD-DE-64-5A-50-7A-B6-46-33-C2-A5
+	}
+	FILE
+	{
+		filename = KAS/Parts/Winch1/part.cfg
+		SHA = 27-4E-F8-0D-57-A5-FD-54-6B-A8-8E-14-39-8A-A9-B8-11-85-BB-5D-DC-3F-40-9B-4A-D9-2C-80-2E-4B-7B-A8
+	}
+	FILE
+	{
+		filename = KAS/Parts/Winch2/part.cfg
+		SHA = CF-20-A1-2E-5A-AA-36-22-9B-F5-F7-BE-23-FD-D4-73-6A-FF-E7-04-8B-A2-1D-58-A3-15-DB-09-39-C7-89-5D
+	}
+	FILE
+	{
+		filename = KAS/Patches/COMP-LegacyParts.cfg
+		SHA = 15-68-81-69-5F-5A-F1-C6-13-2D-49-F0-DF-A2-CD-73-89-5D-C3-2F-8D-70-BF-72-2A-F6-68-6B-54-31-88-0F
+	}
+	FILE
+	{
+		filename = KAS/Patches/MM-CommunityCategoryKit.cfg
+		SHA = D9-03-99-07-DE-40-E5-43-37-A5-5D-18-B9-F6-AC-26-A2-F3-F1-97-37-49-2D-13-0A-56-10-BE-F9-54-44-69
+	}
+	FILE
+	{
+		filename = KAS/Patches/MM-KIS.cfg
+		SHA = 23-99-02-0C-70-C6-DA-22-80-4C-51-74-51-90-B3-7D-2F-10-46-63-2D-03-33-87-F3-6E-71-07-CA-1B-A8-1C
+	}
+	FILE
+	{
+		filename = KAS/Patches/MM-Kerbals.cfg
+		SHA = 84-BA-E5-DF-48-4F-CE-B7-CB-11-C1-D6-0B-0F-61-88-B8-8B-5C-EA-8F-A4-B8-88-7C-62-7D-88-0D-44-94-91
 	}
 	FILE
 	{
