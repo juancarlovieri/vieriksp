@@ -11,7 +11,7 @@ GAME
 	scene = 5
 	editor = None
 	flag = Squad/Flags/default
-	launchID = 48
+	launchID = 54
 	defaultVABLaunchSite = LaunchPad
 	defaultSPHLaunchSite = Runway
 	modded = True
@@ -170,6 +170,27 @@ GAME
 			slipDamageMultiplier = 1
 			motorDamageMultiplier = 1
 			motorHeatMultiplier = 1
+		}
+		kOSConnectivityParameters
+		{
+			version = 0
+			knownHandlerList = CommNetConnectivityManager,PermitAllConnectivityManager
+			connectivityHandler = CommNetConnectivityManager
+		}
+		kOSCustomParameters
+		{
+			InstructionsPerUpdate = 200
+			migrated = True
+			version = 0
+			useCompressedPersistence = True
+			showStatistics = False
+			startOnArchive = False
+			obeyHideUi = True
+			enableSafeMode = True
+			audibleExceptions = True
+			verboseExceptions = True
+			useBlizzyToolbarOnly = False
+			debugEachOpcode = False
 		}
 		CommNetParams
 		{
@@ -1115,7 +1136,7 @@ GAME
 	{
 		name = ResearchAndDevelopment
 		scene = 7, 8, 5, 6
-		sci = 115.528557
+		sci = 115.528572
 		Tech
 		{
 			id = start
@@ -1213,6 +1234,7 @@ GAME
 			part = winglet3
 			part = R8winglet
 			part = mumech.MJ2.AR202
+			part = kOSMachine1m
 		}
 		Tech
 		{
@@ -1336,6 +1358,7 @@ GAME
 			part = KKAOSS.LS.container.elektron
 			part = KKAOSS.LS.container.waterpurifier
 			part = KAS.PortPylonPwr
+			part = Cherry Light
 		}
 		Tech
 		{
@@ -1430,6 +1453,8 @@ GAME
 			part = Decoupler.0
 			part = probeCoreHex.v2
 			part = probeCoreHex
+			part = KR-2042
+			part = kOSMachine0m
 		}
 		Tech
 		{
@@ -1441,6 +1466,7 @@ GAME
 			part = probeCoreCube
 			part = KKAOSS.dock.habitat
 			part = mumech.MJ2.AR202.features3
+			part = kOSMachineRad
 		}
 		Tech
 		{
@@ -1491,6 +1517,7 @@ GAME
 			part = KKAOSS.Automatic.Control.g
 			part = mumech.MJ2.Pod
 			part = KKAOSS.LS.container.algae
+			part = KAL9000
 		}
 		Tech
 		{
@@ -2015,9 +2042,9 @@ GAME
 			id = recovery@KerbinFlew
 			title = Recovery of a vessel returned from a flight over Kerbin
 			dsc = 1
-			scv = 3.57627869E-06
+			scv = 0
 			sbv = 5
-			sci = 5.99997854
+			sci = 6
 			cap = 6
 		}
 		Science
@@ -4303,7 +4330,7 @@ GAME
 		Science
 		{
 			id = recovery@MunOrbited
-			title = Recovery of a vessel returned from orbit around Mun
+			title = Recovery of a vessel returned from orbit around The Mun
 			dsc = 1
 			scv = 0.000771582068
 			sbv = 16
@@ -4534,10 +4561,15 @@ GAME
 		name = TacLifeSupport
 		scene = 5, 6, 7, 8
 	}
+	SCENARIO
+	{
+		name = InterVesselManager
+		scene = 7, 5, 8
+	}
 	FLIGHTSTATE
 	{
 		version = 1.7.0
-		UT = 268711762.37472236
+		UT = 268726121.59539306
 		activeVessel = 0
 		mapViewFiltering = 15358
 		commNetUIModeTracking = Network
@@ -4580,13 +4612,13 @@ GAME
 			cMod = -1
 			ORBIT
 			{
-				SMA = 0
+				SMA = NaN
 				ECC = 1
 				INC = 59.176050495024306
 				LPE = 90
-				LAN = 149.37863010619424
+				LAN = 29.423354926376021
 				MNA = 0
-				EPH = 268711752.23473203
+				EPH = 268726121.19539344
 				REF = 1
 			}
 			PART
@@ -4714,10 +4746,13 @@ GAME
 				FlightIntegrator
 				{
 				}
-				KSPWheelVesselControl
+				KSPWheelVesselDebug
 				{
 				}
-				KSPWheelVesselDebug
+				kOSVesselModule
+				{
+				}
+				KSPWheelVesselControl
 				{
 				}
 				KSPWheelDustCamera
@@ -4763,13 +4798,13 @@ GAME
 			cMod = -1
 			ORBIT
 			{
-				SMA = NaN
-				ECC = 1
+				SMA = 300141.53508121904
+				ECC = 0.99999999999999989
 				INC = 5.2803964183131757
 				LPE = 90
-				LAN = 190.1217389007727
-				MNA = 0
-				EPH = 268711752.23473203
+				LAN = 70.166463720954425
+				MNA = 3.1415926207170166
+				EPH = 268726121.19539344
 				REF = 1
 			}
 			PART
@@ -4897,10 +4932,13 @@ GAME
 				FlightIntegrator
 				{
 				}
-				KSPWheelVesselControl
+				KSPWheelVesselDebug
 				{
 				}
-				KSPWheelVesselDebug
+				kOSVesselModule
+				{
+				}
+				KSPWheelVesselControl
 				{
 				}
 				KSPWheelDustCamera
@@ -4946,13 +4984,13 @@ GAME
 			cMod = -1
 			ORBIT
 			{
-				SMA = NaN
+				SMA = 0
 				ECC = 1
-				INC = 0.3571824424305573
+				INC = 0.35718244243157765
 				LPE = 270
-				LAN = 224.18259007035877
+				LAN = 261.40134778694835
 				MNA = 0
-				EPH = 268711752.23473203
+				EPH = 268726121.19539344
 				REF = 2
 			}
 			PART
@@ -5080,10 +5118,13 @@ GAME
 				FlightIntegrator
 				{
 				}
-				KSPWheelVesselControl
+				KSPWheelVesselDebug
 				{
 				}
-				KSPWheelVesselDebug
+				kOSVesselModule
+				{
+				}
+				KSPWheelVesselControl
 				{
 				}
 				KSPWheelDustCamera
@@ -5129,13 +5170,13 @@ GAME
 			cMod = -1
 			ORBIT
 			{
-				SMA = NaN
-				ECC = 1
-				INC = 0.16465742953335719
+				SMA = 101658.52395242847
+				ECC = 0.99999999999999989
+				INC = 0.16465742952893023
 				LPE = 270
-				LAN = 257.24321033124556
-				MNA = 0
-				EPH = 268711752.23473203
+				LAN = 294.46196804783517
+				MNA = 3.1415926207170166
+				EPH = 268726121.19539344
 				REF = 2
 			}
 			PART
@@ -5263,10 +5304,13 @@ GAME
 				FlightIntegrator
 				{
 				}
-				KSPWheelVesselControl
+				KSPWheelVesselDebug
 				{
 				}
-				KSPWheelVesselDebug
+				kOSVesselModule
+				{
+				}
+				KSPWheelVesselControl
 				{
 				}
 				KSPWheelDustCamera
@@ -5312,13 +5356,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = NaN
-				ECC = 1
-				INC = 3.0983083588820222
+				SMA = 31472.216798978869
+				ECC = 0.99999999999999989
+				INC = 3.0983083588819045
 				LPE = 90
-				LAN = 342.50882076655392
-				MNA = 0
-				EPH = 268711752.23473203
+				LAN = 110.54906428369827
+				MNA = 3.1415926207170166
+				EPH = 268726121.19539344
 				REF = 3
 			}
 			PART
@@ -5446,10 +5490,13 @@ GAME
 				FlightIntegrator
 				{
 				}
-				KSPWheelVesselControl
+				KSPWheelVesselDebug
 				{
 				}
-				KSPWheelVesselDebug
+				kOSVesselModule
+				{
+				}
+				KSPWheelVesselControl
 				{
 				}
 				KSPWheelDustCamera
@@ -5495,13 +5542,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = 31472.234283071561
+				SMA = 31472.234283071917
 				ECC = 0.99999999999999989
-				INC = 3.0978045593542984
+				INC = 3.0978045593541808
 				LPE = 90
-				LAN = 342.51127324743862
-				MNA = -3.1415926207170166
-				EPH = 268711752.23473203
+				LAN = 110.55151676458161
+				MNA = 3.1415926207170166
+				EPH = 268726121.19539344
 				REF = 3
 			}
 			PART
@@ -5629,10 +5676,13 @@ GAME
 				FlightIntegrator
 				{
 				}
-				KSPWheelVesselControl
+				KSPWheelVesselDebug
 				{
 				}
-				KSPWheelVesselDebug
+				kOSVesselModule
+				{
+				}
+				KSPWheelVesselControl
 				{
 				}
 				KSPWheelDustCamera
@@ -5680,11 +5730,11 @@ GAME
 			{
 				SMA = NaN
 				ECC = 1
-				INC = 3.0977032809930245
+				INC = 3.0977032809929068
 				LPE = 90
-				LAN = 342.50736215984136
+				LAN = 110.54760567698372
 				MNA = 0
-				EPH = 268711752.23473203
+				EPH = 268726121.19539344
 				REF = 3
 			}
 			PART
@@ -5812,10 +5862,13 @@ GAME
 				FlightIntegrator
 				{
 				}
-				KSPWheelVesselControl
+				KSPWheelVesselDebug
 				{
 				}
-				KSPWheelVesselDebug
+				kOSVesselModule
+				{
+				}
+				KSPWheelVesselControl
 				{
 				}
 				KSPWheelDustCamera
@@ -5861,13 +5914,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = NaN
-				ECC = 1
+				SMA = 31965.930104187992
+				ECC = 0.99999999999999978
 				INC = 1.3320670660146596
 				LPE = 90
-				LAN = 336.19325362849571
-				MNA = 0
-				EPH = 268711752.23473203
+				LAN = 104.23349714563301
+				MNA = 3.1415926303452304
+				EPH = 268726121.19539344
 				REF = 3
 			}
 			PART
@@ -5995,10 +6048,13 @@ GAME
 				FlightIntegrator
 				{
 				}
-				KSPWheelVesselControl
+				KSPWheelVesselDebug
 				{
 				}
-				KSPWheelVesselDebug
+				kOSVesselModule
+				{
+				}
+				KSPWheelVesselControl
 				{
 				}
 				KSPWheelDustCamera
@@ -6044,13 +6100,13 @@ GAME
 			cMod = -1
 			ORBIT
 			{
-				SMA = 0
-				ECC = 1
-				INC = 51.760395223683496
+				SMA = 32117.36763977565
+				ECC = 0.99999999999999989
+				INC = 51.760395223535738
 				LPE = 270
-				LAN = 229.12415157956755
-				MNA = 0
-				EPH = 268711752.23473203
+				LAN = 357.16439509669186
+				MNA = 3.1415926207170166
+				EPH = 268726121.19539344
 				REF = 3
 			}
 			PART
@@ -8396,10 +8452,13 @@ GAME
 				FlightIntegrator
 				{
 				}
-				KSPWheelVesselControl
+				KSPWheelVesselDebug
 				{
 				}
-				KSPWheelVesselDebug
+				kOSVesselModule
+				{
+				}
+				KSPWheelVesselControl
 				{
 				}
 				CommNetVessel
@@ -11057,10 +11116,13 @@ GAME
 				FlightIntegrator
 				{
 				}
-				KSPWheelVesselControl
+				KSPWheelVesselDebug
 				{
 				}
-				KSPWheelVesselDebug
+				kOSVesselModule
+				{
+				}
+				KSPWheelVesselControl
 				{
 				}
 				CommNetVessel
@@ -11111,13 +11173,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = 0
-				ECC = 1.0000000000000002
-				INC = 61.996212439804886
+				SMA = NaN
+				ECC = 1
+				INC = 61.996212439616365
 				LPE = 270
-				LAN = 354.5252841274953
-				MNA = Infinity
-				EPH = 268711752.23473203
+				LAN = 73.478196928446437
+				MNA = 0
+				EPH = 268726121.19539344
 				REF = 6
 			}
 			PART
@@ -17890,10 +17952,13 @@ GAME
 				FlightIntegrator
 				{
 				}
-				KSPWheelVesselControl
+				KSPWheelVesselDebug
 				{
 				}
-				KSPWheelVesselDebug
+				kOSVesselModule
+				{
+				}
+				KSPWheelVesselControl
 				{
 				}
 				CommNetVessel
@@ -17944,13 +18009,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = 161364.47832237085
-				ECC = 0.99999999999999989
-				INC = 1.9713212380046752
+				SMA = 0
+				ECC = 1
+				INC = 1.9713212379906211
 				LPE = 90
-				LAN = 1.3263654946676979
-				MNA = 3.1415926207170166
-				EPH = 268711752.23473203
+				LAN = 80.279278294855033
+				MNA = 0
+				EPH = 268726121.19539344
 				REF = 6
 			}
 			PART
@@ -18078,10 +18143,13 @@ GAME
 				FlightIntegrator
 				{
 				}
-				KSPWheelVesselControl
+				KSPWheelVesselDebug
 				{
 				}
-				KSPWheelVesselDebug
+				kOSVesselModule
+				{
+				}
+				KSPWheelVesselControl
 				{
 				}
 				KSPWheelDustCamera
@@ -21499,10 +21567,13 @@ GAME
 				FlightIntegrator
 				{
 				}
-				KSPWheelVesselControl
+				KSPWheelVesselDebug
 				{
 				}
-				KSPWheelVesselDebug
+				kOSVesselModule
+				{
+				}
+				KSPWheelVesselControl
 				{
 				}
 				CommNetVessel
@@ -21554,12 +21625,12 @@ GAME
 			ORBIT
 			{
 				SMA = 0
-				ECC = 1
-				INC = 37.185023175760158
+				ECC = 1.0000000000000002
+				INC = 37.185023175892198
 				LPE = 270
-				LAN = 12.663109880454556
-				MNA = 0
-				EPH = 268711752.23473203
+				LAN = 91.616022681236018
+				MNA = Infinity
+				EPH = 268726121.19539344
 				REF = 6
 			}
 			PART
@@ -21687,10 +21758,13 @@ GAME
 				FlightIntegrator
 				{
 				}
-				KSPWheelVesselControl
+				KSPWheelVesselDebug
 				{
 				}
-				KSPWheelVesselDebug
+				kOSVesselModule
+				{
+				}
+				KSPWheelVesselControl
 				{
 				}
 				KSPWheelDustCamera
@@ -21736,13 +21810,13 @@ GAME
 			cMod = -1
 			ORBIT
 			{
-				SMA = 0
+				SMA = NaN
 				ECC = 1
-				INC = 30.063404197543143
+				INC = 30.063404197610172
 				LPE = 270
-				LAN = 143.89813132545441
+				LAN = 222.85104080028765
 				MNA = 0
-				EPH = 268711752.23473203
+				EPH = 268726121.19539344
 				REF = 7
 			}
 			PART
@@ -21870,10 +21944,13 @@ GAME
 				FlightIntegrator
 				{
 				}
-				KSPWheelVesselControl
+				KSPWheelVesselDebug
 				{
 				}
-				KSPWheelVesselDebug
+				kOSVesselModule
+				{
+				}
+				KSPWheelVesselControl
 				{
 				}
 				KSPWheelDustCamera
@@ -21919,13 +21996,13 @@ GAME
 			cMod = -1
 			ORBIT
 			{
-				SMA = NaN
-				ECC = 1
-				INC = 30.056327820270543
+				SMA = 66426.687415444787
+				ECC = 0.99999999999999978
+				INC = 30.056327820263341
 				LPE = 270
-				LAN = 143.90138909656611
-				MNA = 0
-				EPH = 268711752.23473203
+				LAN = 222.85429857068837
+				MNA = 3.1415926303452304
+				EPH = 268726121.19539344
 				REF = 7
 			}
 			PART
@@ -22053,10 +22130,13 @@ GAME
 				FlightIntegrator
 				{
 				}
-				KSPWheelVesselControl
+				KSPWheelVesselDebug
 				{
 				}
-				KSPWheelVesselDebug
+				kOSVesselModule
+				{
+				}
+				KSPWheelVesselControl
 				{
 				}
 				KSPWheelDustCamera
@@ -26922,10 +27002,13 @@ GAME
 				FlightIntegrator
 				{
 				}
-				KSPWheelVesselControl
+				KSPWheelVesselDebug
 				{
 				}
-				KSPWheelVesselDebug
+				kOSVesselModule
+				{
+				}
+				KSPWheelVesselControl
 				{
 				}
 				CommNetVessel
@@ -26976,13 +27059,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = 350090.77024894039
+				SMA = 350090.77024834609
 				ECC = 0.99999999999999989
-				INC = 19.352057209523302
+				INC = 19.352057209558563
 				LPE = 90
-				LAN = 104.21804730221982
-				MNA = 3.1415926207170166
-				EPH = 268711752.23473203
+				LAN = 168.47675336574798
+				MNA = -3.1415926207170166
+				EPH = 268726121.19539344
 				REF = 5
 			}
 			PART
@@ -27874,10 +27957,13 @@ GAME
 				FlightIntegrator
 				{
 				}
-				KSPWheelVesselControl
+				KSPWheelVesselDebug
 				{
 				}
-				KSPWheelVesselDebug
+				kOSVesselModule
+				{
+				}
+				KSPWheelVesselControl
 				{
 				}
 				CommNetVessel
@@ -27928,13 +28014,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = NaN
-				ECC = 1
-				INC = 19.349473112002652
+				SMA = 350096.32784579397
+				ECC = 0.99999999999999989
+				INC = 19.349473111977233
 				LPE = 90
-				LAN = 104.24629285358452
-				MNA = 0
-				EPH = 268711752.23473203
+				LAN = 168.50499891717004
+				MNA = 3.1415926207170166
+				EPH = 268726121.19539344
 				REF = 5
 			}
 			PART
@@ -34268,10 +34354,13 @@ GAME
 				FlightIntegrator
 				{
 				}
-				KSPWheelVesselControl
+				KSPWheelVesselDebug
 				{
 				}
-				KSPWheelVesselDebug
+				kOSVesselModule
+				{
+				}
+				KSPWheelVesselControl
 				{
 				}
 				CommNetVessel
@@ -34322,13 +34411,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = 0
-				ECC = 1
-				INC = 19.35012346848346
+				SMA = 350096.63364356011
+				ECC = 0.99999999999999989
+				INC = 19.35012346848043
 				LPE = 90
-				LAN = 104.24771550088985
-				MNA = 0
-				EPH = 268711752.23473203
+				LAN = 168.50642156457025
+				MNA = 3.1415926207170166
+				EPH = 268726121.19539344
 				REF = 5
 			}
 			PART
@@ -34456,10 +34545,13 @@ GAME
 				FlightIntegrator
 				{
 				}
-				KSPWheelVesselControl
+				KSPWheelVesselDebug
 				{
 				}
-				KSPWheelVesselDebug
+				kOSVesselModule
+				{
+				}
+				KSPWheelVesselControl
 				{
 				}
 				KSPWheelDustCamera
@@ -34481,9 +34573,9 @@ GAME
 			landedAt = KSC
 			displaylandedAt = #autoLOC_300900
 			splashed = False
-			met = 147601716.84010726
+			met = 147823100.93511486
 			lct = 120902594.40338536
-			lastUT = 268504311.2434926
+			lastUT = 268725695.3385002
 			distanceTraveled = 13.834768158101602
 			root = 0
 			lat = -0.2098776834380566
@@ -34492,7 +34584,7 @@ GAME
 			hgt = 2.65221477
 			nrm = 0.0152005553,0.999721766,-0.0180455446
 			rot = 0.124615014,0.694821179,-0.704288661,0.0753140897
-			CoM = 0.00215269625,-0.22044611,-3.58399534
+			CoM = 0.00212376751,-0.220474243,-3.58399677
 			stg = 0
 			prst = False
 			ref = 1147610620
@@ -34505,13 +34597,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = 300033.5958807639
+				SMA = 300033.59586640314
 				ECC = 0.99999999999999989
-				INC = 0.20953588935613029
+				INC = 0.2095358893752636
 				LPE = 90
-				LAN = 125.36945072016272
-				MNA = 3.1415926207170166
-				EPH = 268711752.23473203
+				LAN = 5.4141755429788532
+				MNA = -3.1415926207170166
+				EPH = 268726121.19539344
 				REF = 1
 			}
 			PART
@@ -34543,9 +34635,9 @@ GAME
 				attN = back, 1
 				mass = 7.5
 				shielded = False
-				temp = 304.98378333014819
-				tempExt = 305.13765778539255
-				tempExtUnexp = 305.13814917134624
+				temp = 309.20102610755998
+				tempExt = 309.73747928580974
+				tempExtUnexp = 309.74075629651372
 				staticPressureAtm = 0.9900596575356988
 				expt = 0.5
 				state = 0
@@ -34610,7 +34702,7 @@ GAME
 					EfficiencyBonus = 1
 					IsActivated = False
 					stagingEnabled = True
-					lastUpdateTime = 268504311.2434926
+					lastUpdateTime = 268725695.3385002
 					EVENTS
 					{
 					}
@@ -35358,6 +35450,22 @@ GAME
 				}
 				MODULE
 				{
+					name = KOSNameTag
+					isEnabled = True
+					nameTag = 
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
+				MODULE
+				{
 					name = LifeSupportModule
 					isEnabled = True
 					stagingEnabled = True
@@ -35380,7 +35488,7 @@ GAME
 					EfficiencyBonus = 1
 					IsActivated = False
 					stagingEnabled = True
-					lastUpdateTime = 268504311.2434926
+					lastUpdateTime = 268725695.3385002
 					EVENTS
 					{
 					}
@@ -35412,7 +35520,7 @@ GAME
 					EfficiencyBonus = 1
 					IsActivated = False
 					stagingEnabled = True
-					lastUpdateTime = 268504311.2434926
+					lastUpdateTime = 268725695.3385002
 					EVENTS
 					{
 					}
@@ -35559,9 +35667,9 @@ GAME
 				attN = bottom, 0
 				mass = 0.100000001
 				shielded = False
-				temp = 304.98432227353874
-				tempExt = 305.12385620768777
-				tempExtUnexp = 305.12384819825206
+				temp = 309.20386638828711
+				tempExt = 309.71279427945859
+				tempExtUnexp = 309.71381713736736
 				staticPressureAtm = 0.99009022782121259
 				expt = 0.5
 				state = 0
@@ -35629,6 +35737,22 @@ GAME
 					{
 					}
 				}
+				MODULE
+				{
+					name = KOSNameTag
+					isEnabled = True
+					nameTag = 
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
 			}
 			PART
 			{
@@ -35655,9 +35779,9 @@ GAME
 				attN = bottom, 0
 				mass = 0.100000001
 				shielded = False
-				temp = 304.98432285802238
-				tempExt = 305.1238562833812
-				tempExtUnexp = 305.12384827385915
+				temp = 309.20396651073975
+				tempExt = 309.71650527522354
+				tempExtUnexp = 309.71752922427925
 				staticPressureAtm = 0.99009971515119966
 				expt = 0.5
 				state = 0
@@ -35719,6 +35843,22 @@ GAME
 					{
 					}
 				}
+				MODULE
+				{
+					name = KOSNameTag
+					isEnabled = True
+					nameTag = 
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
 			}
 			PART
 			{
@@ -35745,9 +35885,9 @@ GAME
 				attN = bottom, 0
 				mass = 0.100000001
 				shielded = False
-				temp = 304.98432285793257
-				tempExt = 305.12385628336875
-				tempExtUnexp = 305.12384827384676
+				temp = 309.20396651073975
+				tempExt = 309.71650527522354
+				tempExtUnexp = 309.71752922427925
 				staticPressureAtm = 0.99009105608017978
 				expt = 0.5
 				state = 0
@@ -35809,6 +35949,22 @@ GAME
 					{
 					}
 				}
+				MODULE
+				{
+					name = KOSNameTag
+					isEnabled = True
+					nameTag = 
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
 			}
 			PART
 			{
@@ -35835,9 +35991,9 @@ GAME
 				attN = bottom, 0
 				mass = 0.100000001
 				shielded = False
-				temp = 304.98432285797793
-				tempExt = 305.12385628337518
-				tempExtUnexp = 305.12384827385313
+				temp = 309.20396651100953
+				tempExt = 309.71650527526265
+				tempExtUnexp = 309.7175292243183
 				staticPressureAtm = 0.99010054341016684
 				expt = 0.5
 				state = 0
@@ -35899,6 +36055,22 @@ GAME
 					{
 					}
 				}
+				MODULE
+				{
+					name = KOSNameTag
+					isEnabled = True
+					nameTag = 
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
 			}
 			PART
 			{
@@ -35925,9 +36097,9 @@ GAME
 				attN = bottom, -1
 				mass = 0.375
 				shielded = False
-				temp = 304.98435697341978
-				tempExt = 305.08468840341578
-				tempExtUnexp = 305.08468462367074
+				temp = 309.19441094461018
+				tempExt = 309.55816800630259
+				tempExtUnexp = 309.55950546045642
 				staticPressureAtm = 0.99026905646184149
 				expt = 0.5
 				state = 0
@@ -36095,6 +36267,22 @@ GAME
 					{
 					}
 				}
+				MODULE
+				{
+					name = KOSNameTag
+					isEnabled = True
+					nameTag = 
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
 			}
 			PART
 			{
@@ -36120,9 +36308,9 @@ GAME
 				attN = 001, -1
 				mass = 0.600000024
 				shielded = False
-				temp = 304.98034785143483
-				tempExt = 305.06001842898911
-				tempExtUnexp = 305.0600117875058
+				temp = 309.16727705589733
+				tempExt = 309.48085928128353
+				tempExtUnexp = 309.48208782270069
 				staticPressureAtm = 0.99027846849555878
 				expt = 0.5
 				state = 0
@@ -36390,6 +36578,22 @@ GAME
 					{
 					}
 				}
+				MODULE
+				{
+					name = KOSNameTag
+					isEnabled = True
+					nameTag = 
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
 			}
 			PART
 			{
@@ -36415,9 +36619,9 @@ GAME
 				attN = 001, -1
 				mass = 0.600000024
 				shielded = False
-				temp = 304.98034785143483
-				tempExt = 305.06001842898911
-				tempExtUnexp = 305.0600117875058
+				temp = 309.16727705589733
+				tempExt = 309.48085928128353
+				tempExtUnexp = 309.48208782270069
 				staticPressureAtm = 0.99027575782984822
 				expt = 0.5
 				state = 0
@@ -36685,6 +36889,22 @@ GAME
 					{
 					}
 				}
+				MODULE
+				{
+					name = KOSNameTag
+					isEnabled = True
+					nameTag = 
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
 			}
 			PART
 			{
@@ -36710,9 +36930,9 @@ GAME
 				attN = 001, -1
 				mass = 0.600000024
 				shielded = False
-				temp = 304.98034785143483
-				tempExt = 305.06001842898911
-				tempExtUnexp = 305.0600117875058
+				temp = 309.16727705589733
+				tempExt = 309.48085928128353
+				tempExtUnexp = 309.48208782270069
 				staticPressureAtm = 0.99027899556944698
 				expt = 0.5
 				state = 0
@@ -36980,6 +37200,22 @@ GAME
 					{
 					}
 				}
+				MODULE
+				{
+					name = KOSNameTag
+					isEnabled = True
+					nameTag = 
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
 			}
 			PART
 			{
@@ -37005,9 +37241,9 @@ GAME
 				attN = 001, -1
 				mass = 0.600000024
 				shielded = False
-				temp = 304.98034785143483
-				tempExt = 305.06001842898911
-				tempExtUnexp = 305.0600117875058
+				temp = 309.16727705589733
+				tempExt = 309.48085928128353
+				tempExtUnexp = 309.48208782270069
 				staticPressureAtm = 0.99028163093888777
 				expt = 0.5
 				state = 0
@@ -37275,6 +37511,22 @@ GAME
 					{
 					}
 				}
+				MODULE
+				{
+					name = KOSNameTag
+					isEnabled = True
+					nameTag = 
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
 			}
 			PART
 			{
@@ -37300,9 +37552,9 @@ GAME
 				attN = bottom, 0
 				mass = 0.0500000007
 				shielded = False
-				temp = 304.98717537189845
-				tempExt = 305.09988140269184
-				tempExtUnexp = 305.09987331565947
+				temp = 309.21882669652757
+				tempExt = 309.7677557719494
+				tempExtUnexp = 309.77110597238192
 				staticPressureAtm = 0.98971856543378356
 				expt = 0
 				state = 0
@@ -37470,6 +37722,22 @@ GAME
 				}
 				MODULE
 				{
+					name = KOSNameTag
+					isEnabled = True
+					nameTag = 
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
+				MODULE
+				{
 					name = ModuleTripLogger
 					isEnabled = True
 					stagingEnabled = True
@@ -37526,9 +37794,9 @@ GAME
 				attN = bottom, 12
 				mass = 0.100000001
 				shielded = False
-				temp = 304.98351413069639
-				tempExt = 305.11504151450282
-				tempExtUnexp = 305.11503416628307
+				temp = 309.16998576812955
+				tempExt = 309.56574678028426
+				tempExtUnexp = 309.56648611870366
 				staticPressureAtm = 0.99008962545105472
 				expt = 0.5
 				state = 0
@@ -37596,6 +37864,22 @@ GAME
 					{
 					}
 				}
+				MODULE
+				{
+					name = KOSNameTag
+					isEnabled = True
+					nameTag = 
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
 			}
 			PART
 			{
@@ -37626,9 +37910,9 @@ GAME
 				attN = back, 13
 				mass = 7.5
 				shielded = False
-				temp = 304.98321329767106
-				tempExt = 305.12706314439561
-				tempExtUnexp = 305.12749111808859
+				temp = 309.16886619614479
+				tempExt = 309.57601734223283
+				tempExtUnexp = 309.57845775367332
 				staticPressureAtm = 0.99004881487285645
 				expt = 0.5
 				state = 0
@@ -37693,7 +37977,7 @@ GAME
 					EfficiencyBonus = 1
 					IsActivated = False
 					stagingEnabled = True
-					lastUpdateTime = 268504311.2434926
+					lastUpdateTime = 268725695.3385002
 					EVENTS
 					{
 					}
@@ -37967,6 +38251,22 @@ GAME
 				}
 				MODULE
 				{
+					name = KOSNameTag
+					isEnabled = True
+					nameTag = 
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
+				MODULE
+				{
 					name = LifeSupportModule
 					isEnabled = True
 					stagingEnabled = True
@@ -37989,7 +38289,7 @@ GAME
 					EfficiencyBonus = 1
 					IsActivated = False
 					stagingEnabled = True
-					lastUpdateTime = 268504311.2434926
+					lastUpdateTime = 268725695.3385002
 					EVENTS
 					{
 					}
@@ -38021,7 +38321,7 @@ GAME
 					EfficiencyBonus = 1
 					IsActivated = False
 					stagingEnabled = True
-					lastUpdateTime = 268504311.2434926
+					lastUpdateTime = 268725695.3385002
 					EVENTS
 					{
 					}
@@ -38167,9 +38467,9 @@ GAME
 				attN = bottom, 12
 				mass = 0.100000001
 				shielded = False
-				temp = 304.98350002310838
-				tempExt = 305.11361264034599
-				tempExtUnexp = 305.11360501955909
+				temp = 309.1700981059779
+				tempExt = 309.57547541421127
+				tempExtUnexp = 309.57641249818766
 				staticPressureAtm = 0.99007938515837035
 				expt = 0.5
 				state = 0
@@ -38237,6 +38537,22 @@ GAME
 					{
 					}
 				}
+				MODULE
+				{
+					name = KOSNameTag
+					isEnabled = True
+					nameTag = 
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
 			}
 			PART
 			{
@@ -38263,9 +38579,9 @@ GAME
 				attN = bottom, 12
 				mass = 0.100000001
 				shielded = False
-				temp = 304.98351377991781
-				tempExt = 305.11504146743823
-				tempExtUnexp = 305.1150341192631
+				temp = 309.17008263989396
+				tempExt = 309.57774204762165
+				tempExtUnexp = 309.57873194601711
 				staticPressureAtm = 0.99008360174947563
 				expt = 0.5
 				state = 0
@@ -38327,6 +38643,22 @@ GAME
 					{
 					}
 				}
+				MODULE
+				{
+					name = KOSNameTag
+					isEnabled = True
+					nameTag = 
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
 			}
 			PART
 			{
@@ -38353,9 +38685,9 @@ GAME
 				attN = bottom, 12
 				mass = 0.100000001
 				shielded = False
-				temp = 304.98351377991781
-				tempExt = 305.11504146743823
-				tempExtUnexp = 305.1150341192631
+				temp = 309.17008263989169
+				tempExt = 309.57774204741588
+				tempExtUnexp = 309.57873194580054
 				staticPressureAtm = 0.99008540885994933
 				expt = 0.5
 				state = 0
@@ -38417,6 +38749,22 @@ GAME
 					{
 					}
 				}
+				MODULE
+				{
+					name = KOSNameTag
+					isEnabled = True
+					nameTag = 
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
 			}
 			PART
 			{
@@ -38443,9 +38791,9 @@ GAME
 				attN = bottom, -1
 				mass = 0.375
 				shielded = False
-				temp = 304.98360652883372
-				tempExt = 305.08035453702126
-				tempExtUnexp = 305.08037589083955
+				temp = 309.1676475303808
+				tempExt = 309.46834070273451
+				tempExtUnexp = 309.46963837928888
 				staticPressureAtm = 0.99025821379899914
 				expt = 0.5
 				state = 0
@@ -38613,6 +38961,22 @@ GAME
 					{
 					}
 				}
+				MODULE
+				{
+					name = KOSNameTag
+					isEnabled = True
+					nameTag = 
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
 			}
 			PART
 			{
@@ -38638,9 +39002,9 @@ GAME
 				attN = 001, -1
 				mass = 0.600000024
 				shielded = False
-				temp = 304.98009315170282
-				tempExt = 305.05735847495868
-				tempExtUnexp = 305.05735224639119
+				temp = 309.14956514089795
+				tempExt = 309.4206287024731
+				tempExtUnexp = 309.42186401553511
 				staticPressureAtm = 0.99026596931478217
 				expt = 0.5
 				state = 0
@@ -38908,6 +39272,22 @@ GAME
 					{
 					}
 				}
+				MODULE
+				{
+					name = KOSNameTag
+					isEnabled = True
+					nameTag = 
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
 			}
 			PART
 			{
@@ -38933,9 +39313,9 @@ GAME
 				attN = 001, -1
 				mass = 0.600000024
 				shielded = False
-				temp = 304.98009315170282
-				tempExt = 305.05735847495868
-				tempExtUnexp = 305.05735224639119
+				temp = 309.14956514089795
+				tempExt = 309.4206287024731
+				tempExtUnexp = 309.42186401553511
 				staticPressureAtm = 0.99026657168494014
 				expt = 0.5
 				state = 0
@@ -39203,6 +39583,22 @@ GAME
 					{
 					}
 				}
+				MODULE
+				{
+					name = KOSNameTag
+					isEnabled = True
+					nameTag = 
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
 			}
 			PART
 			{
@@ -39228,9 +39624,9 @@ GAME
 				attN = 001, -1
 				mass = 0.600000024
 				shielded = False
-				temp = 304.98009315170282
-				tempExt = 305.05735847495868
-				tempExtUnexp = 305.05735224639119
+				temp = 309.14956514089795
+				tempExt = 309.4206287024731
+				tempExtUnexp = 309.42186401553511
 				staticPressureAtm = 0.99026988472080857
 				expt = 0.5
 				state = 0
@@ -39498,6 +39894,22 @@ GAME
 					{
 					}
 				}
+				MODULE
+				{
+					name = KOSNameTag
+					isEnabled = True
+					nameTag = 
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
 			}
 			PART
 			{
@@ -39523,9 +39935,9 @@ GAME
 				attN = 001, -1
 				mass = 0.600000024
 				shielded = False
-				temp = 304.98009315170282
-				tempExt = 305.05735847495868
-				tempExtUnexp = 305.05735224639119
+				temp = 309.14956514089795
+				tempExt = 309.4206287024731
+				tempExtUnexp = 309.42186401553511
 				staticPressureAtm = 0.99026913175811127
 				expt = 0.5
 				state = 0
@@ -39793,6 +40205,22 @@ GAME
 					{
 					}
 				}
+				MODULE
+				{
+					name = KOSNameTag
+					isEnabled = True
+					nameTag = 
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
 			}
 			PART
 			{
@@ -39819,9 +40247,9 @@ GAME
 				attN = bottom, 22
 				mass = 0.100000001
 				shielded = False
-				temp = 304.98045502656885
-				tempExt = 305.05755703773548
-				tempExtUnexp = 305.05754060673684
+				temp = 309.23062695988489
+				tempExt = 309.59056351885113
+				tempExtUnexp = 309.59129194302784
 				staticPressureAtm = 0.99007878278821237
 				expt = 0.5
 				state = 0
@@ -39889,6 +40317,22 @@ GAME
 					{
 					}
 				}
+				MODULE
+				{
+					name = KOSNameTag
+					isEnabled = True
+					nameTag = 
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
 			}
 			PART
 			{
@@ -39917,9 +40361,9 @@ GAME
 				attN = back, 23
 				mass = 3
 				shielded = False
-				temp = 304.98121702860146
-				tempExt = 305.03633321710157
-				tempExtUnexp = 305.03632888528693
+				temp = 309.18811898369484
+				tempExt = 309.50003620132355
+				tempExtUnexp = 309.50158452860933
 				staticPressureAtm = 0.99007283438290306
 				expt = 0.5
 				state = 0
@@ -40071,13 +40515,29 @@ GAME
 				}
 				MODULE
 				{
+					name = KOSNameTag
+					isEnabled = True
+					nameTag = 
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
+				MODULE
+				{
 					name = PlanetaryGreenhouse
 					isEnabled = True
 					productionSpeed = 100
 					EfficiencyBonus = 1
 					IsActivated = False
 					stagingEnabled = True
-					lastUpdateTime = 268504311.2434926
+					lastUpdateTime = 268725695.3385002
 					EVENTS
 					{
 					}
@@ -40183,9 +40643,9 @@ GAME
 				attN = bottom, -1
 				mass = 0.375
 				shielded = False
-				temp = 304.98320922592086
-				tempExt = 305.09453377962797
-				tempExtUnexp = 305.0948966027085
+				temp = 309.18589948681915
+				tempExt = 309.44468195543459
+				tempExtUnexp = 309.44591916221646
 				staticPressureAtm = 0.99024812409885421
 				expt = 0.5
 				state = 0
@@ -40353,6 +40813,22 @@ GAME
 					{
 					}
 				}
+				MODULE
+				{
+					name = KOSNameTag
+					isEnabled = True
+					nameTag = 
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
 			}
 			PART
 			{
@@ -40379,9 +40855,9 @@ GAME
 				attN = 001, -1
 				mass = 0.600000024
 				shielded = False
-				temp = 304.98033081398336
-				tempExt = 305.06597812385189
-				tempExtUnexp = 305.06596851376958
+				temp = 309.15709579161557
+				tempExt = 309.40877233783021
+				tempExtUnexp = 309.40998858688135
 				staticPressureAtm = 0.990256256095986
 				expt = 0.5
 				state = 0
@@ -40649,6 +41125,22 @@ GAME
 					{
 					}
 				}
+				MODULE
+				{
+					name = KOSNameTag
+					isEnabled = True
+					nameTag = 
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
 			}
 			PART
 			{
@@ -40675,9 +41167,9 @@ GAME
 				attN = 001, -1
 				mass = 0.600000024
 				shielded = False
-				temp = 304.98033081398336
-				tempExt = 305.06597812385189
-				tempExtUnexp = 305.06596851376958
+				temp = 309.15709579161557
+				tempExt = 309.40877233783021
+				tempExtUnexp = 309.40998858688135
 				staticPressureAtm = 0.99025392191162409
 				expt = 0.5
 				state = 0
@@ -40945,6 +41437,22 @@ GAME
 					{
 					}
 				}
+				MODULE
+				{
+					name = KOSNameTag
+					isEnabled = True
+					nameTag = 
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
 			}
 			PART
 			{
@@ -40971,9 +41479,9 @@ GAME
 				attN = 001, -1
 				mass = 0.600000024
 				shielded = False
-				temp = 304.97861695674243
-				tempExt = 305.0309583604942
-				tempExtUnexp = 305.03095395765649
+				temp = 309.16020146758456
+				tempExt = 309.44878874082792
+				tempExtUnexp = 309.45003138837444
 				staticPressureAtm = 0.99023630258450523
 				expt = 0.5
 				state = 0
@@ -41241,6 +41749,22 @@ GAME
 					{
 					}
 				}
+				MODULE
+				{
+					name = KOSNameTag
+					isEnabled = True
+					nameTag = 
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
 			}
 			PART
 			{
@@ -41267,9 +41791,9 @@ GAME
 				attN = 001, -1
 				mass = 0.600000024
 				shielded = False
-				temp = 304.97861695674243
-				tempExt = 305.0309583604942
-				tempExtUnexp = 305.03095395765649
+				temp = 309.16020146758456
+				tempExt = 309.44878874082792
+				tempExtUnexp = 309.45003138837444
 				staticPressureAtm = 0.99023411899268288
 				expt = 0.5
 				state = 0
@@ -41537,6 +42061,22 @@ GAME
 					{
 					}
 				}
+				MODULE
+				{
+					name = KOSNameTag
+					isEnabled = True
+					nameTag = 
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
 			}
 			PART
 			{
@@ -41563,9 +42103,9 @@ GAME
 				attN = bottom, 22
 				mass = 0.100000001
 				shielded = False
-				temp = 304.98236289878969
-				tempExt = 305.08648503707838
-				tempExtUnexp = 305.08654591850313
+				temp = 309.23093568766677
+				tempExt = 309.59209961089357
+				tempExtUnexp = 309.5928223792892
 				staticPressureAtm = 0.99006681068132396
 				expt = 0.5
 				state = 0
@@ -41627,6 +42167,22 @@ GAME
 					{
 					}
 				}
+				MODULE
+				{
+					name = KOSNameTag
+					isEnabled = True
+					nameTag = 
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
 			}
 			PART
 			{
@@ -41653,9 +42209,9 @@ GAME
 				attN = bottom, 22
 				mass = 0.0500000007
 				shielded = False
-				temp = 304.9827011916546
-				tempExt = 305.03208212113691
-				tempExtUnexp = 305.0320758978462
+				temp = 309.26851038013081
+				tempExt = 309.48069347510722
+				tempExtUnexp = 309.48188747884649
 				staticPressureAtm = 0.98994407776165028
 				expt = 0.5
 				state = 0
@@ -41673,6 +42229,22 @@ GAME
 				}
 				PARTDATA
 				{
+				}
+				MODULE
+				{
+					name = KOSNameTag
+					isEnabled = True
+					nameTag = 
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+					UPGRADESAPPLIED
+					{
+					}
 				}
 				RESOURCE
 				{
@@ -41711,9 +42283,9 @@ GAME
 				attN = bottom, 29
 				mass = 0.0500000007
 				shielded = False
-				temp = 304.98338941635922
-				tempExt = 305.02822413425724
-				tempExtUnexp = 305.02821709408067
+				temp = 309.27969294848805
+				tempExt = 309.50499454346038
+				tempExtUnexp = 309.50620953571172
 				staticPressureAtm = 0.98991154977312323
 				expt = 0.5
 				state = 0
@@ -41731,6 +42303,22 @@ GAME
 				}
 				PARTDATA
 				{
+				}
+				MODULE
+				{
+					name = KOSNameTag
+					isEnabled = True
+					nameTag = 
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+					UPGRADESAPPLIED
+					{
+					}
 				}
 				RESOURCE
 				{
@@ -41769,9 +42357,9 @@ GAME
 				attN = top, 32
 				mass = 0.100000001
 				shielded = False
-				temp = 304.98265860830293
-				tempExt = 305.03370667485137
-				tempExtUnexp = 305.03369767513874
+				temp = 309.28638581875759
+				tempExt = 309.5886681659523
+				tempExtUnexp = 309.58974215356693
 				staticPressureAtm = 0.98988052770999102
 				expt = 0
 				state = 0
@@ -42024,6 +42612,22 @@ GAME
 				}
 				MODULE
 				{
+					name = KOSNameTag
+					isEnabled = True
+					nameTag = 
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
+				MODULE
+				{
 					name = ModuleTripLogger
 					isEnabled = True
 					stagingEnabled = True
@@ -42079,9 +42683,9 @@ GAME
 				attN = bottom, 31
 				mass = 0.0599999987
 				shielded = False
-				temp = 304.9815641687984
-				tempExt = 305.04153965384
-				tempExtUnexp = 305.04152928828353
+				temp = 309.28838852180809
+				tempExt = 309.71391012040635
+				tempExtUnexp = 309.71507554235762
 				staticPressureAtm = 0.98985552934843779
 				expt = 0.5
 				state = 0
@@ -42143,6 +42747,22 @@ GAME
 					{
 					}
 				}
+				MODULE
+				{
+					name = KOSNameTag
+					isEnabled = True
+					nameTag = 
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
 			}
 			PART
 			{
@@ -42174,9 +42794,9 @@ GAME
 				srfN = srfAttach, 30
 				mass = 0.00499999989
 				shielded = False
-				temp = 304.9851952333492
-				tempExt = 305.02770550582596
-				tempExtUnexp = 305.02769825975457
+				temp = 309.29262317217683
+				tempExt = 309.49319966011831
+				tempExtUnexp = 309.49440837351926
 				staticPressureAtm = 0.9899126792171693
 				expt = 0.5
 				state = 0
@@ -42226,6 +42846,22 @@ GAME
 							actionGroup = None
 							active = False
 						}
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
+				MODULE
+				{
+					name = KOSNameTag
+					isEnabled = True
+					nameTag = 
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
 					}
 					UPGRADESAPPLIED
 					{
@@ -42262,9 +42898,9 @@ GAME
 				srfN = srfAttach, 30
 				mass = 0.00499999989
 				shielded = False
-				temp = 304.9851952333492
-				tempExt = 305.02770550582596
-				tempExtUnexp = 305.02769825975457
+				temp = 309.29262317217683
+				tempExt = 309.49319966011831
+				tempExtUnexp = 309.49440837351926
 				staticPressureAtm = 0.9899126792171693
 				expt = 0.5
 				state = 0
@@ -42319,6 +42955,22 @@ GAME
 					{
 					}
 				}
+				MODULE
+				{
+					name = KOSNameTag
+					isEnabled = True
+					nameTag = 
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
 			}
 			PART
 			{
@@ -42350,9 +43002,9 @@ GAME
 				srfN = srfAttach, 30
 				mass = 0.00499999989
 				shielded = False
-				temp = 304.9851952333492
-				tempExt = 305.02770550582596
-				tempExtUnexp = 305.02769825975457
+				temp = 309.29262317217683
+				tempExt = 309.49319966011831
+				tempExtUnexp = 309.49440837351926
 				staticPressureAtm = 0.9899137333649457
 				expt = 0.5
 				state = 0
@@ -42407,6 +43059,22 @@ GAME
 					{
 					}
 				}
+				MODULE
+				{
+					name = KOSNameTag
+					isEnabled = True
+					nameTag = 
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
 			}
 			PART
 			{
@@ -42438,9 +43106,9 @@ GAME
 				srfN = srfAttach, 30
 				mass = 0.00499999989
 				shielded = False
-				temp = 304.9851952333492
-				tempExt = 305.02770550582596
-				tempExtUnexp = 305.02769825975457
+				temp = 309.29262317217683
+				tempExt = 309.49319966011831
+				tempExtUnexp = 309.49440837351926
 				staticPressureAtm = 0.98991508869780098
 				expt = 0.5
 				state = 0
@@ -42495,6 +43163,22 @@ GAME
 					{
 					}
 				}
+				MODULE
+				{
+					name = KOSNameTag
+					isEnabled = True
+					nameTag = 
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
 			}
 			PART
 			{
@@ -42526,9 +43210,9 @@ GAME
 				srfN = srfAttach, 30
 				mass = 0.00499999989
 				shielded = False
-				temp = 304.9851952333492
-				tempExt = 305.02770550582596
-				tempExtUnexp = 305.02769825975457
+				temp = 309.29262317217683
+				tempExt = 309.49319966011831
+				tempExtUnexp = 309.49440837351926
 				staticPressureAtm = 0.98991606754930761
 				expt = 0.5
 				state = 0
@@ -42583,6 +43267,22 @@ GAME
 					{
 					}
 				}
+				MODULE
+				{
+					name = KOSNameTag
+					isEnabled = True
+					nameTag = 
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
 			}
 			PART
 			{
@@ -42614,9 +43314,9 @@ GAME
 				srfN = srfAttach, 30
 				mass = 0.00499999989
 				shielded = False
-				temp = 304.9851952333492
-				tempExt = 305.02770550582596
-				tempExtUnexp = 305.02769825975457
+				temp = 309.29262317217683
+				tempExt = 309.49319966011831
+				tempExtUnexp = 309.49440837351926
 				staticPressureAtm = 0.98991599225303784
 				expt = 0.5
 				state = 0
@@ -42671,6 +43371,22 @@ GAME
 					{
 					}
 				}
+				MODULE
+				{
+					name = KOSNameTag
+					isEnabled = True
+					nameTag = 
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
 			}
 			PART
 			{
@@ -42702,9 +43418,9 @@ GAME
 				srfN = srfAttach, 30
 				mass = 0.00499999989
 				shielded = False
-				temp = 304.9851952333492
-				tempExt = 305.02770550582596
-				tempExtUnexp = 305.02769825975457
+				temp = 309.29262317217683
+				tempExt = 309.49319966011831
+				tempExtUnexp = 309.49440837351926
 				staticPressureAtm = 0.98991493810526154
 				expt = 0.5
 				state = 0
@@ -42759,6 +43475,22 @@ GAME
 					{
 					}
 				}
+				MODULE
+				{
+					name = KOSNameTag
+					isEnabled = True
+					nameTag = 
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
 			}
 			PART
 			{
@@ -42790,9 +43522,9 @@ GAME
 				srfN = srfAttach, 30
 				mass = 0.00499999989
 				shielded = False
-				temp = 304.9851952333492
-				tempExt = 305.02770550582596
-				tempExtUnexp = 305.02769825975457
+				temp = 309.29262317217683
+				tempExt = 309.49319966011831
+				tempExtUnexp = 309.49440837351926
 				staticPressureAtm = 0.98991358277240615
 				expt = 0.5
 				state = 0
@@ -42847,6 +43579,22 @@ GAME
 					{
 					}
 				}
+				MODULE
+				{
+					name = KOSNameTag
+					isEnabled = True
+					nameTag = 
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
 			}
 			PART
 			{
@@ -42871,9 +43619,9 @@ GAME
 				srfN = srfAttach, 22
 				mass = 0.300000012
 				shielded = False
-				temp = 304.98736827956878
-				tempExt = 305.10109832256478
-				tempExtUnexp = 305.10142167495781
+				temp = 309.4820787704142
+				tempExt = 310.08268650776887
+				tempExtUnexp = 310.08542985593022
 				staticPressureAtm = 0.98996847375304553
 				expt = 0.5
 				state = 0
@@ -42898,7 +43646,7 @@ GAME
 					isEnabled = True
 					efficiencyMult = 1
 					launchUT = 148189569.66539243
-					currentRotation = (0.518784463, 0.518956423, -0.480426073, 0.480351627)
+					currentRotation = (0.500937581, 0.500927985, 0.498974204, -0.499156862)
 					storedAnimationTime = 0
 					storedAnimationSpeed = 0
 					deployState = EXTENDED
@@ -42920,6 +43668,22 @@ GAME
 						{
 							actionGroup = None
 						}
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
+				MODULE
+				{
+					name = KOSNameTag
+					isEnabled = True
+					nameTag = 
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
 					}
 					UPGRADESAPPLIED
 					{
@@ -42949,9 +43713,9 @@ GAME
 				srfN = srfAttach, 22
 				mass = 0.300000012
 				shielded = False
-				temp = 304.97641793771822
-				tempExt = 304.98145868251066
-				tempExtUnexp = 304.98169743570884
+				temp = 309.47274795950347
+				tempExt = 310.05768448411436
+				tempExtUnexp = 310.06040025229174
 				staticPressureAtm = 0.98997720812033518
 				expt = 0.5
 				state = 0
@@ -42976,7 +43740,7 @@ GAME
 					isEnabled = True
 					efficiencyMult = 1
 					launchUT = 148189569.66539243
-					currentRotation = (0.518799126, 0.518940151, -0.480438948, 0.480340481)
+					currentRotation = (0.500976086, 0.500932872, 0.498955876, -0.499131501)
 					storedAnimationTime = 0
 					storedAnimationSpeed = 0
 					deployState = EXTENDED
@@ -42998,6 +43762,22 @@ GAME
 						{
 							actionGroup = None
 						}
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
+				MODULE
+				{
+					name = KOSNameTag
+					isEnabled = True
+					nameTag = 
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
 					}
 					UPGRADESAPPLIED
 					{
@@ -43050,10 +43830,13 @@ GAME
 				FlightIntegrator
 				{
 				}
-				KSPWheelVesselControl
+				KSPWheelVesselDebug
 				{
 				}
-				KSPWheelVesselDebug
+				kOSVesselModule
+				{
+				}
+				KSPWheelVesselControl
 				{
 				}
 				CommNetVessel
@@ -43104,13 +43887,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = 0
-				ECC = 1
-				INC = 2.419654929996208
+				SMA = 161525.87761928875
+				ECC = 0.99999999999999989
+				INC = 2.4196549300264927
 				LPE = 90
-				LAN = 18.419902949855839
-				MNA = 0
-				EPH = 268711752.23473203
+				LAN = 97.372815750347115
+				MNA = -3.1415926207170166
+				EPH = 268726121.19539344
 				REF = 6
 			}
 			PART
@@ -51760,10 +52543,13 @@ GAME
 				FlightIntegrator
 				{
 				}
-				KSPWheelVesselControl
+				KSPWheelVesselDebug
 				{
 				}
-				KSPWheelVesselDebug
+				kOSVesselModule
+				{
+				}
+				KSPWheelVesselControl
 				{
 				}
 				CommNetVessel
@@ -51816,11 +52602,11 @@ GAME
 			{
 				SMA = NaN
 				ECC = 1
-				INC = 2.4738908031912823
+				INC = 2.4738908031871558
 				LPE = 90
-				LAN = 18.506320416912331
+				LAN = 97.459233217563451
 				MNA = 0
-				EPH = 268711752.23473203
+				EPH = 268726121.19539344
 				REF = 6
 			}
 			PART
@@ -56583,10 +57369,13 @@ GAME
 				FlightIntegrator
 				{
 				}
-				KSPWheelVesselControl
+				KSPWheelVesselDebug
 				{
 				}
-				KSPWheelVesselDebug
+				kOSVesselModule
+				{
+				}
+				KSPWheelVesselControl
 				{
 				}
 				CommNetVessel
@@ -58065,10 +58854,13 @@ GAME
 				FlightIntegrator
 				{
 				}
-				KSPWheelVesselControl
+				KSPWheelVesselDebug
 				{
 				}
-				KSPWheelVesselDebug
+				kOSVesselModule
+				{
+				}
+				KSPWheelVesselControl
 				{
 				}
 				CommNetVessel
@@ -59547,10 +60339,13 @@ GAME
 				FlightIntegrator
 				{
 				}
-				KSPWheelVesselControl
+				KSPWheelVesselDebug
 				{
 				}
-				KSPWheelVesselDebug
+				kOSVesselModule
+				{
+				}
+				KSPWheelVesselControl
 				{
 				}
 				CommNetVessel
@@ -61045,10 +61840,13 @@ GAME
 				FlightIntegrator
 				{
 				}
-				KSPWheelVesselControl
+				KSPWheelVesselDebug
 				{
 				}
-				KSPWheelVesselDebug
+				kOSVesselModule
+				{
+				}
+				KSPWheelVesselControl
 				{
 				}
 				CommNetVessel
@@ -62548,10 +63346,13 @@ GAME
 				FlightIntegrator
 				{
 				}
-				KSPWheelVesselControl
+				KSPWheelVesselDebug
 				{
 				}
-				KSPWheelVesselDebug
+				kOSVesselModule
+				{
+				}
+				KSPWheelVesselControl
 				{
 				}
 				CommNetVessel
@@ -64042,10 +64843,13 @@ GAME
 				FlightIntegrator
 				{
 				}
-				KSPWheelVesselControl
+				KSPWheelVesselDebug
 				{
 				}
-				KSPWheelVesselDebug
+				kOSVesselModule
+				{
+				}
+				KSPWheelVesselControl
 				{
 				}
 				CommNetVessel
@@ -65399,10 +66203,13 @@ GAME
 				FlightIntegrator
 				{
 				}
-				KSPWheelVesselControl
+				KSPWheelVesselDebug
 				{
 				}
-				KSPWheelVesselDebug
+				kOSVesselModule
+				{
+				}
+				KSPWheelVesselControl
 				{
 				}
 				KSPWheelDustCamera
@@ -65448,13 +66255,13 @@ GAME
 			cMod = -1
 			ORBIT
 			{
-				SMA = NaN
+				SMA = 0
 				ECC = 1
-				INC = 1.6893850203523118
+				INC = 1.6893850203598637
 				LPE = 90
-				LAN = 17.839292763445314
+				LAN = 96.792205564077165
 				MNA = 0
-				EPH = 268711752.23473203
+				EPH = 268726121.19539344
 				REF = 6
 			}
 			PART
@@ -67508,10 +68315,13 @@ GAME
 				FlightIntegrator
 				{
 				}
-				KSPWheelVesselControl
+				KSPWheelVesselDebug
 				{
 				}
-				KSPWheelVesselDebug
+				kOSVesselModule
+				{
+				}
+				KSPWheelVesselControl
 				{
 				}
 				KSPWheelDustCamera
@@ -67557,13 +68367,13 @@ GAME
 			cMod = -1
 			ORBIT
 			{
-				SMA = 102299.61564740655
-				ECC = 0.99999999999999989
-				INC = 1.1713337129569952
+				SMA = NaN
+				ECC = 1
+				INC = 1.1713337129573065
 				LPE = 270
-				LAN = 109.61231918416365
-				MNA = 3.1415926207170166
-				EPH = 268711752.23473203
+				LAN = 146.83107690075332
+				MNA = 0
+				EPH = 268726121.19539344
 				REF = 2
 			}
 			PART
@@ -67691,10 +68501,13 @@ GAME
 				FlightIntegrator
 				{
 				}
-				KSPWheelVesselControl
+				KSPWheelVesselDebug
 				{
 				}
-				KSPWheelVesselDebug
+				kOSVesselModule
+				{
+				}
+				KSPWheelVesselControl
 				{
 				}
 				KSPWheelDustCamera
@@ -68241,10 +69054,13 @@ GAME
 				FlightIntegrator
 				{
 				}
-				KSPWheelVesselControl
+				KSPWheelVesselDebug
 				{
 				}
-				KSPWheelVesselDebug
+				kOSVesselModule
+				{
+				}
+				KSPWheelVesselControl
 				{
 				}
 				KSPWheelDustCamera
@@ -68354,10 +69170,13 @@ GAME
 				FlightIntegrator
 				{
 				}
-				KSPWheelVesselControl
+				KSPWheelVesselDebug
 				{
 				}
-				KSPWheelVesselDebug
+				kOSVesselModule
+				{
+				}
+				KSPWheelVesselControl
 				{
 				}
 				KSPWheelDustCamera
@@ -69655,10 +70474,13 @@ GAME
 				FlightIntegrator
 				{
 				}
-				KSPWheelVesselControl
+				KSPWheelVesselDebug
 				{
 				}
-				KSPWheelVesselDebug
+				kOSVesselModule
+				{
+				}
+				KSPWheelVesselControl
 				{
 				}
 				KSPWheelDustCamera
@@ -70389,10 +71211,13 @@ GAME
 				FlightIntegrator
 				{
 				}
-				KSPWheelVesselControl
+				KSPWheelVesselDebug
 				{
 				}
-				KSPWheelVesselDebug
+				kOSVesselModule
+				{
+				}
+				KSPWheelVesselControl
 				{
 				}
 				KSPWheelDustCamera
@@ -70604,10 +71429,13 @@ GAME
 				FlightIntegrator
 				{
 				}
-				KSPWheelVesselControl
+				KSPWheelVesselDebug
 				{
 				}
-				KSPWheelVesselDebug
+				kOSVesselModule
+				{
+				}
+				KSPWheelVesselControl
 				{
 				}
 				KSPWheelDustCamera
@@ -70819,10 +71647,13 @@ GAME
 				FlightIntegrator
 				{
 				}
-				KSPWheelVesselControl
+				KSPWheelVesselDebug
 				{
 				}
-				KSPWheelVesselDebug
+				kOSVesselModule
+				{
+				}
+				KSPWheelVesselControl
 				{
 				}
 				KSPWheelDustCamera
@@ -70868,13 +71699,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = NaN
-				ECC = 1
+				SMA = 101460.01436740837
+				ECC = 0.99999999999999989
 				INC = 0.42496253193728784
 				LPE = 90
-				LAN = 260.97450791564228
-				MNA = 0
-				EPH = 268711752.23473203
+				LAN = 298.19326563223194
+				MNA = 3.1415926207170166
+				EPH = 268726121.19539344
 				REF = 2
 			}
 			PART
@@ -71002,10 +71833,13 @@ GAME
 				FlightIntegrator
 				{
 				}
-				KSPWheelVesselControl
+				KSPWheelVesselDebug
 				{
 				}
-				KSPWheelVesselDebug
+				kOSVesselModule
+				{
+				}
+				KSPWheelVesselControl
 				{
 				}
 				KSPWheelDustCamera
@@ -71051,13 +71885,13 @@ GAME
 			cMod = -1
 			ORBIT
 			{
-				SMA = 101460.10760163744
+				SMA = 101460.10760163754
 				ECC = 0.99999999999999989
-				INC = 0.42536440935070763
+				INC = 0.42536440934985076
 				LPE = 90
-				LAN = 260.97478199508248
+				LAN = 298.19353971167214
 				MNA = 3.1415926207170166
-				EPH = 268711752.23473203
+				EPH = 268726121.19539344
 				REF = 2
 			}
 			PART
@@ -71185,10 +72019,13 @@ GAME
 				FlightIntegrator
 				{
 				}
-				KSPWheelVesselControl
+				KSPWheelVesselDebug
 				{
 				}
-				KSPWheelVesselDebug
+				kOSVesselModule
+				{
+				}
+				KSPWheelVesselControl
 				{
 				}
 				KSPWheelDustCamera
@@ -71298,10 +72135,13 @@ GAME
 				FlightIntegrator
 				{
 				}
-				KSPWheelVesselControl
+				KSPWheelVesselDebug
 				{
 				}
-				KSPWheelVesselDebug
+				kOSVesselModule
+				{
+				}
+				KSPWheelVesselControl
 				{
 				}
 				KSPWheelDustCamera
@@ -71848,10 +72688,13 @@ GAME
 				FlightIntegrator
 				{
 				}
-				KSPWheelVesselControl
+				KSPWheelVesselDebug
 				{
 				}
-				KSPWheelVesselDebug
+				kOSVesselModule
+				{
+				}
+				KSPWheelVesselControl
 				{
 				}
 				KSPWheelDustCamera
@@ -73149,10 +73992,13 @@ GAME
 				FlightIntegrator
 				{
 				}
-				KSPWheelVesselControl
+				KSPWheelVesselDebug
 				{
 				}
-				KSPWheelVesselDebug
+				kOSVesselModule
+				{
+				}
+				KSPWheelVesselControl
 				{
 				}
 				KSPWheelDustCamera
@@ -73883,10 +74729,13 @@ GAME
 				FlightIntegrator
 				{
 				}
-				KSPWheelVesselControl
+				KSPWheelVesselDebug
 				{
 				}
-				KSPWheelVesselDebug
+				kOSVesselModule
+				{
+				}
+				KSPWheelVesselControl
 				{
 				}
 				KSPWheelDustCamera
@@ -74098,10 +74947,13 @@ GAME
 				FlightIntegrator
 				{
 				}
-				KSPWheelVesselControl
+				KSPWheelVesselDebug
 				{
 				}
-				KSPWheelVesselDebug
+				kOSVesselModule
+				{
+				}
+				KSPWheelVesselControl
 				{
 				}
 				KSPWheelDustCamera
@@ -74313,10 +75165,13 @@ GAME
 				FlightIntegrator
 				{
 				}
-				KSPWheelVesselControl
+				KSPWheelVesselDebug
 				{
 				}
-				KSPWheelVesselDebug
+				kOSVesselModule
+				{
+				}
+				KSPWheelVesselControl
 				{
 				}
 				KSPWheelDustCamera
@@ -74426,10 +75281,13 @@ GAME
 				FlightIntegrator
 				{
 				}
-				KSPWheelVesselControl
+				KSPWheelVesselDebug
 				{
 				}
-				KSPWheelVesselDebug
+				kOSVesselModule
+				{
+				}
+				KSPWheelVesselControl
 				{
 				}
 				KSPWheelDustCamera
@@ -74539,10 +75397,13 @@ GAME
 				FlightIntegrator
 				{
 				}
-				KSPWheelVesselControl
+				KSPWheelVesselDebug
 				{
 				}
-				KSPWheelVesselDebug
+				kOSVesselModule
+				{
+				}
+				KSPWheelVesselControl
 				{
 				}
 				KSPWheelDustCamera
@@ -74588,13 +75449,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = NaN
-				ECC = 1
-				INC = 0.024201013424734529
+				SMA = 101694.61555673864
+				ECC = 0.99999999999999989
+				INC = 0.024201013439794427
 				LPE = 90
-				LAN = 187.21701818798684
-				MNA = 0
-				EPH = 268711752.23473203
+				LAN = 224.43577590457653
+				MNA = 3.1415926207170166
+				EPH = 268726121.19539344
 				REF = 2
 			}
 			PART
@@ -74722,10 +75583,13 @@ GAME
 				FlightIntegrator
 				{
 				}
-				KSPWheelVesselControl
+				KSPWheelVesselDebug
 				{
 				}
-				KSPWheelVesselDebug
+				kOSVesselModule
+				{
+				}
+				KSPWheelVesselControl
 				{
 				}
 				KSPWheelDustCamera
@@ -74773,11 +75637,11 @@ GAME
 			{
 				SMA = 0
 				ECC = 1
-				INC = 0.02395384748190894
+				INC = 0.023953847466693653
 				LPE = 90
-				LAN = 187.21695772067298
+				LAN = 224.43571543726259
 				MNA = 0
-				EPH = 268711752.23473203
+				EPH = 268726121.19539344
 				REF = 2
 			}
 			PART
@@ -74905,10 +75769,13 @@ GAME
 				FlightIntegrator
 				{
 				}
-				KSPWheelVesselControl
+				KSPWheelVesselDebug
 				{
 				}
-				KSPWheelVesselDebug
+				kOSVesselModule
+				{
+				}
+				KSPWheelVesselControl
 				{
 				}
 				KSPWheelDustCamera
@@ -75455,10 +76322,13 @@ GAME
 				FlightIntegrator
 				{
 				}
-				KSPWheelVesselControl
+				KSPWheelVesselDebug
 				{
 				}
-				KSPWheelVesselDebug
+				kOSVesselModule
+				{
+				}
+				KSPWheelVesselControl
 				{
 				}
 				KSPWheelDustCamera
@@ -75568,10 +76438,13 @@ GAME
 				FlightIntegrator
 				{
 				}
-				KSPWheelVesselControl
+				KSPWheelVesselDebug
 				{
 				}
-				KSPWheelVesselDebug
+				kOSVesselModule
+				{
+				}
+				KSPWheelVesselControl
 				{
 				}
 				KSPWheelDustCamera
@@ -75796,10 +76669,13 @@ GAME
 				FlightIntegrator
 				{
 				}
-				KSPWheelVesselControl
+				KSPWheelVesselDebug
 				{
 				}
-				KSPWheelVesselDebug
+				kOSVesselModule
+				{
+				}
+				KSPWheelVesselControl
 				{
 				}
 				CommNetVessel
@@ -75914,10 +76790,13 @@ GAME
 				FlightIntegrator
 				{
 				}
-				KSPWheelVesselControl
+				KSPWheelVesselDebug
 				{
 				}
-				KSPWheelVesselDebug
+				kOSVesselModule
+				{
+				}
+				KSPWheelVesselControl
 				{
 				}
 				KSPWheelDustCamera
@@ -76510,10 +77389,13 @@ GAME
 				FlightIntegrator
 				{
 				}
-				KSPWheelVesselControl
+				KSPWheelVesselDebug
 				{
 				}
-				KSPWheelVesselDebug
+				kOSVesselModule
+				{
+				}
+				KSPWheelVesselControl
 				{
 				}
 				KSPWheelDustCamera
@@ -76559,13 +77441,13 @@ GAME
 			cMod = -1
 			ORBIT
 			{
-				SMA = 101966.8056222571
-				ECC = 0.99999999999999978
+				SMA = 0
+				ECC = 1
 				INC = 0.00060082011482492134
 				LPE = 90
-				LAN = 49.398814851221971
-				MNA = 3.1415926303452304
-				EPH = 268711752.23473203
+				LAN = 86.617572567811408
+				MNA = 0
+				EPH = 268726121.19539344
 				REF = 2
 			}
 			PART
@@ -76693,10 +77575,13 @@ GAME
 				FlightIntegrator
 				{
 				}
-				KSPWheelVesselControl
+				KSPWheelVesselDebug
 				{
 				}
-				KSPWheelVesselDebug
+				kOSVesselModule
+				{
+				}
+				KSPWheelVesselControl
 				{
 				}
 				KSPWheelDustCamera
@@ -81668,10 +82553,13 @@ GAME
 				FlightIntegrator
 				{
 				}
-				KSPWheelVesselControl
+				KSPWheelVesselDebug
 				{
 				}
-				KSPWheelVesselDebug
+				kOSVesselModule
+				{
+				}
+				KSPWheelVesselControl
 				{
 				}
 				CommNetVessel
@@ -82223,10 +83111,13 @@ GAME
 				FlightIntegrator
 				{
 				}
-				KSPWheelVesselControl
+				KSPWheelVesselDebug
 				{
 				}
-				KSPWheelVesselDebug
+				kOSVesselModule
+				{
+				}
+				KSPWheelVesselControl
 				{
 				}
 				KSPWheelDustCamera
@@ -82336,10 +83227,13 @@ GAME
 				FlightIntegrator
 				{
 				}
-				KSPWheelVesselControl
+				KSPWheelVesselDebug
 				{
 				}
-				KSPWheelVesselDebug
+				kOSVesselModule
+				{
+				}
+				KSPWheelVesselControl
 				{
 				}
 				KSPWheelDustCamera
@@ -82405,8 +83299,18 @@ GAME
 		KSPDev_Utils.1.2 v1.2.7031.33522 / v1.2 for KSP v1.6+ = True
 		MiniAVC v1.3.0.3 = True
 		KAS = True
-		DiscordRP v1.0.0.0 = True
-		DiscordRP = True
+		DiscordRP v1.0.0.0 = False
+		DiscordRP = False
+		discord-rpc = True
+		ICSharpCode.SharpZipLib v0.86.0.518 / v0.86.0 = True
+		kOS.Safe v1.1.9.0 = True
+		kOS v1.1.9.0 = True
+		kOS = True
+		FMRS = False
+		ClickThroughBlocker v0.1.7.2 / v1.0.0.0 = False
+		FMRS v1.2.8.1 / v1.0.2.0 = False
+		000_ClickThroughBlocker = False
+		001_ToolbarControl = False
 	}
 	ROSTER
 	{
@@ -82872,12 +83776,12 @@ GAME
 			badS = True
 			veteran = True
 			tour = False
-			state = Available
+			state = Missing
 			inactive = False
 			inactiveTimeEnd = 0
 			gExperienced = 0
 			outDueToG = False
-			ToD = 0
+			ToD = 268732152.11515307
 			idx = 0
 			extraXP = 0
 			hasHelmetOn = True
@@ -82926,7 +83830,7 @@ GAME
 			}
 			CAREER_LOG
 			{
-				flight = 8
+				flight = 9
 				0 = Recover
 				1 = Land,Kerbin
 				1 = Recover
@@ -82994,10 +83898,12 @@ GAME
 				7 = Flyby,Kerbin
 				7 = Land,Kerbin
 				7 = Recover
+				8 = Flight,Kerbin
+				8 = Die
 			}
 			FLIGHT_LOG
 			{
-				flight = 8
+				flight = 9
 			}
 		}
 		KERBAL
@@ -83530,12 +84436,12 @@ GAME
 			badS = False
 			veteran = False
 			tour = False
-			state = Available
+			state = Missing
 			inactive = False
 			inactiveTimeEnd = 0
 			gExperienced = 0
 			outDueToG = False
-			ToD = 121089400.00854708
+			ToD = 268732152.11515307
 			idx = 1
 			extraXP = 0
 			hasHelmetOn = True
@@ -83584,7 +84490,7 @@ GAME
 			}
 			CAREER_LOG
 			{
-				flight = 5
+				flight = 6
 				0 = Flight,Kerbin
 				0 = Suborbit,Kerbin
 				0 = Orbit,Kerbin
@@ -83643,10 +84549,12 @@ GAME
 				4 = Flyby,Kerbin
 				4 = Land,Kerbin
 				4 = Recover
+				5 = Flight,Kerbin
+				5 = Die
 			}
 			FLIGHT_LOG
 			{
-				flight = 5
+				flight = 6
 			}
 		}
 		KERBAL
@@ -83702,12 +84610,12 @@ GAME
 			badS = False
 			veteran = False
 			tour = False
-			state = Available
+			state = Missing
 			inactive = False
 			inactiveTimeEnd = 0
 			gExperienced = 0
 			outDueToG = False
-			ToD = 121001781.63849093
+			ToD = 268732152.11515307
 			idx = 2
 			extraXP = 0
 			hasHelmetOn = True
@@ -83756,7 +84664,7 @@ GAME
 			}
 			CAREER_LOG
 			{
-				flight = 5
+				flight = 6
 				0 = Flight,Kerbin
 				0 = Suborbit,Kerbin
 				0 = Orbit,Kerbin
@@ -83807,10 +84715,12 @@ GAME
 				4 = Flyby,Kerbin
 				4 = Land,Kerbin
 				4 = Recover
+				5 = Flight,Kerbin
+				5 = Die
 			}
 			FLIGHT_LOG
 			{
-				flight = 5
+				flight = 6
 			}
 		}
 		KERBAL
@@ -83853,6 +84763,297 @@ GAME
 				0 = Escape,Duna
 				0 = Flight,Duna
 				0 = Land,Duna
+			}
+		}
+		KERBAL
+		{
+			name = Gilbro Kerman
+			gender = Female
+			type = Crew
+			trait = Scientist
+			brave = 0.121200629
+			dumb = 0.421466261
+			badS = False
+			veteran = False
+			tour = False
+			state = Available
+			inactive = False
+			inactiveTimeEnd = 0
+			gExperienced = 0
+			outDueToG = False
+			ToD = 268933398.15784252
+			idx = 0
+			extraXP = 0
+			hasHelmetOn = False
+			hasNeckRingOn = False
+			completedFirstEVA = False
+			hero = False
+			CAREER_LOG
+			{
+				flight = 1
+				0 = Recover
+			}
+			FLIGHT_LOG
+			{
+				flight = 1
+			}
+		}
+		KERBAL
+		{
+			name = Gerberry Kerman
+			gender = Female
+			type = Crew
+			trait = Engineer
+			brave = 0.825047731
+			dumb = 0.310560733
+			badS = False
+			veteran = False
+			tour = False
+			state = Available
+			inactive = False
+			inactiveTimeEnd = 0
+			gExperienced = 0
+			outDueToG = False
+			ToD = 268855539.07695568
+			idx = 1
+			extraXP = 0
+			hasHelmetOn = False
+			hasNeckRingOn = False
+			completedFirstEVA = False
+			hero = False
+			CAREER_LOG
+			{
+				flight = 1
+				0 = Recover
+			}
+			FLIGHT_LOG
+			{
+				flight = 1
+			}
+		}
+		KERBAL
+		{
+			name = Anming Kerman
+			gender = Female
+			type = Crew
+			trait = Engineer
+			brave = 0.699629664
+			dumb = 0.101308584
+			badS = False
+			veteran = False
+			tour = False
+			state = Available
+			inactive = False
+			inactiveTimeEnd = 0
+			gExperienced = 0
+			outDueToG = False
+			ToD = 268821601.22104442
+			idx = 2
+			extraXP = 0
+			hasHelmetOn = False
+			hasNeckRingOn = False
+			completedFirstEVA = False
+			hero = False
+			CAREER_LOG
+			{
+				flight = 1
+				0 = Recover
+			}
+			FLIGHT_LOG
+			{
+				flight = 1
+			}
+		}
+		KERBAL
+		{
+			name = Thommund Kerman
+			gender = Male
+			type = Applicant
+			trait = Scientist
+			brave = 0.424540043
+			dumb = 0.0705439746
+			badS = False
+			veteran = False
+			tour = False
+			state = Available
+			inactive = False
+			inactiveTimeEnd = 0
+			gExperienced = 0
+			outDueToG = False
+			ToD = 268851691.14642894
+			idx = -1
+			extraXP = 0
+			hasHelmetOn = False
+			hasNeckRingOn = False
+			completedFirstEVA = False
+			hero = False
+			CAREER_LOG
+			{
+				flight = 0
+			}
+			FLIGHT_LOG
+			{
+				flight = 0
+			}
+		}
+		KERBAL
+		{
+			name = Elivey Kerman
+			gender = Female
+			type = Applicant
+			trait = Engineer
+			brave = 0.63008523
+			dumb = 0.508473992
+			badS = False
+			veteran = False
+			tour = False
+			state = Available
+			inactive = False
+			inactiveTimeEnd = 0
+			gExperienced = 0
+			outDueToG = False
+			ToD = 268813197.42160594
+			idx = -1
+			extraXP = 0
+			hasHelmetOn = False
+			hasNeckRingOn = False
+			completedFirstEVA = False
+			hero = False
+			CAREER_LOG
+			{
+				flight = 0
+			}
+			FLIGHT_LOG
+			{
+				flight = 0
+			}
+		}
+		KERBAL
+		{
+			name = Jamal Kerman
+			gender = Female
+			type = Applicant
+			trait = Engineer
+			brave = 0.778291047
+			dumb = 0.529206932
+			badS = False
+			veteran = False
+			tour = False
+			state = Available
+			inactive = False
+			inactiveTimeEnd = 0
+			gExperienced = 0
+			outDueToG = False
+			ToD = 268981168.25061595
+			idx = -1
+			extraXP = 0
+			hasHelmetOn = False
+			hasNeckRingOn = False
+			completedFirstEVA = False
+			hero = False
+			CAREER_LOG
+			{
+				flight = 0
+			}
+			FLIGHT_LOG
+			{
+				flight = 0
+			}
+		}
+		KERBAL
+		{
+			name = Jorlo Kerman
+			gender = Male
+			type = Applicant
+			trait = Pilot
+			brave = 0.0742741898
+			dumb = 0.569163203
+			badS = False
+			veteran = False
+			tour = False
+			state = Available
+			inactive = False
+			inactiveTimeEnd = 0
+			gExperienced = 0
+			outDueToG = False
+			ToD = 268839406.69437206
+			idx = -1
+			extraXP = 0
+			hasHelmetOn = False
+			hasNeckRingOn = False
+			completedFirstEVA = False
+			hero = False
+			CAREER_LOG
+			{
+				flight = 0
+			}
+			FLIGHT_LOG
+			{
+				flight = 0
+			}
+		}
+		KERBAL
+		{
+			name = Lisvin Kerman
+			gender = Female
+			type = Applicant
+			trait = Pilot
+			brave = 0.921774089
+			dumb = 0.047966864
+			badS = False
+			veteran = False
+			tour = False
+			state = Available
+			inactive = False
+			inactiveTimeEnd = 0
+			gExperienced = 0
+			outDueToG = False
+			ToD = 268938079.7343806
+			idx = -1
+			extraXP = 0
+			hasHelmetOn = False
+			hasNeckRingOn = False
+			completedFirstEVA = False
+			hero = False
+			CAREER_LOG
+			{
+				flight = 0
+			}
+			FLIGHT_LOG
+			{
+				flight = 0
+			}
+		}
+		KERBAL
+		{
+			name = Eileen Kerman
+			gender = Female
+			type = Applicant
+			trait = Pilot
+			brave = 0.865787923
+			dumb = 0.362107784
+			badS = False
+			veteran = False
+			tour = False
+			state = Available
+			inactive = False
+			inactiveTimeEnd = 0
+			gExperienced = 0
+			outDueToG = False
+			ToD = 268933345.38226879
+			idx = -1
+			extraXP = 0
+			hasHelmetOn = False
+			hasNeckRingOn = False
+			completedFirstEVA = False
+			hero = False
+			CAREER_LOG
+			{
+				flight = 0
+			}
+			FLIGHT_LOG
+			{
+				flight = 0
 			}
 		}
 	}
