@@ -297,7 +297,7 @@ GAME
 	{
 		name = ContractSystem
 		scene = 7, 8, 5, 6
-		update = 5860.9071875125146
+		update = 5886.1071875130647
 		version = 1.7.0
 		WEIGHTS
 		{
@@ -2275,7 +2275,7 @@ GAME
 		LifeSupportMonitoring
 		{
 			visible = False
-			x = 490
+			x = 570
 			y = 75
 			width = 300
 			height = 300
@@ -2283,8 +2283,8 @@ GAME
 		LifeSupportCrewRoster
 		{
 			visible = False
-			x = 455
-			y = 300
+			x = 535
+			y = 350
 			width = 370
 			height = 200
 		}
@@ -2297,7 +2297,7 @@ GAME
 	FLIGHTSTATE
 	{
 		version = 1.7.0
-		UT = 5866.6271875126395
+		UT = 5888.1271875131088
 		activeVessel = 0
 		mapViewFiltering = 15359
 		commNetUIModeTracking = Network
