@@ -1,4 +1,4 @@
-SHA = 7A-D6-14-85-86-77-4B-D9-F5-D2-B7-52-E6-36-E7-E2-56-7A-77-AB-47-08-ED-3D-18-BC-00-6F-40-1A-96-0E
+SHA = 55-E5-4F-91-C8-38-51-E8-E3-31-2B-C1-34-3C-8F-F8-68-E7-71-62-9C-92-EA-8D-15-8F-70-D1-DC-07-F2-2F
 version = 4.0.3.0
 KSPVersion = 1.7.0.2483
 FilesSHA
@@ -72,6 +72,21 @@ FilesSHA
 	{
 		filename = B9PartSwitch/Localization/pt-br.cfg
 		SHA = A5-CB-90-1E-36-DF-B0-DE-68-E9-95-F9-1E-55-F5-47-9A-FA-8F-93-EC-0B-3E-47-EF-0B-D4-B9-22-15-69-AA
+	}
+	FILE
+	{
+		filename = CameraTools/ATM_CameraTools.cfg
+		SHA = C0-9D-0F-28-7C-A1-6B-34-98-CE-26-F1-ED-8B-B0-EA-AB-3B-5E-13-02-60-EA-79-6C-48-75-44-DD-19-7F-5C
+	}
+	FILE
+	{
+		filename = CameraTools/paths.cfg
+		SHA = 29-2F-3E-35-55-15-14-18-8F-DE-8D-34-DB-BD-D8-60-F4-9C-82-6F-92-09-BD-00-DB-B4-5D-7F-F2-DE-F6-7D
+	}
+	FILE
+	{
+		filename = CameraTools/settings.cfg
+		SHA = FC-95-21-20-6F-7E-1F-96-0E-F4-95-DF-01-40-2A-B4-8E-0E-BC-FF-34-DB-2C-B1-FA-1B-13-D2-59-1D-07-61
 	}
 	FILE
 	{
