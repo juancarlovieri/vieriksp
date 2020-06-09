@@ -1,4 +1,4 @@
-SHA = 55-E5-4F-91-C8-38-51-E8-E3-31-2B-C1-34-3C-8F-F8-68-E7-71-62-9C-92-EA-8D-15-8F-70-D1-DC-07-F2-2F
+SHA = 3C-E3-51-9E-EB-CC-16-91-E5-0A-CE-6E-63-D5-47-79-B7-03-4C-56-25-14-B4-A0-2F-A2-39-D0-E3-C5-60-AF
 version = 4.0.3.0
 KSPVersion = 1.7.0.2483
 FilesSHA
@@ -282,6 +282,106 @@ FilesSHA
 	{
 		filename = CommunityResourcePack/ResourceConfigs/XenonGas.cfg
 		SHA = 3C-CF-40-C3-65-DD-22-5B-D3-59-46-5B-9A-A3-FF-DE-AA-DE-FB-45-9E-88-92-A7-2C-00-3F-A7-85-A0-5D-AE
+	}
+	FILE
+	{
+		filename = HullCameraVDS/Localization/localization.cfg
+		SHA = B1-7D-51-E4-B9-B2-5E-C6-C3-C7-1D-0E-0D-2A-1D-C2-58-74-7E-22-68-E4-66-88-C9-C4-17-03-85-D7-7D-8D
+	}
+	FILE
+	{
+		filename = HullCameraVDS/MM_Scripts/BDB_Patch.cfg
+		SHA = 91-F4-D8-79-F5-5E-C3-FA-60-B9-BF-20-87-7A-6F-A4-CF-5E-34-4F-3D-9B-62-EB-10-B0-B4-56-66-7B-A5-D2
+	}
+	FILE
+	{
+		filename = HullCameraVDS/MM_Scripts/DockingPortCameraPatch.cfg
+		SHA = BE-C1-F3-19-B1-3A-B4-20-C4-5D-33-60-50-26-0C-7D-BC-8C-9C-C1-E3-8B-3D-DE-51-CE-99-A9-DF-A0-B9-6A
+	}
+	FILE
+	{
+		filename = HullCameraVDS/MM_Scripts/kerbalEVA.cfg
+		SHA = A2-1D-EF-2D-6C-1F-EE-86-42-B7-82-5E-45-79-2B-6E-E6-C5-E2-87-C8-8A-35-2E-E5-0D-75-CD-48-27-4C-29
+	}
+	FILE
+	{
+		filename = HullCameraVDS/MM_Scripts/rpm.cfg
+		SHA = 04-3E-C9-CA-7F-2A-66-97-3F-96-57-8F-C3-5A-3F-3D-04-F6-71-C6-CD-97-AC-83-CE-D0-FB-A3-8D-82-C6-15
+	}
+	FILE
+	{
+		filename = HullCameraVDS/MM_Scripts/rpm2-hullcam-models-as-external-cameras.cfg
+		SHA = 7B-68-04-BA-D9-EC-B4-E9-11-FA-57-4F-82-31-CF-CE-43-27-7D-A3-D3-F4-00-89-E8-17-7C-04-D7-BF-9D-E3
+	}
+	FILE
+	{
+		filename = HullCameraVDS/Parts/MSIKerbPro/part.cfg
+		SHA = 93-EB-02-A5-34-5F-24-01-EC-68-18-85-A1-3C-7A-7D-53-33-1D-0C-60-04-53-4C-9F-6F-B8-81-55-A8-A5-AA
+	}
+	FILE
+	{
+		filename = HullCameraVDS/Parts/Telescope/part.cfg
+		SHA = 54-7E-1E-06-3A-FC-6C-9D-45-AD-5B-2F-33-3C-50-B8-26-D7-38-AB-48-FF-53-28-99-96-08-5A-01-13-12-BF
+	}
+	FILE
+	{
+		filename = HullCameraVDS/Parts/TelescopeLarge/part.cfg
+		SHA = 66-9B-18-CD-A2-D6-39-0C-3C-10-F0-15-4D-CB-D5-75-60-55-67-B4-B7-0F-68-B4-39-2B-9E-B8-DA-02-FD-85
+	}
+	FILE
+	{
+		filename = HullCameraVDS/Parts/aerocam/aerocam180.cfg
+		SHA = 42-1F-22-26-BC-3A-FE-E7-A1-61-5B-81-86-EF-49-E4-67-49-E5-EF-8D-9A-DF-90-A4-22-C5-9F-62-79-6F-04
+	}
+	FILE
+	{
+		filename = HullCameraVDS/Parts/aerocam/part.cfg
+		SHA = 71-6D-D4-8A-C7-10-08-71-32-DA-1D-69-15-D3-EC-CA-E4-AF-9E-91-D1-84-09-1F-63-F5-42-63-E4-5F-44-01
+	}
+	FILE
+	{
+		filename = HullCameraVDS/Parts/hc_booster/part.cfg
+		SHA = F3-55-70-D2-6E-0C-66-DB-5C-94-F6-F8-DB-3B-BE-96-3D-AD-57-78-D2-50-C3-CF-90-93-A2-CD-E8-66-61-E0
+	}
+	FILE
+	{
+		filename = HullCameraVDS/Parts/hc_kazzelblad/part.cfg
+		SHA = CA-05-60-91-42-C1-72-06-F3-64-9D-3A-DB-FA-66-C7-08-06-54-A2-B5-E7-62-F4-57-C5-46-33-DE-BA-7B-A3
+	}
+	FILE
+	{
+		filename = HullCameraVDS/Parts/hc_launchcam/part.cfg
+		SHA = 88-1D-FF-36-61-EC-00-FB-60-7F-E8-B3-6B-D3-BC-ED-29-2C-C5-27-43-AD-E7-60-11-2F-F9-8D-B1-AF-BD-A5
+	}
+	FILE
+	{
+		filename = HullCameraVDS/Parts/hc_navcam/part.cfg
+		SHA = 6F-D1-7A-AD-37-1B-A4-33-2A-6F-4C-07-01-74-31-26-22-6E-C8-4D-5A-1D-F9-A1-F5-BF-E7-36-98-13-DD-47
+	}
+	FILE
+	{
+		filename = HullCameraVDS/Parts/hc_nightvision/part.cfg
+		SHA = 5F-02-A8-0C-E0-30-B7-8C-E7-80-54-8D-A8-8E-91-B5-51-09-57-15-09-63-A7-3A-49-D3-74-67-60-34-CF-79
+	}
+	FILE
+	{
+		filename = HullCameraVDS/Parts/hc_scicam/part.cfg
+		SHA = D4-A9-2B-3C-45-CC-48-47-78-12-01-CE-5B-07-11-C3-02-CD-09-38-98-DA-A0-90-AC-F3-68-AB-BA-09-F0-D6
+	}
+	FILE
+	{
+		filename = HullCameraVDS/Parts/hc_wideangle/part.cfg
+		SHA = CD-A3-86-E4-64-97-CF-CD-07-FF-62-12-73-8F-AA-02-2C-01-8A-D5-1F-2E-D2-CD-7A-BB-5B-FC-2C-53-39-85
+	}
+	FILE
+	{
+		filename = HullCameraVDS/Parts/hullcam_hubbazoot/part.cfg
+		SHA = 45-A3-35-10-4C-6F-D9-89-E7-CD-B1-11-96-AA-B3-4B-92-57-9F-22-39-EA-36-A1-6D-72-C6-2A-59-65-FF-92
+	}
+	FILE
+	{
+		filename = HullCameraVDS/Plugins/settings.cfg
+		SHA = 46-36-BE-5D-6F-D3-AD-D9-E5-CA-F7-4D-6F-E7-7D-B0-E4-01-1E-71-9E-0A-41-76-78-8F-04-FF-0B-48-B5-64
 	}
 	FILE
 	{

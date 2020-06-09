@@ -1,0 +1,15 @@
+vesselCount = 21
+UT = 340532644.69126093
+gameMode = SCIENCE_SANDBOX
+gameNull = False
+gameCompatible = True
+funds = 0
+science = 168
+reputationPercent = 0
+ongoingContracts = 0
+missionCurrentScore = 0
+missionIsStarted = False
+missionIsEnded = False
+missionHistoryId = 00000000-0000-0000-0000-000000000000
+missionExpansionVersion = 
+saveMD5 = 3da2e4a112e27fbaa6c1219f7eefda96
